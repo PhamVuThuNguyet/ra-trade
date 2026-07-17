@@ -1,0 +1,8 @@
+country,comtrade_year_min,comtrade_year_max,imf_year_min,imf_year_max,overlap_years,overlap_year_min,overlap_year_max
+"Fiji, Republic of",2013,2024,2000,2024,12,2013,2024
+Kiribati,2014,2021,2000,2024,7,2014,2021
+"Palau, Republic of",2014,2018,2000,2024,5,2014,2018
+Papua New Guinea,2019,2021,2000,2024,3,2019,2021
+Samoa,2013,2023,2000,2024,10,2013,2023
+Solomon Islands,2015,2018,2000,2024,4,2015,2018
+Tonga,2013,2014,2000,2024,2,2013,2014
