@@ -1,4 +1,4 @@
-"""Download the Pacific SITC Rev.4 AG3 Comtrade extract for 2018–2024."""
+"""Download the Pacific SITC Rev.4 AG3 Comtrade extract for 2000–2024."""
 
 import sys
 from pathlib import Path
