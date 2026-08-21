@@ -24,9 +24,18 @@ def main() -> None:
         f"Median world symmetric % diff: "
         f"{results['median_world_symmetric_pct_diff']:.2f}%"
     )
-    print(f"Share within 5% (world): {results['share_world_within_5pct']:.1%}")
+    print(
+        f"Share within {results['tolerance_pct']:.0f}% (world): "
+        f"{results['share_world_within_tolerance']:.1%}"
+    )
     print("Partner headlines:")
     print(results["by_partner"].to_string(index=False))
+    print("Comtrade data availability:")
+    print(results["availability"].to_string(index=False))
+    print(
+        f"Metadata discrepancy flags: {len(results['metadata_flags'])} "
+        f"(see metadata_*.csv)"
+    )
     print(f"Plots: {len(results['plots'])}")
     print(f"CSV outputs: {results['csv_dir']}")
     print(f"Plot outputs: {results['plots_dir']}")

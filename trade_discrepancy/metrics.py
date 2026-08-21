@@ -1,18 +1,22 @@
 import numpy as np
 import pandas as pd
 
-from trade_discrepancy.constants import DISCREPANCY_TOLERANCE_PCT
+from trade_discrepancy.constants import (
+    DISCREPANCY_TOLERANCE_PCT,
+    LARGEST_GAPS_N,
+    PARTNER_ORDER,
+    PARTNER_WORLD,
+)
 
 
 def add_discrepancy_metrics(comparison: pd.DataFrame) -> pd.DataFrame:
-    """Compute absolute, relative, and log-ratio discrepancies."""
+    """Compute absolute, symmetric-percentage, and log-ratio discrepancies."""
     result = comparison.copy()
     result["abs_diff_musd"] = result["imf_value_musd"] - result["comtrade_value_musd"]
+    denominator = result["imf_value_musd"].abs() + result["comtrade_value_musd"].abs()
     result["symmetric_pct_diff"] = np.where(
-        (result["imf_value_musd"].abs() + result["comtrade_value_musd"].abs()) > 0,
-        200
-        * result["abs_diff_musd"]
-        / (result["imf_value_musd"].abs() + result["comtrade_value_musd"].abs()),
+        denominator > 0,
+        200 * result["abs_diff_musd"] / denominator,
         np.nan,
     )
     result["log_ratio"] = np.where(
@@ -20,8 +24,17 @@ def add_discrepancy_metrics(comparison: pd.DataFrame) -> pd.DataFrame:
         np.log(result["imf_value_musd"] / result["comtrade_value_musd"]),
         np.nan,
     )
-    result["within_tolerance"] = result["symmetric_pct_diff"].abs() <= DISCREPANCY_TOLERANCE_PCT
+    result["within_tolerance"] = (
+        result["symmetric_pct_diff"].abs() <= DISCREPANCY_TOLERANCE_PCT
+    )
     return result
+
+
+def _order_by_partner(frame: pd.DataFrame) -> pd.DataFrame:
+    rank = {partner: index for index, partner in enumerate(PARTNER_ORDER)}
+    return frame.sort_values(
+        "partner", key=lambda series: series.map(lambda partner: rank.get(partner, 99))
+    ).reset_index(drop=True)
 
 
 def summarize_discrepancies(metrics: pd.DataFrame) -> pd.DataFrame:
@@ -55,25 +68,42 @@ def summarize_by_year(metrics: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def coverage_summary(comtrade_long: pd.DataFrame, imf_long: pd.DataFrame) -> pd.DataFrame:
-    """Summarize temporal and partner coverage overlap between sources."""
-    from trade_discrepancy.constants import COMTRADE_TO_IMF_COUNTRY
-
+def partner_headline_metrics(metrics: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate headline SymDiff% stats by partner."""
     rows: list[dict] = []
-    for comtrade_country, imf_country in COMTRADE_TO_IMF_COUNTRY.items():
-        c_years = set(comtrade_long.loc[comtrade_long["country"] == comtrade_country, "year"])
-        i_years = set(imf_long.loc[imf_long["country"] == imf_country, "year"])
-        overlap = sorted(c_years & i_years)
+    for partner, group in metrics.groupby("partner", sort=False):
         rows.append(
             {
-                "country": imf_country,
-                "comtrade_year_min": min(c_years) if c_years else None,
-                "comtrade_year_max": max(c_years) if c_years else None,
-                "imf_year_min": min(i_years) if i_years else None,
-                "imf_year_max": max(i_years) if i_years else None,
-                "overlap_years": len(overlap),
-                "overlap_year_min": overlap[0] if overlap else None,
-                "overlap_year_max": overlap[-1] if overlap else None,
+                "partner": partner,
+                "n_observations": len(group),
+                "median_symmetric_pct_diff": group["symmetric_pct_diff"].median(),
+                "mean_abs_symmetric_pct_diff": group["symmetric_pct_diff"].abs().mean(),
+                "share_within_tolerance": group["within_tolerance"].mean(),
             }
         )
-    return pd.DataFrame(rows)
+    return _order_by_partner(pd.DataFrame(rows))
+
+
+def largest_world_discrepancies(
+    metrics: pd.DataFrame,
+    n: int = LARGEST_GAPS_N,
+) -> pd.DataFrame:
+    """Return the n largest absolute SymDiff% observations for world totals."""
+    cols = [
+        "country_comtrade",
+        "year",
+        "flow",
+        "comtrade_value_musd",
+        "imf_value_musd",
+        "abs_diff_musd",
+        "symmetric_pct_diff",
+        "within_tolerance",
+    ]
+    world = metrics[metrics["partner"] == PARTNER_WORLD].copy()
+    world["abs_symmetric_pct"] = world["symmetric_pct_diff"].abs()
+    available = [col for col in cols if col in world.columns]
+    return (
+        world.sort_values("abs_symmetric_pct", ascending=False)[available]
+        .head(n)
+        .reset_index(drop=True)
+    )
