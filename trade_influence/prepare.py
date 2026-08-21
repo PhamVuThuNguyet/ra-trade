@@ -1,4 +1,4 @@
-"""Build HS2 commodity–partner panels from raw Comtrade records."""
+"""Build SITC-2 commodity–partner panels from raw Comtrade records."""
 
 import numpy as np
 import pandas as pd
@@ -11,22 +11,29 @@ from trade_discrepancy.constants import (
 )
 from trade_influence.constants import (
     BILATERAL_PARTNER_ISO,
+    COMMODITY_COL,
     PARTNER_ISO_TO_KEY,
+    SITC_GROUP_WIDTH,
     WORLD_PARTNER_ISO,
 )
 
 
-def cmd_code_to_hs2(cmd_code) -> str:
-    """Map an HS4 (or shorter) commodity code to a zero-padded HS2 chapter."""
+def cmd_code_to_sitc2(cmd_code) -> str:
+    """Map a SITC group code (leading zeros often stripped) to a 2-digit division."""
     if pd.isna(cmd_code):
         raise ValueError("cmdCode is missing")
-    digits = "".join(ch for ch in str(cmd_code).strip() if ch.isdigit())
+    text = str(cmd_code).strip()
+    if text.endswith(".0"):
+        text = text[:-2]
+    digits = "".join(ch for ch in text if ch.isdigit())
     if not digits:
-        raise ValueError(f"Cannot derive HS2 from cmdCode={cmd_code!r}")
-    return digits.zfill(4)[:2]
+        raise ValueError(f"Cannot derive SITC-2 from cmdCode={cmd_code!r}")
+    return digits.zfill(SITC_GROUP_WIDTH)[:2]
 
 
-def _trade_value_series(df: pd.DataFrame, method: str = VALUATION_STANDARD) -> pd.Series:
+def _trade_value_series(
+    df: pd.DataFrame, method: str = VALUATION_STANDARD
+) -> pd.Series:
     """Vectorized CIF/FOB valuation matching ``trade_value_usd`` rules."""
     if method == VALUATION_PRIMARY:
         return pd.to_numeric(df["primaryValue__US__"], errors="coerce").fillna(0.0)
@@ -49,14 +56,17 @@ def _trade_value_series(df: pd.DataFrame, method: str = VALUATION_STANDARD) -> p
     return value.fillna(0.0)
 
 
-def build_hs2_panel(
+def build_sitc2_panel(
     comtrade_raw: pd.DataFrame,
     value_method: str = VALUATION_STANDARD,
+    *,
+    bilateral_partner_isos: tuple[str, ...] | None = None,
 ) -> pd.DataFrame:
     """
-    Aggregate Comtrade rows to country × year × flow × partner × HS2.
+    Aggregate Comtrade rows to country × year × flow × partner × SITC-2.
 
-    Partners kept: AUS, CHN, and W00 (world). Values remain in USD.
+    Default partners: AUS, CHN, USA, and W00 (world). AG3 codes are padded to
+    3 digits (so 11 → 011) then rolled to 2-digit divisions. Values stay in USD.
     """
     required = {
         "reporterDesc",
@@ -72,11 +82,16 @@ def build_hs2_panel(
     if missing:
         raise KeyError(f"Comtrade frame missing columns: {sorted(missing)}")
 
-    partners = set(BILATERAL_PARTNER_ISO) | {WORLD_PARTNER_ISO}
+    bilateral = (
+        BILATERAL_PARTNER_ISO
+        if bilateral_partner_isos is None
+        else tuple(bilateral_partner_isos)
+    )
+    partners = set(bilateral) | {WORLD_PARTNER_ISO}
     working = comtrade_raw[comtrade_raw["partnerISO"].isin(partners)].copy()
     if working.empty:
         return pd.DataFrame(
-            columns=["country", "year", "flow", "partner", "hs2", "value_usd"]
+            columns=["country", "year", "flow", "partner", COMMODITY_COL, "value_usd"]
         )
 
     working["value_usd"] = _trade_value_series(working, method=value_method)
@@ -84,22 +99,21 @@ def build_hs2_panel(
     working["year"] = working["refYear"].astype(int)
     working["flow"] = working["flowCode"].map({"M": "import", "X": "export"})
     working["partner"] = working["partnerISO"].map(PARTNER_ISO_TO_KEY)
-    working["hs2"] = working["cmdCode"].map(cmd_code_to_hs2)
+    working[COMMODITY_COL] = working["cmdCode"].map(cmd_code_to_sitc2)
 
     working = working.dropna(subset=["flow", "partner"])
-    panel = (
-        working.groupby(["country", "year", "flow", "partner", "hs2"], as_index=False)[
-            "value_usd"
-        ]
+    return (
+        working.groupby(
+            ["country", "year", "flow", "partner", COMMODITY_COL], as_index=False
+        )["value_usd"]
         .sum()
-        .sort_values(["country", "year", "flow", "partner", "hs2"])
+        .sort_values(["country", "year", "flow", "partner", COMMODITY_COL])
         .reset_index(drop=True)
     )
-    return panel
 
 
 def partner_flow_totals(panel: pd.DataFrame) -> pd.DataFrame:
-    """Sum HS2 values to country × year × flow × partner totals."""
+    """Sum SITC-2 values to country × year × flow × partner totals."""
     return (
         panel.groupby(["country", "year", "flow", "partner"], as_index=False)[
             "value_usd"

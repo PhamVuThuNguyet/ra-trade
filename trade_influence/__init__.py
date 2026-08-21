@@ -1,1 +1,1 @@
-"""Trade influence indices (STI and CWTI) from UN Comtrade data."""
+"""Trade influence indices (I, E, CWI, CWE) from UN Comtrade and IMF DOTS."""

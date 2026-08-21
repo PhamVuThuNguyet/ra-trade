@@ -1,13 +1,10 @@
-"""Prepare IMF flow totals for STI calculation."""
+"""IMF Pacific DOTS import and export share indices (I, E)."""
 
 import pandas as pd
 
 from trade_discrepancy.harmonize import melt_imf
-from trade_influence.constants import (
-    IMF_BILATERAL_PARTNERS,
-    IMF_TO_COMTRADE_COUNTRY,
-)
-from trade_influence.indices import compute_sti_from_totals
+from trade_influence.constants import BILATERAL_PARTNERS, IMF_TO_COMTRADE_COUNTRY
+from trade_influence.indices import compute_flow_share_from_totals, pivot_flow_shares
 
 
 def build_imf_flow_totals(imf_raw: pd.DataFrame) -> pd.DataFrame:
@@ -30,11 +27,13 @@ def build_imf_flow_totals(imf_raw: pd.DataFrame) -> pd.DataFrame:
     return totals[["country", "year", "flow", "partner", "total_usd"]]
 
 
-def compute_sti_imf(imf_raw: pd.DataFrame) -> pd.DataFrame:
-    """Compute STI from IMF Pacific DOTS (Australia, China, US)."""
+def compute_import_export_indices_imf(imf_raw: pd.DataFrame) -> pd.DataFrame:
+    """Compute I and E from IMF Pacific DOTS (Australia, China, US)."""
     totals = build_imf_flow_totals(imf_raw)
-    return compute_sti_from_totals(
-        totals,
-        value_col="total_usd",
-        bilateral_partners=IMF_BILATERAL_PARTNERS,
+    return pivot_flow_shares(
+        compute_flow_share_from_totals(
+            totals,
+            value_col="total_usd",
+            bilateral_partners=BILATERAL_PARTNERS,
+        )
     )
