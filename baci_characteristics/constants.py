@@ -1,0 +1,19 @@
+"""Constants for characterizing the CEPII BACI HS02 extract."""
+
+from baci.constants import (
+    BACI_DIR,
+    BACI_YEARS,
+    EXPECTED_PARTNER_ISO3,
+    PIC_DISPLAY_NAMES,
+    PIC_ISO3_BY_DISPLAY,
+)
+from trade_discrepancy.constants import PROJECT_ROOT
+
+OUTPUT_DIR = PROJECT_ROOT / "outputs" / "baci_characteristics"
+OUTPUT_CSV_DIR = OUTPUT_DIR / "csv"
+
+REQUESTED_YEARS = BACI_YEARS
+REQUESTED_REPORTERS = PIC_DISPLAY_NAMES
+REPORTER_ISO_BY_DISPLAY = PIC_ISO3_BY_DISPLAY
+EXPECTED_PARTNERS = EXPECTED_PARTNER_ISO3
+EXTRACT_DIR = BACI_DIR

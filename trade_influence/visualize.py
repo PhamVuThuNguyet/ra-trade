@@ -21,6 +21,7 @@ from trade_influence.plotting import (
 
 __all__ = (
     "generate_all_plots",
+    "generate_baci_plots",
     "plot_comtrade_vs_imf_by_partner",
     "plot_comtrade_vs_imf_timeseries",
     "plot_index_timeseries_by_country",
@@ -32,6 +33,12 @@ COMTRADE_PLOT_SPECS = (
     (INDEX_EXPORT, "Export index E (Comtrade)", "timeseries_export_index_comtrade"),
     (INDEX_CWI, "CWI (Comtrade)", "timeseries_cwi_comtrade"),
     (INDEX_CWE, "CWE (Comtrade)", "timeseries_cwe_comtrade"),
+)
+BACI_PLOT_SPECS = (
+    (INDEX_IMPORT, "Import index I (BACI)", "timeseries_import_index_baci"),
+    (INDEX_EXPORT, "Export index E (BACI)", "timeseries_export_index_baci"),
+    (INDEX_CWI, "CWI (BACI)", "timeseries_cwi_baci"),
+    (INDEX_CWE, "CWE (BACI)", "timeseries_cwe_baci"),
 )
 IMF_PLOT_SPECS = (
     (INDEX_IMPORT, "Import index I (IMF)", "timeseries_import_index_imf"),
@@ -78,6 +85,19 @@ def _plot_index_family(
             )
         )
     return paths
+
+
+def generate_baci_plots(
+    indices_baci: pd.DataFrame,
+    output_dir: Path = OUTPUT_PLOTS_DIR,
+) -> list[Path]:
+    """Write BACI I/E/CWI/CWE time-series figures."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    for stale in output_dir.glob("*.png"):
+        stale.unlink()
+    if indices_baci.empty:
+        return []
+    return _plot_index_family(indices_baci, BACI_PLOT_SPECS, output_dir)
 
 
 def generate_all_plots(

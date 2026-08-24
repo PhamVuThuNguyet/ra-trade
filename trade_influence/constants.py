@@ -16,10 +16,14 @@ from trade_discrepancy.constants import (
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "trade_influence"
 OUTPUT_CSV_DIR = OUTPUT_DIR / "csv"
 OUTPUT_PLOTS_DIR = OUTPUT_DIR / "plots"
+BACI_OUTPUT_DIR = PROJECT_ROOT / "outputs" / "baci_influence"
+BACI_OUTPUT_CSV_DIR = BACI_OUTPUT_DIR / "csv"
+BACI_OUTPUT_PLOTS_DIR = BACI_OUTPUT_DIR / "plots"
 
 # Comtrade AG3 codes are SITC Rev.4 groups; pad to this width then take 2 digits.
 SITC_GROUP_WIDTH = 3
 COMMODITY_COL = "sitc2"
+COMMODITY_COL_HS2 = "hs2"
 
 BILATERAL_PARTNERS = (PARTNER_AUS, PARTNER_CHN, PARTNER_US)
 
@@ -63,12 +67,20 @@ FLOW_TO_CW_INDEX = {
     "export": INDEX_CWE,
 }
 
+# CWI: partner j's share of world exports of c (iw). CWE: j's share of world imports (ew).
+FLOW_TO_GLOBAL_SHARE_COL = {
+    "import": "export_share",
+    "export": "import_share",
+}
+
 SOURCE_COMTRADE = "comtrade"
 SOURCE_IMF = "imf"
+SOURCE_BACI = "baci"
 
 SOURCE_DISPLAY = {
     SOURCE_COMTRADE: "Comtrade",
     SOURCE_IMF: "IMF",
+    SOURCE_BACI: "BACI",
 }
 
 SOURCE_LINESTYLES = {

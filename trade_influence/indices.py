@@ -8,6 +8,7 @@ from trade_influence.constants import (
     BILATERAL_PARTNERS,
     COMMODITY_COL,
     FLOW_TO_CW_INDEX,
+    FLOW_TO_GLOBAL_SHARE_COL,
     FLOW_TO_SHARE_INDEX,
     INDEX_CWE,
     INDEX_CWI,
@@ -122,6 +123,8 @@ def _flow_cw_terms(
     flow: str,
     *,
     bilateral_partners: tuple[str, ...] = BILATERAL_PARTNERS,
+    commodity_col: str = COMMODITY_COL,
+    global_shares: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """HHI-style commodity terms for one flow (import → CWI, export → CWE)."""
     flow_panel = panel[panel["flow"] == flow]
@@ -129,7 +132,7 @@ def _flow_cw_terms(
         return pd.DataFrame(columns=["country", "year", "partner", "term"])
 
     world = flow_panel[flow_panel["partner"] == PARTNER_WORLD][
-        ["country", "year", COMMODITY_COL, "value_usd"]
+        ["country", "year", commodity_col, "value_usd"]
     ].rename(columns={"value_usd": "world_c"})
 
     world_total = (
@@ -139,7 +142,7 @@ def _flow_cw_terms(
     )
 
     bilateral = flow_panel[flow_panel["partner"].isin(bilateral_partners)][
-        ["country", "year", "partner", COMMODITY_COL, "value_usd"]
+        ["country", "year", "partner", commodity_col, "value_usd"]
     ].rename(columns={"value_usd": "bilateral"})
 
     base = world.merge(world_total, on=["country", "year"], how="left")
@@ -149,7 +152,7 @@ def _flow_cw_terms(
             columns=["partner"]
         )
         merged = base.merge(
-            partner_bilateral, on=["country", "year", COMMODITY_COL], how="left"
+            partner_bilateral, on=["country", "year", commodity_col], how="left"
         )
         merged["bilateral"] = merged["bilateral"].fillna(0.0)
         merged["partner"] = partner
@@ -167,7 +170,32 @@ def _flow_cw_terms(
         terms["world_total"] > 0, terms["world_c"] / terms["world_total"], 0.0
     )
     terms["term"] = (partner_share**2) * commodity_weight
+    terms = _apply_global_market_share(
+        terms, flow, commodity_col=commodity_col, global_shares=global_shares
+    )
     return terms[["country", "year", "partner", "term"]]
+
+
+def _apply_global_market_share(
+    terms: pd.DataFrame,
+    flow: str,
+    *,
+    commodity_col: str,
+    global_shares: pd.DataFrame | None,
+) -> pd.DataFrame:
+    """Multiply chapter terms by partner j's world export (CWI) or import (CWE) share."""
+    if global_shares is None or global_shares.empty:
+        return terms
+    share_col = FLOW_TO_GLOBAL_SHARE_COL[flow]
+    if share_col not in global_shares.columns:
+        raise KeyError(f"Global shares missing column: {share_col}")
+    shares = global_shares[["year", "partner", commodity_col, share_col]].rename(
+        columns={share_col: "global_share"}
+    )
+    merged = terms.merge(shares, on=["year", "partner", commodity_col], how="left")
+    merged["global_share"] = merged["global_share"].fillna(0.0)
+    merged["term"] = merged["term"] * merged["global_share"]
+    return merged
 
 
 def compute_commodity_weighted(
@@ -175,16 +203,25 @@ def compute_commodity_weighted(
     flow: str,
     *,
     bilateral_partners: tuple[str, ...] = BILATERAL_PARTNERS,
+    commodity_col: str = COMMODITY_COL,
+    global_shares: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """
     CWI/CWE for one flow:
 
-    Σ_c [(partner share of commodity c)² × (commodity c share of total flow)]
+    Σ_c [(partner share of commodity c)² × (commodity c share of total flow)
+         × (optional partner global market share of c)]
     """
     index_name = FLOW_TO_CW_INDEX.get(flow)
     if index_name is None:
         raise ValueError(f"flow must be 'import' or 'export', got {flow!r}")
-    terms = _flow_cw_terms(panel, flow, bilateral_partners=bilateral_partners)
+    terms = _flow_cw_terms(
+        panel,
+        flow,
+        bilateral_partners=bilateral_partners,
+        commodity_col=commodity_col,
+        global_shares=global_shares,
+    )
     if terms.empty:
         return pd.DataFrame(columns=["country", "year", "partner", index_name])
     return (
@@ -200,10 +237,16 @@ def compute_cwi(
     panel: pd.DataFrame,
     *,
     bilateral_partners: tuple[str, ...] = BILATERAL_PARTNERS,
+    commodity_col: str = COMMODITY_COL,
+    global_shares: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """Commodity Weighted Import index (CWI)."""
     return compute_commodity_weighted(
-        panel, "import", bilateral_partners=bilateral_partners
+        panel,
+        "import",
+        bilateral_partners=bilateral_partners,
+        commodity_col=commodity_col,
+        global_shares=global_shares,
     )
 
 
@@ -211,10 +254,16 @@ def compute_cwe(
     panel: pd.DataFrame,
     *,
     bilateral_partners: tuple[str, ...] = BILATERAL_PARTNERS,
+    commodity_col: str = COMMODITY_COL,
+    global_shares: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """Commodity Weighted Export index (CWE)."""
     return compute_commodity_weighted(
-        panel, "export", bilateral_partners=bilateral_partners
+        panel,
+        "export",
+        bilateral_partners=bilateral_partners,
+        commodity_col=commodity_col,
+        global_shares=global_shares,
     )
 
 
@@ -222,13 +271,25 @@ def compute_indices(
     panel: pd.DataFrame,
     *,
     bilateral_partners: tuple[str, ...] = BILATERAL_PARTNERS,
+    commodity_col: str = COMMODITY_COL,
+    global_shares: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """Merged I, E, CWI, and CWE for each country–year–partner."""
     shares = compute_import_export_indices(
         panel, bilateral_partners=bilateral_partners
     )
-    cwi = compute_cwi(panel, bilateral_partners=bilateral_partners)
-    cwe = compute_cwe(panel, bilateral_partners=bilateral_partners)
+    cwi = compute_cwi(
+        panel,
+        bilateral_partners=bilateral_partners,
+        commodity_col=commodity_col,
+        global_shares=global_shares,
+    )
+    cwe = compute_cwe(
+        panel,
+        bilateral_partners=bilateral_partners,
+        commodity_col=commodity_col,
+        global_shares=global_shares,
+    )
     merged = shares.merge(cwi, on=["country", "year", "partner"], how="outer")
     merged = merged.merge(cwe, on=["country", "year", "partner"], how="outer")
     for col in (INDEX_IMPORT, INDEX_EXPORT, INDEX_CWI, INDEX_CWE):
