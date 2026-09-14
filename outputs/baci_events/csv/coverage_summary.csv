@@ -1,0 +1,2 @@
+n_index_rows,n_countries,n_calendar_source_events,n_rows_with_calendar_event,n_rows_with_lowy_spent,n_rows_with_emdat_disaster,lowy_source,emdat_source
+966,14,41,335,574,327,lowy_pdh_cache,emdat_hdx

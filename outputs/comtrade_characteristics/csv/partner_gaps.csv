@@ -1,0 +1,8 @@
+country,year,flowCode,partners,n_partners,missing_partners,flow
+Kiribati,2014,X,"AUS,USA,W00",3,CHN,export
+Kiribati,2016,X,"AUS,USA,W00",3,CHN,export
+Kiribati,2018,X,"AUS,USA,W00",3,CHN,export
+Kiribati,2021,X,"AUS,USA,W00",3,CHN,export
+Palau,2016,X,"CHN,USA,W00",3,AUS,export
+Palau,2017,X,"AUS,USA,W00",3,CHN,export
+Tonga,2022,X,"AUS,USA,W00",3,CHN,export

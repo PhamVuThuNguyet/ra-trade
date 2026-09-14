@@ -1,0 +1,12 @@
+scope,entity,flag,attribute,detail
+source_pair,Comtrade vs IMF,conceptual_source_difference,publisher_concept,Different compilation systems; not identical concepts
+source_pair,Comtrade vs IMF,commodity_detail_asymmetry,classification,Comtrade is commodity-level then aggregated; IMF is pre-aggregated
+source_pair,Comtrade vs IMF,valuation_documentation_gap,valuation,May contribute to residual world-total gaps
+source_pair,Comtrade vs IMF,temporal_coverage_gap,temporal_coverage,IMF starts earlier; Comtrade coverage is still uneven by country
+source_pair,Comtrade vs IMF,reporter_coverage_gap,reporter_coverage_overlap,Mapped overlap set size: 7
+source_pair,Comtrade vs IMF,schema_difference,schema_value_fields,API extract originally used unsuffixed cifvalue/fobvalue/primaryValue
+country,Kiribati,gaps_within_span,coverage,"overlap_years=7; partners=AUS,CHN,USA,W00; extracts=sitc4_ag3_2000_2024; missing_years=2019"
+country,Papua New Guinea,gaps_within_span,coverage,"overlap_years=7; partners=AUS,CHN,USA,W00; extracts=sitc4_ag3_2000_2024; missing_years=2013, 2014, 2015, 2016, 2017, 2018"
+country,Samoa,gaps_within_span,coverage,"overlap_years=15; partners=AUS,CHN,USA,W00; extracts=sitc4_ag3_2000_2024; missing_years=2020"
+country,Solomon Islands,short_overlap,coverage,"overlap_years=4; partners=AUS,CHN,USA,W00; extracts=sitc4_ag3_2000_2024; missing_years="
+country,Tonga,gaps_within_span,coverage,"overlap_years=14; partners=AUS,CHN,USA,W00; extracts=sitc4_ag3_2000_2024; missing_years=2015, 2016"

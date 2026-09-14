@@ -1,0 +1,14 @@
+country,iso3,n_years,year_min,year_max,source
+Cook Isds,COK,0,,,
+Fiji,FJI,25,2000,2024,world_bank_wdi
+Kiribati,KIR,25,2000,2024,world_bank_wdi
+"Marshall Islands, Republic of the",MHL,25,2000,2024,world_bank_wdi
+"Micronesia, Federated States of",FSM,25,2000,2024,world_bank_wdi
+"Nauru, Republic of",NRU,25,2000,2024,world_bank_wdi
+Palau,PLW,25,2000,2024,world_bank_wdi
+Papua New Guinea,PNG,25,2000,2024,world_bank_wdi
+Samoa,WSM,25,2000,2024,world_bank_wdi
+Solomon Islands,SLB,25,2000,2024,world_bank_wdi
+Tonga,TON,25,2000,2024,world_bank_wdi
+Tuvalu,TUV,25,2000,2024,world_bank_wdi
+Vanuatu,VUT,25,2000,2024,world_bank_wdi

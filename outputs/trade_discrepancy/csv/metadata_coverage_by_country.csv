@@ -1,0 +1,8 @@
+country,comtrade_country,comtrade_extracts,comtrade_year_min,comtrade_year_max,comtrade_n_years,comtrade_missing_years,imf_year_min,imf_year_max,imf_n_years,overlap_years,overlap_year_min,overlap_year_max,comtrade_partners,has_comtrade_usa,usa_comparable,metadata_gap_notes
+"Fiji, Republic of",Fiji,sitc4_ag3_2000_2024,2008,2024,17,,2000,2024,25,17,2008,2024,"AUS,CHN,USA,W00",True,True,
+Kiribati,Kiribati,sitc4_ag3_2000_2024,2014,2021,7,2019,2000,2024,25,7,2014,2021,"AUS,CHN,USA,W00",True,True,gaps_within_span
+"Palau, Republic of",Palau,sitc4_ag3_2000_2024,2014,2018,5,,2000,2024,25,5,2014,2018,"AUS,CHN,USA,W00",True,True,
+Papua New Guinea,Papua New Guinea,sitc4_ag3_2000_2024,2011,2023,7,"2013, 2014, 2015, 2016, 2017, 2018",2000,2024,25,7,2011,2023,"AUS,CHN,USA,W00",True,True,gaps_within_span
+Samoa,Samoa,sitc4_ag3_2000_2024,2009,2024,15,2020,2000,2024,25,15,2009,2024,"AUS,CHN,USA,W00",True,True,gaps_within_span
+Solomon Islands,Solomon Islands,sitc4_ag3_2000_2024,2015,2018,4,,2000,2024,25,4,2015,2018,"AUS,CHN,USA,W00",True,True,short_overlap
+Tonga,Tonga,sitc4_ag3_2000_2024,2008,2023,14,"2015, 2016",2000,2024,25,14,2008,2023,"AUS,CHN,USA,W00",True,True,gaps_within_span

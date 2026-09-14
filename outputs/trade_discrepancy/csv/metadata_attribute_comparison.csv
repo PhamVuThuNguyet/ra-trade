@@ -1,0 +1,11 @@
+attribute,comtrade,imf,discrepancy_flag,notes
+publisher_concept,UN Comtrade customs/merchandise trade,IMF Direction of Trade Statistics (DOTS),conceptual_source_difference,Different compilation systems; not identical concepts
+frequency,A,A (annual file),none,Analysis uses annual observations only
+classification,S4,partner aggregates (no commodity codes),commodity_detail_asymmetry,Comtrade is commodity-level then aggregated; IMF is pre-aggregated
+valuation,CIF imports / FOB exports (primaryValue fallback),DOTS partner totals (valuation not itemized in extract),valuation_documentation_gap,May contribute to residual world-total gaps
+units,USD (converted to millions in harmonization),millions USD,none,Aligned to MUSD before comparison
+comtrade_extract,sitc4_ag3_2000_2024,n/a,none,Premium API SITC Rev.4 AG3 extract
+temporal_coverage,2008-2024,2000-2024,temporal_coverage_gap,IMF starts earlier; Comtrade coverage is still uneven by country
+reporter_coverage_overlap,7 mapped PICs with rows,12 Pacific economies in extract,reporter_coverage_gap,Mapped overlap set size: 7
+partner_codes,"AUS,CHN,USA,W00","aus,china,us,world",none,USA bilateral comparable only where Comtrade has USA rows
+schema_value_fields,cifvalue__US__ / fobvalue__US__ / primaryValue__US__ (normalized),exports_* / imports_* wide columns,schema_difference,API extract originally used unsuffixed cifvalue/fobvalue/primaryValue

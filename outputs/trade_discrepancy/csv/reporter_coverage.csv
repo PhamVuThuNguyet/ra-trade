@@ -1,0 +1,14 @@
+economy,imf_name,in_imf,in_comtrade,status
+Fiji,"Fiji, Republic of",True,True,comparable
+Kiribati,Kiribati,True,True,comparable
+Palau,"Palau, Republic of",True,True,comparable
+Papua New Guinea,Papua New Guinea,True,True,comparable
+Samoa,Samoa,True,True,comparable
+Solomon Islands,Solomon Islands,True,True,comparable
+Tonga,Tonga,True,True,comparable
+"Marshall Islands, Republic of the","Marshall Islands, Republic of the",True,False,imf_only
+"Micronesia, Federated States of","Micronesia, Federated States of",True,False,imf_only
+"Nauru, Republic of","Nauru, Republic of",True,False,imf_only
+Tuvalu,Tuvalu,True,False,imf_only
+Vanuatu,Vanuatu,True,False,imf_only
+Cook Islands,,False,True,comtrade_unmapped

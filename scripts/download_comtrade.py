@@ -1,11 +1,10 @@
 """Download the Pacific SITC Rev.4 AG3 Comtrade extract for 2000–2024."""
 
 import sys
-from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from _bootstrap import add_src_to_path
+
+add_src_to_path()
 
 from comtrade_download import download_pacific_sitc4_ag3
 

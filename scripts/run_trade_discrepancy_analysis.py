@@ -4,12 +4,9 @@ This CLI is a thin wrapper around ``trade_discrepancy.pipeline.run_analysis``,
 which is also used by ``notebooks/trade_discrepancy_analysis.ipynb``.
 """
 
-import sys
-from pathlib import Path
+from _bootstrap import add_src_to_path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+add_src_to_path()
 
 from trade_discrepancy.pipeline import run_analysis
 

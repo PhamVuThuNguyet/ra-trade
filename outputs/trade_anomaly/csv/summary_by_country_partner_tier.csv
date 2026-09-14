@@ -1,0 +1,49 @@
+country,partner,tier,n_alerts,n_series_years
+Fiji,aus,alert,2,2
+Fiji,aus,critical,17,7
+Fiji,aus,watch,44,8
+Fiji,china,alert,6,5
+Fiji,china,critical,38,8
+Fiji,china,watch,47,8
+Fiji,us,alert,1,1
+Fiji,us,critical,7,3
+Fiji,us,watch,47,8
+Kiribati,aus,alert,6,3
+Kiribati,aus,critical,4,2
+Kiribati,aus,watch,20,8
+Kiribati,china,alert,1,1
+Kiribati,china,critical,2,2
+Kiribati,china,watch,16,7
+Kiribati,us,watch,14,8
+Palau,aus,alert,3,3
+Palau,aus,watch,14,8
+Palau,china,alert,4,4
+Palau,china,critical,1,1
+Palau,china,watch,10,8
+Palau,us,alert,3,3
+Palau,us,watch,11,6
+Papua New Guinea,aus,alert,1,1
+Papua New Guinea,aus,watch,13,8
+Papua New Guinea,china,watch,20,8
+Papua New Guinea,us,watch,9,5
+Samoa,aus,critical,14,6
+Samoa,aus,watch,46,8
+Samoa,china,alert,12,8
+Samoa,china,critical,22,7
+Samoa,china,watch,29,8
+Samoa,us,alert,3,3
+Samoa,us,critical,15,5
+Samoa,us,watch,30,8
+Solomon Islands,aus,watch,9,7
+Solomon Islands,china,watch,9,7
+Solomon Islands,us,alert,1,1
+Solomon Islands,us,watch,5,4
+Tonga,aus,alert,1,1
+Tonga,aus,critical,5,5
+Tonga,aus,watch,26,8
+Tonga,china,alert,3,3
+Tonga,china,critical,5,5
+Tonga,china,watch,29,8
+Tonga,us,alert,1,1
+Tonga,us,critical,3,3
+Tonga,us,watch,26,8

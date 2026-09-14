@@ -1,6 +1,6 @@
 # Explorer Tool
 
-Researcher UI for PIC–partner influence tables and plots. Analysis pipelines stay in the Python analysis packages. This folder holds the Next.js app and the catalog builder (`explorer_catalog/`).
+Researcher UI for PIC–partner influence tables and plots. Analysis pipelines stay in the Python packages under `src/`. This folder is the Next.js app only.
 
 ## Start
 

@@ -1,0 +1,351 @@
+country,year,n_records,present,iso3
+Cook Islands,2000,0,0,COK
+Cook Islands,2001,0,0,COK
+Cook Islands,2002,0,0,COK
+Cook Islands,2003,0,0,COK
+Cook Islands,2004,0,0,COK
+Cook Islands,2005,0,0,COK
+Cook Islands,2006,0,0,COK
+Cook Islands,2007,0,0,COK
+Cook Islands,2008,17,1,COK
+Cook Islands,2009,0,0,COK
+Cook Islands,2010,0,0,COK
+Cook Islands,2011,0,0,COK
+Cook Islands,2012,0,0,COK
+Cook Islands,2013,0,0,COK
+Cook Islands,2014,0,0,COK
+Cook Islands,2015,0,0,COK
+Cook Islands,2016,0,0,COK
+Cook Islands,2017,0,0,COK
+Cook Islands,2018,0,0,COK
+Cook Islands,2019,0,0,COK
+Cook Islands,2020,0,0,COK
+Cook Islands,2021,0,0,COK
+Cook Islands,2022,0,0,COK
+Cook Islands,2023,0,0,COK
+Cook Islands,2024,0,0,COK
+Fiji,2000,0,0,FJI
+Fiji,2001,0,0,FJI
+Fiji,2002,0,0,FJI
+Fiji,2003,0,0,FJI
+Fiji,2004,0,0,FJI
+Fiji,2005,0,0,FJI
+Fiji,2006,0,0,FJI
+Fiji,2007,0,0,FJI
+Fiji,2008,1378,1,FJI
+Fiji,2009,1415,1,FJI
+Fiji,2010,1461,1,FJI
+Fiji,2011,1448,1,FJI
+Fiji,2012,1484,1,FJI
+Fiji,2013,1499,1,FJI
+Fiji,2014,1504,1,FJI
+Fiji,2015,1500,1,FJI
+Fiji,2016,1500,1,FJI
+Fiji,2017,1524,1,FJI
+Fiji,2018,1515,1,FJI
+Fiji,2019,1494,1,FJI
+Fiji,2020,1398,1,FJI
+Fiji,2021,1405,1,FJI
+Fiji,2022,1434,1,FJI
+Fiji,2023,1438,1,FJI
+Fiji,2024,1435,1,FJI
+Micronesia,2000,0,0,FSM
+Micronesia,2001,0,0,FSM
+Micronesia,2002,0,0,FSM
+Micronesia,2003,0,0,FSM
+Micronesia,2004,0,0,FSM
+Micronesia,2005,0,0,FSM
+Micronesia,2006,0,0,FSM
+Micronesia,2007,0,0,FSM
+Micronesia,2008,0,0,FSM
+Micronesia,2009,0,0,FSM
+Micronesia,2010,0,0,FSM
+Micronesia,2011,0,0,FSM
+Micronesia,2012,0,0,FSM
+Micronesia,2013,0,0,FSM
+Micronesia,2014,0,0,FSM
+Micronesia,2015,0,0,FSM
+Micronesia,2016,0,0,FSM
+Micronesia,2017,0,0,FSM
+Micronesia,2018,0,0,FSM
+Micronesia,2019,0,0,FSM
+Micronesia,2020,0,0,FSM
+Micronesia,2021,0,0,FSM
+Micronesia,2022,0,0,FSM
+Micronesia,2023,0,0,FSM
+Micronesia,2024,0,0,FSM
+Kiribati,2000,0,0,KIR
+Kiribati,2001,0,0,KIR
+Kiribati,2002,0,0,KIR
+Kiribati,2003,0,0,KIR
+Kiribati,2004,0,0,KIR
+Kiribati,2005,0,0,KIR
+Kiribati,2006,0,0,KIR
+Kiribati,2007,0,0,KIR
+Kiribati,2008,0,0,KIR
+Kiribati,2009,0,0,KIR
+Kiribati,2010,0,0,KIR
+Kiribati,2011,0,0,KIR
+Kiribati,2012,0,0,KIR
+Kiribati,2013,0,0,KIR
+Kiribati,2014,893,1,KIR
+Kiribati,2015,796,1,KIR
+Kiribati,2016,893,1,KIR
+Kiribati,2017,871,1,KIR
+Kiribati,2018,791,1,KIR
+Kiribati,2019,0,0,KIR
+Kiribati,2020,833,1,KIR
+Kiribati,2021,784,1,KIR
+Kiribati,2022,0,0,KIR
+Kiribati,2023,0,0,KIR
+Kiribati,2024,0,0,KIR
+Marshall Islands,2000,0,0,MHL
+Marshall Islands,2001,0,0,MHL
+Marshall Islands,2002,0,0,MHL
+Marshall Islands,2003,0,0,MHL
+Marshall Islands,2004,0,0,MHL
+Marshall Islands,2005,0,0,MHL
+Marshall Islands,2006,0,0,MHL
+Marshall Islands,2007,0,0,MHL
+Marshall Islands,2008,0,0,MHL
+Marshall Islands,2009,0,0,MHL
+Marshall Islands,2010,0,0,MHL
+Marshall Islands,2011,0,0,MHL
+Marshall Islands,2012,0,0,MHL
+Marshall Islands,2013,0,0,MHL
+Marshall Islands,2014,0,0,MHL
+Marshall Islands,2015,0,0,MHL
+Marshall Islands,2016,0,0,MHL
+Marshall Islands,2017,0,0,MHL
+Marshall Islands,2018,0,0,MHL
+Marshall Islands,2019,0,0,MHL
+Marshall Islands,2020,0,0,MHL
+Marshall Islands,2021,0,0,MHL
+Marshall Islands,2022,0,0,MHL
+Marshall Islands,2023,0,0,MHL
+Marshall Islands,2024,0,0,MHL
+Nauru,2000,0,0,NRU
+Nauru,2001,0,0,NRU
+Nauru,2002,0,0,NRU
+Nauru,2003,0,0,NRU
+Nauru,2004,0,0,NRU
+Nauru,2005,0,0,NRU
+Nauru,2006,0,0,NRU
+Nauru,2007,0,0,NRU
+Nauru,2008,0,0,NRU
+Nauru,2009,0,0,NRU
+Nauru,2010,0,0,NRU
+Nauru,2011,0,0,NRU
+Nauru,2012,0,0,NRU
+Nauru,2013,0,0,NRU
+Nauru,2014,0,0,NRU
+Nauru,2015,0,0,NRU
+Nauru,2016,0,0,NRU
+Nauru,2017,0,0,NRU
+Nauru,2018,0,0,NRU
+Nauru,2019,0,0,NRU
+Nauru,2020,0,0,NRU
+Nauru,2021,0,0,NRU
+Nauru,2022,0,0,NRU
+Nauru,2023,0,0,NRU
+Nauru,2024,0,0,NRU
+Niue,2000,0,0,NIU
+Niue,2001,0,0,NIU
+Niue,2002,0,0,NIU
+Niue,2003,0,0,NIU
+Niue,2004,0,0,NIU
+Niue,2005,0,0,NIU
+Niue,2006,0,0,NIU
+Niue,2007,0,0,NIU
+Niue,2008,0,0,NIU
+Niue,2009,0,0,NIU
+Niue,2010,0,0,NIU
+Niue,2011,0,0,NIU
+Niue,2012,0,0,NIU
+Niue,2013,0,0,NIU
+Niue,2014,0,0,NIU
+Niue,2015,0,0,NIU
+Niue,2016,0,0,NIU
+Niue,2017,0,0,NIU
+Niue,2018,0,0,NIU
+Niue,2019,0,0,NIU
+Niue,2020,0,0,NIU
+Niue,2021,0,0,NIU
+Niue,2022,0,0,NIU
+Niue,2023,0,0,NIU
+Niue,2024,0,0,NIU
+Palau,2000,0,0,PLW
+Palau,2001,0,0,PLW
+Palau,2002,0,0,PLW
+Palau,2003,0,0,PLW
+Palau,2004,0,0,PLW
+Palau,2005,0,0,PLW
+Palau,2006,0,0,PLW
+Palau,2007,0,0,PLW
+Palau,2008,0,0,PLW
+Palau,2009,0,0,PLW
+Palau,2010,0,0,PLW
+Palau,2011,0,0,PLW
+Palau,2012,0,0,PLW
+Palau,2013,0,0,PLW
+Palau,2014,956,1,PLW
+Palau,2015,936,1,PLW
+Palau,2016,922,1,PLW
+Palau,2017,890,1,PLW
+Palau,2018,838,1,PLW
+Palau,2019,0,0,PLW
+Palau,2020,0,0,PLW
+Palau,2021,0,0,PLW
+Palau,2022,0,0,PLW
+Palau,2023,0,0,PLW
+Palau,2024,0,0,PLW
+Papua New Guinea,2000,0,0,PNG
+Papua New Guinea,2001,0,0,PNG
+Papua New Guinea,2002,0,0,PNG
+Papua New Guinea,2003,0,0,PNG
+Papua New Guinea,2004,0,0,PNG
+Papua New Guinea,2005,0,0,PNG
+Papua New Guinea,2006,0,0,PNG
+Papua New Guinea,2007,0,0,PNG
+Papua New Guinea,2008,0,0,PNG
+Papua New Guinea,2009,0,0,PNG
+Papua New Guinea,2010,0,0,PNG
+Papua New Guinea,2011,1326,1,PNG
+Papua New Guinea,2012,1394,1,PNG
+Papua New Guinea,2013,0,0,PNG
+Papua New Guinea,2014,0,0,PNG
+Papua New Guinea,2015,0,0,PNG
+Papua New Guinea,2016,0,0,PNG
+Papua New Guinea,2017,0,0,PNG
+Papua New Guinea,2018,0,0,PNG
+Papua New Guinea,2019,1459,1,PNG
+Papua New Guinea,2020,1367,1,PNG
+Papua New Guinea,2021,1390,1,PNG
+Papua New Guinea,2022,1464,1,PNG
+Papua New Guinea,2023,1460,1,PNG
+Papua New Guinea,2024,0,0,PNG
+Samoa,2000,0,0,WSM
+Samoa,2001,0,0,WSM
+Samoa,2002,0,0,WSM
+Samoa,2003,0,0,WSM
+Samoa,2004,0,0,WSM
+Samoa,2005,0,0,WSM
+Samoa,2006,0,0,WSM
+Samoa,2007,0,0,WSM
+Samoa,2008,0,0,WSM
+Samoa,2009,877,1,WSM
+Samoa,2010,938,1,WSM
+Samoa,2011,964,1,WSM
+Samoa,2012,984,1,WSM
+Samoa,2013,1056,1,WSM
+Samoa,2014,1023,1,WSM
+Samoa,2015,1102,1,WSM
+Samoa,2016,1104,1,WSM
+Samoa,2017,1088,1,WSM
+Samoa,2018,1127,1,WSM
+Samoa,2019,1096,1,WSM
+Samoa,2020,0,0,WSM
+Samoa,2021,1051,1,WSM
+Samoa,2022,1092,1,WSM
+Samoa,2023,1075,1,WSM
+Samoa,2024,1112,1,WSM
+Solomon Islands,2000,0,0,SLB
+Solomon Islands,2001,0,0,SLB
+Solomon Islands,2002,0,0,SLB
+Solomon Islands,2003,0,0,SLB
+Solomon Islands,2004,0,0,SLB
+Solomon Islands,2005,0,0,SLB
+Solomon Islands,2006,0,0,SLB
+Solomon Islands,2007,0,0,SLB
+Solomon Islands,2008,0,0,SLB
+Solomon Islands,2009,0,0,SLB
+Solomon Islands,2010,0,0,SLB
+Solomon Islands,2011,0,0,SLB
+Solomon Islands,2012,0,0,SLB
+Solomon Islands,2013,0,0,SLB
+Solomon Islands,2014,0,0,SLB
+Solomon Islands,2015,968,1,SLB
+Solomon Islands,2016,978,1,SLB
+Solomon Islands,2017,949,1,SLB
+Solomon Islands,2018,966,1,SLB
+Solomon Islands,2019,0,0,SLB
+Solomon Islands,2020,0,0,SLB
+Solomon Islands,2021,0,0,SLB
+Solomon Islands,2022,0,0,SLB
+Solomon Islands,2023,0,0,SLB
+Solomon Islands,2024,0,0,SLB
+Tonga,2000,0,0,TON
+Tonga,2001,0,0,TON
+Tonga,2002,0,0,TON
+Tonga,2003,0,0,TON
+Tonga,2004,0,0,TON
+Tonga,2005,0,0,TON
+Tonga,2006,0,0,TON
+Tonga,2007,0,0,TON
+Tonga,2008,946,1,TON
+Tonga,2009,912,1,TON
+Tonga,2010,918,1,TON
+Tonga,2011,997,1,TON
+Tonga,2012,1071,1,TON
+Tonga,2013,1088,1,TON
+Tonga,2014,1114,1,TON
+Tonga,2015,0,0,TON
+Tonga,2016,0,0,TON
+Tonga,2017,1111,1,TON
+Tonga,2018,1028,1,TON
+Tonga,2019,1137,1,TON
+Tonga,2020,1061,1,TON
+Tonga,2021,1076,1,TON
+Tonga,2022,1015,1,TON
+Tonga,2023,1064,1,TON
+Tonga,2024,0,0,TON
+Tuvalu,2000,0,0,TUV
+Tuvalu,2001,0,0,TUV
+Tuvalu,2002,0,0,TUV
+Tuvalu,2003,0,0,TUV
+Tuvalu,2004,0,0,TUV
+Tuvalu,2005,0,0,TUV
+Tuvalu,2006,0,0,TUV
+Tuvalu,2007,0,0,TUV
+Tuvalu,2008,0,0,TUV
+Tuvalu,2009,0,0,TUV
+Tuvalu,2010,0,0,TUV
+Tuvalu,2011,0,0,TUV
+Tuvalu,2012,0,0,TUV
+Tuvalu,2013,0,0,TUV
+Tuvalu,2014,0,0,TUV
+Tuvalu,2015,0,0,TUV
+Tuvalu,2016,0,0,TUV
+Tuvalu,2017,0,0,TUV
+Tuvalu,2018,0,0,TUV
+Tuvalu,2019,0,0,TUV
+Tuvalu,2020,0,0,TUV
+Tuvalu,2021,0,0,TUV
+Tuvalu,2022,0,0,TUV
+Tuvalu,2023,0,0,TUV
+Tuvalu,2024,0,0,TUV
+Vanuatu,2000,0,0,VUT
+Vanuatu,2001,0,0,VUT
+Vanuatu,2002,0,0,VUT
+Vanuatu,2003,0,0,VUT
+Vanuatu,2004,0,0,VUT
+Vanuatu,2005,0,0,VUT
+Vanuatu,2006,0,0,VUT
+Vanuatu,2007,0,0,VUT
+Vanuatu,2008,0,0,VUT
+Vanuatu,2009,0,0,VUT
+Vanuatu,2010,0,0,VUT
+Vanuatu,2011,0,0,VUT
+Vanuatu,2012,0,0,VUT
+Vanuatu,2013,0,0,VUT
+Vanuatu,2014,0,0,VUT
+Vanuatu,2015,0,0,VUT
+Vanuatu,2016,0,0,VUT
+Vanuatu,2017,0,0,VUT
+Vanuatu,2018,0,0,VUT
+Vanuatu,2019,0,0,VUT
+Vanuatu,2020,0,0,VUT
+Vanuatu,2021,0,0,VUT
+Vanuatu,2022,0,0,VUT
+Vanuatu,2023,0,0,VUT
+Vanuatu,2024,0,0,VUT

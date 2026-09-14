@@ -1,0 +1,4 @@
+tier,n_alerts,n_series,n_countries
+alert,48,40,7
+critical,133,54,5
+watch,474,156,7

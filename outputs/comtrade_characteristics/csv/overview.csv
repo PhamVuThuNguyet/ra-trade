@@ -1,0 +1,14 @@
+metric,value,notes
+n_records,79200,Commodity-level rows in the extract
+n_years_requested,25,2000–2024
+n_years_observed,17,2008–2024
+n_years_empty,8,Requested years with zero rows
+n_reporters_requested,14,
+n_reporters_observed,8,"Cook Islands, Fiji, Kiribati, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga"
+n_reporters_absent,6,"Micronesia, Marshall Islands, Nauru, Niue, Tuvalu, Vanuatu"
+n_reporter_years_requested,350,Reporters × requested years
+n_reporter_years_observed,70,Cells with at least one row
+reporter_year_coverage,0.2,Observed reporter–years / requested
+n_partners,4,
+n_flows,2,
+n_cmd,261,Distinct SITC AG3 codes

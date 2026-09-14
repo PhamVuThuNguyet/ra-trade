@@ -10,9 +10,18 @@ from explorer_catalog.build import build_catalog, prefer_study_output, write_cat
 from explorer_catalog.constants import DEFAULT_CATALOG_PATH, GOODS_TRADE_INDEX_IDS
 from explorer_catalog.filters import filter_table_rows
 from explorer_catalog.overlay import load_overlay
-from trade_discrepancy.constants import PROJECT_ROOT
+from project_paths import PROJECT_ROOT, SRC_DIR
 
-ANALYSIS_PACKAGES = ("trade_influence", "baci", "event_context")
+ANALYSIS_PACKAGES = (
+    "baci",
+    "baci_characteristics",
+    "comtrade_characteristics",
+    "comtrade_download",
+    "event_context",
+    "trade_anomaly",
+    "trade_discrepancy",
+    "trade_influence",
+)
 BANNED_IMPORTS = ("explorer_catalog", "explorer_tool")
 SCHEMA_REQUIRED = (
     "generated_from",
@@ -42,20 +51,22 @@ def _assert_no_banned_imports(package_dir: Path) -> None:
                 assert not node.module.startswith(BANNED_IMPORTS)
 
 
-def test_catalog_package_lives_under_explorer_tool():
-    nested = PROJECT_ROOT / "explorer-tool" / "explorer_catalog" / "build.py"
-    leftover = PROJECT_ROOT / "explorer_catalog"
-    assert nested.is_file()
-    assert not leftover.exists()
+def test_catalog_package_lives_under_src():
+    catalog = SRC_DIR / "explorer_catalog" / "build.py"
+    leftover_root = PROJECT_ROOT / "explorer_catalog"
+    leftover_ui = PROJECT_ROOT / "explorer-tool" / "explorer_catalog"
+    assert catalog.is_file()
+    assert not leftover_root.exists()
+    assert not leftover_ui.exists()
 
 
 def test_analysis_packages_do_not_import_explorer_surfaces():
     for name in ANALYSIS_PACKAGES:
-        _assert_no_banned_imports(PROJECT_ROOT / name)
+        _assert_no_banned_imports(SRC_DIR / name)
 
 
 def test_overlay_module_does_not_fetch_remote():
-    source = (PROJECT_ROOT / "explorer-tool" / "explorer_catalog" / "overlay.py").read_text(
+    source = (SRC_DIR / "explorer_catalog" / "overlay.py").read_text(
         encoding="utf-8"
     )
     assert "fetch_remote" not in source
@@ -329,7 +340,7 @@ def test_mock_services_cover_partners_years_and_categories(tmp_path):
 
 def test_analysis_packages_have_no_next_explorer_screens():
     for name in ANALYSIS_PACKAGES:
-        package = PROJECT_ROOT / name
+        package = SRC_DIR / name
         assert list(package.rglob("*.tsx")) == []
         for path in package.rglob("*.py"):
             text = path.read_text(encoding="utf-8")

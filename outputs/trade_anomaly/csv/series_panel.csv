@@ -1,0 +1,1341 @@
+series_id,country,partner,flow,metric,year,value
+Cook Isds|aus|export|cwti,Cook Isds,aus,export,cwti,2008,0.0008281605637086254
+Cook Isds|aus|export|raw_usd,Cook Isds,aus,export,raw_usd,2008,98744.0
+Cook Isds|aus|export|sti,Cook Isds,aus,export,sti,2008,0.023860065923025045
+Cook Isds|aus|total|cwti,Cook Isds,aus,total,cwti,2008,0.0008281605637086254
+Cook Isds|aus|total|sti,Cook Isds,aus,total,sti,2008,0.023860065923025045
+Cook Isds|china|export|cwti,Cook Isds,china,export,cwti,2008,0.10657603152244044
+Cook Isds|china|export|raw_usd,Cook Isds,china,export,raw_usd,2008,1056774.0
+Cook Isds|china|export|sti,Cook Isds,china,export,sti,2008,0.25535422208679887
+Cook Isds|china|total|cwti,Cook Isds,china,total,cwti,2008,0.10657603152244044
+Cook Isds|china|total|sti,Cook Isds,china,total,sti,2008,0.25535422208679887
+Cook Isds|us|export|cwti,Cook Isds,us,export,cwti,2008,0.0010653820506468477
+Cook Isds|us|export|raw_usd,Cook Isds,us,export,raw_usd,2008,80803.0
+Cook Isds|us|export|sti,Cook Isds,us,export,sti,2008,0.019524881580432155
+Cook Isds|us|total|cwti,Cook Isds,us,total,cwti,2008,0.0010653820506468477
+Cook Isds|us|total|sti,Cook Isds,us,total,sti,2008,0.019524881580432155
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2008,0.06568499044778352
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2009,0.0838395743366081
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2010,0.14134354794476017
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2011,0.1124367101935975
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2012,0.08742029777922104
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2013,0.06776590475808221
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2014,0.05411684176159612
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2015,0.07929530835079111
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2016,0.08601442274979433
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2017,0.0777643546122111
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2018,0.08470739109478377
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2019,0.08152593505183683
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2020,0.0965407709432587
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2021,0.1069951652168672
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2022,0.059477425299343106
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2023,0.05728395159104416
+Fiji|aus|export|cwti,Fiji,aus,export,cwti,2024,0.08217533439579197
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2008,113820061.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2009,99993047.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2010,177141904.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2011,194501193.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2012,181094729.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2013,150495858.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2014,158640856.0
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2015,141145285.68
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2016,138318955.30200002
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2017,148948246.51999998
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2018,134700865.49
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2019,131984577.267
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2020,123648633.942
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2021,134577798.776
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2022,110933060.60599999
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2023,103906202.401
+Fiji|aus|export|raw_usd,Fiji,aus,export,raw_usd,2024,138173139.327
+Fiji|aus|export|sti,Fiji,aus,export,sti,2008,0.12346100092845183
+Fiji|aus|export|sti,Fiji,aus,export,sti,2009,0.15905364308696443
+Fiji|aus|export|sti,Fiji,aus,export,sti,2010,0.2105419901351738
+Fiji|aus|export|sti,Fiji,aus,export,sti,2011,0.18186678164541345
+Fiji|aus|export|sti,Fiji,aus,export,sti,2012,0.14836504077476734
+Fiji|aus|export|sti,Fiji,aus,export,sti,2013,0.1358278347140661
+Fiji|aus|export|sti,Fiji,aus,export,sti,2014,0.11552098295347742
+Fiji|aus|export|sti,Fiji,aus,export,sti,2015,0.1438437116280293
+Fiji|aus|export|sti,Fiji,aus,export,sti,2016,0.15001445955428916
+Fiji|aus|export|sti,Fiji,aus,export,sti,2017,0.14375173707137587
+Fiji|aus|export|sti,Fiji,aus,export,sti,2018,0.13375524340343267
+Fiji|aus|export|sti,Fiji,aus,export,sti,2019,0.13670112288476402
+Fiji|aus|export|sti,Fiji,aus,export,sti,2020,0.14958219873569245
+Fiji|aus|export|sti,Fiji,aus,export,sti,2021,0.16491298389432005
+Fiji|aus|export|sti,Fiji,aus,export,sti,2022,0.10512462942053041
+Fiji|aus|export|sti,Fiji,aus,export,sti,2023,0.09722128091350396
+Fiji|aus|export|sti,Fiji,aus,export,sti,2024,0.12194088055652876
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2008,0.054751059227695666
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2009,0.06082270637341951
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2010,0.05708517368472342
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2011,0.05311056764495862
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2012,0.04577974741435364
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2013,0.029705915640106505
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2014,0.026908849281175606
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2015,0.034470998132586
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2016,0.036756467839422796
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2017,0.03456327604810751
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2018,0.05238118508824364
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2019,0.05167856052286888
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2020,0.0644572540612146
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2021,0.05986891347009803
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2022,0.058234600575544755
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2023,0.052670151629315584
+Fiji|aus|import|cwti,Fiji,aus,import,cwti,2024,0.042792318779093015
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2008,445433871.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2009,317811764.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2010,367391118.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2011,427565330.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2012,412432952.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2013,383628285.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2014,454915652.0
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2015,365303779.831
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2016,400915607.882
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2017,399355988.49
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2018,430557444.605
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2019,396036077.237
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2020,309616886.169
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2021,358400894.856
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2022,465141504.862
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2023,477404479.852
+Fiji|aus|import|raw_usd,Fiji,aus,import,raw_usd,2024,449258554.522
+Fiji|aus|import|sti,Fiji,aus,import,sti,2008,0.19675687293760813
+Fiji|aus|import|sti,Fiji,aus,import,sti,2009,0.22116039963627324
+Fiji|aus|import|sti,Fiji,aus,import,sti,2010,0.2031515046564576
+Fiji|aus|import|sti,Fiji,aus,import,sti,2011,0.19596260926212106
+Fiji|aus|import|sti,Fiji,aus,import,sti,2012,0.18309215351724367
+Fiji|aus|import|sti,Fiji,aus,import,sti,2013,0.13576252164492142
+Fiji|aus|import|sti,Fiji,aus,import,sti,2014,0.1399540833742759
+Fiji|aus|import|sti,Fiji,aus,import,sti,2015,0.16109037892502387
+Fiji|aus|import|sti,Fiji,aus,import,sti,2016,0.17418537658130806
+Fiji|aus|import|sti,Fiji,aus,import,sti,2017,0.16598299806857292
+Fiji|aus|import|sti,Fiji,aus,import,sti,2018,0.1572462258441354
+Fiji|aus|import|sti,Fiji,aus,import,sti,2019,0.1419570985267475
+Fiji|aus|import|sti,Fiji,aus,import,sti,2020,0.17809418839055305
+Fiji|aus|import|sti,Fiji,aus,import,sti,2021,0.16877434228649985
+Fiji|aus|import|sti,Fiji,aus,import,sti,2022,0.15538591997436615
+Fiji|aus|import|sti,Fiji,aus,import,sti,2023,0.15450515318695174
+Fiji|aus|import|sti,Fiji,aus,import,sti,2024,0.14559173820597945
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2008,0.12043604967547918
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2009,0.14466228071002762
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2010,0.19842872162948358
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2011,0.1655472778385561
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2012,0.1332000451935747
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2013,0.09747182039818872
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2014,0.08102569104277173
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2015,0.11376630648337711
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2016,0.12277089058921713
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2017,0.11232763066031862
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2018,0.13708857618302742
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2019,0.13320449557470573
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2020,0.1609980250044733
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2021,0.16686407868696523
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2022,0.11771202587488785
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2023,0.10995410322035973
+Fiji|aus|total|cwti,Fiji,aus,total,cwti,2024,0.12496765317488498
+Fiji|aus|total|sti,Fiji,aus,total,sti,2008,0.17554635356358197
+Fiji|aus|total|sti,Fiji,aus,total,sti,2009,0.20225878166765116
+Fiji|aus|total|sti,Fiji,aus,total,sti,2010,0.20549810512216116
+Fiji|aus|total|sti,Fiji,aus,total,sti,2011,0.19132604032500428
+Fiji|aus|total|sti,Fiji,aus,total,sti,2012,0.17088784700969298
+Fiji|aus|total|sti,Fiji,aus,total,sti,2013,0.13578091802584735
+Fiji|aus|total|sti,Fiji,aus,total,sti,2014,0.1326973616398562
+Fiji|aus|total|sti,Fiji,aus,total,sti,2015,0.15588155546308607
+Fiji|aus|total|sti,Fiji,aus,total,sti,2016,0.16727204555305458
+Fiji|aus|total|sti,Fiji,aus,total,sti,2017,0.15929099671189345
+Fiji|aus|total|sti,Fiji,aus,total,sti,2018,0.1509295572422516
+Fiji|aus|total|sti,Fiji,aus,total,sti,2019,0.1406057831450217
+Fiji|aus|total|sti,Fiji,aus,total,sti,2020,0.16890604028883888
+Fiji|aus|total|sti,Fiji,aus,total,sti,2021,0.16770240390449886
+Fiji|aus|total|sti,Fiji,aus,total,sti,2022,0.14228586244761324
+Fiji|aus|total|sti,Fiji,aus,total,sti,2023,0.13978339187220734
+Fiji|aus|total|sti,Fiji,aus,total,sti,2024,0.1392395070302362
+Fiji|china|export|cwti,Fiji,china,export,cwti,2008,1.3295504927653558e-05
+Fiji|china|export|cwti,Fiji,china,export,cwti,2009,0.00022686042958770786
+Fiji|china|export|cwti,Fiji,china,export,cwti,2010,0.0001276018758029513
+Fiji|china|export|cwti,Fiji,china,export,cwti,2011,0.00010920941987027771
+Fiji|china|export|cwti,Fiji,china,export,cwti,2012,0.0009001154706911492
+Fiji|china|export|cwti,Fiji,china,export,cwti,2013,0.0037687478018635606
+Fiji|china|export|cwti,Fiji,china,export,cwti,2014,0.00800825734477903
+Fiji|china|export|cwti,Fiji,china,export,cwti,2015,0.005921522005155372
+Fiji|china|export|cwti,Fiji,china,export,cwti,2016,0.00608111270435936
+Fiji|china|export|cwti,Fiji,china,export,cwti,2017,0.0050788191226432255
+Fiji|china|export|cwti,Fiji,china,export,cwti,2018,0.012619876234034712
+Fiji|china|export|cwti,Fiji,china,export,cwti,2019,0.0060636303548758435
+Fiji|china|export|cwti,Fiji,china,export,cwti,2020,0.013095356657972583
+Fiji|china|export|cwti,Fiji,china,export,cwti,2021,0.023076535249965682
+Fiji|china|export|cwti,Fiji,china,export,cwti,2022,0.0056547503943659115
+Fiji|china|export|cwti,Fiji,china,export,cwti,2023,0.007234520195425744
+Fiji|china|export|cwti,Fiji,china,export,cwti,2024,0.005267456907836104
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2008,2444680.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2009,7214885.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2010,6949957.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2011,7120049.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2012,16214180.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2013,28859296.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2014,80484802.0
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2015,51165048.68
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2016,47098941.811000004
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2017,49679683.585
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2018,56604440.729
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2019,33414882.136
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2020,40815443.77
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2021,46199419.335
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2022,30577143.307
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2023,32575772.575000003
+Fiji|china|export|raw_usd,Fiji,china,export,raw_usd,2024,33094813.075999998
+Fiji|china|export|sti,Fiji,china,export,sti,2008,0.0026517525741773028
+Fiji|china|export|sti,Fiji,china,export,sti,2009,0.011476335386634366
+Fiji|china|export|sti,Fiji,china,export,sti,2010,0.008260370613007988
+Fiji|china|export|sti,Fiji,china,export,sti,2011,0.00665754475237406
+Fiji|china|export|sti,Fiji,china,export,sti,2012,0.013283752045756212
+Fiji|china|export|sti,Fiji,china,export,sti,2013,0.026046535360809125
+Fiji|china|export|sti,Fiji,china,export,sti,2014,0.05860837916719262
+Fiji|china|export|sti,Fiji,china,export,sti,2015,0.052143225842100266
+Fiji|china|export|sti,Fiji,china,export,sti,2016,0.051081374103278204
+Fiji|china|export|sti,Fiji,china,export,sti,2017,0.04794645777546055
+Fiji|china|export|sti,Fiji,china,export,sti,2018,0.05620706830562008
+Fiji|china|export|sti,Fiji,china,export,sti,2019,0.03460898237990825
+Fiji|china|export|sti,Fiji,china,export,sti,2020,0.04937591000280216
+Fiji|china|export|sti,Fiji,china,export,sti,2021,0.05661323164752574
+Fiji|china|export|sti,Fiji,china,export,sti,2022,0.028976130662286718
+Fiji|china|export|sti,Fiji,china,export,sti,2023,0.030479973892857948
+Fiji|china|export|sti,Fiji,china,export,sti,2024,0.029206911473513692
+Fiji|china|import|cwti,Fiji,china,import,cwti,2008,0.003680887806766872
+Fiji|china|import|cwti,Fiji,china,import,cwti,2009,0.005530236789847135
+Fiji|china|import|cwti,Fiji,china,import,cwti,2010,0.007067404930410686
+Fiji|china|import|cwti,Fiji,china,import,cwti,2011,0.01206207248060121
+Fiji|china|import|cwti,Fiji,china,import,cwti,2012,0.013232870257056238
+Fiji|china|import|cwti,Fiji,china,import,cwti,2013,0.01527762846463708
+Fiji|china|import|cwti,Fiji,china,import,cwti,2014,0.028783458270581208
+Fiji|china|import|cwti,Fiji,china,import,cwti,2015,0.030174693136658697
+Fiji|china|import|cwti,Fiji,china,import,cwti,2016,0.030853888430264483
+Fiji|china|import|cwti,Fiji,china,import,cwti,2017,0.034844074473799114
+Fiji|china|import|cwti,Fiji,china,import,cwti,2018,0.04709274988701159
+Fiji|china|import|cwti,Fiji,china,import,cwti,2019,0.0375395306355929
+Fiji|china|import|cwti,Fiji,china,import,cwti,2020,0.05263989108961877
+Fiji|china|import|cwti,Fiji,china,import,cwti,2021,0.04663038682846387
+Fiji|china|import|cwti,Fiji,china,import,cwti,2022,0.05152461568036474
+Fiji|china|import|cwti,Fiji,china,import,cwti,2023,0.04469329506831716
+Fiji|china|import|cwti,Fiji,china,import,cwti,2024,0.051604853581773316
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2008,96271524.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2009,79486322.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2010,110033096.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2011,181052501.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2012,198644508.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2013,281699026.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2014,443419914.0
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2015,331722123.913
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2016,350906220.879
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2017,381346094.72
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2018,449842546.737
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2019,352790820.985
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2020,286711985.021
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2021,322783322.785
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2022,468566726.585
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2023,462801363.727
+Fiji|china|import|raw_usd,Fiji,china,import,raw_usd,2024,492700680.064
+Fiji|china|import|sti,Fiji,china,import,sti,2008,0.04252501942129563
+Fiji|china|import|sti,Fiji,china,import,sti,2009,0.0553133292420777
+Fiji|china|import|sti,Fiji,china,import,sti,2010,0.060843574923900155
+Fiji|china|import|sti,Fiji,china,import,sti,2011,0.0829803494810788
+Fiji|china|import|sti,Fiji,china,import,sti,2012,0.08818463844298585
+Fiji|china|import|sti,Fiji,china,import,sti,2013,0.09969069437796611
+Fiji|china|import|sti,Fiji,china,import,sti,2014,0.13641743769627485
+Fiji|china|import|sti,Fiji,china,import,sti,2015,0.14628165814128857
+Fiji|china|import|sti,Fiji,china,import,sti,2016,0.1524578515449623
+Fiji|china|import|sti,Fiji,china,import,sti,2017,0.1584976059647909
+Fiji|china|import|sti,Fiji,china,import,sti,2018,0.1642894428719068
+Fiji|china|import|sti,Fiji,china,import,sti,2019,0.12645605845633529
+Fiji|china|import|sti,Fiji,china,import,sti,2020,0.16491910020142786
+Fiji|china|import|sti,Fiji,china,import,sti,2021,0.1520016935950386
+Fiji|china|import|sti,Fiji,china,import,sti,2022,0.1565301550576285
+Fiji|china|import|sti,Fiji,china,import,sti,2023,0.14977906286077922
+Fiji|china|import|sti,Fiji,china,import,sti,2024,0.15967007796236227
+Fiji|china|total|cwti,Fiji,china,total,cwti,2008,0.0036941833116945254
+Fiji|china|total|cwti,Fiji,china,total,cwti,2009,0.005757097219434843
+Fiji|china|total|cwti,Fiji,china,total,cwti,2010,0.007195006806213638
+Fiji|china|total|cwti,Fiji,china,total,cwti,2011,0.012171281900471486
+Fiji|china|total|cwti,Fiji,china,total,cwti,2012,0.014132985727747387
+Fiji|china|total|cwti,Fiji,china,total,cwti,2013,0.01904637626650064
+Fiji|china|total|cwti,Fiji,china,total,cwti,2014,0.03679171561536024
+Fiji|china|total|cwti,Fiji,china,total,cwti,2015,0.03609621514181407
+Fiji|china|total|cwti,Fiji,china,total,cwti,2016,0.03693500113462384
+Fiji|china|total|cwti,Fiji,china,total,cwti,2017,0.03992289359644234
+Fiji|china|total|cwti,Fiji,china,total,cwti,2018,0.0597126261210463
+Fiji|china|total|cwti,Fiji,china,total,cwti,2019,0.043603160990468744
+Fiji|china|total|cwti,Fiji,china,total,cwti,2020,0.06573524774759136
+Fiji|china|total|cwti,Fiji,china,total,cwti,2021,0.06970692207842955
+Fiji|china|total|cwti,Fiji,china,total,cwti,2022,0.05717936607473065
+Fiji|china|total|cwti,Fiji,china,total,cwti,2023,0.0519278152637429
+Fiji|china|total|cwti,Fiji,china,total,cwti,2024,0.056872310489609425
+Fiji|china|total|sti,Fiji,china,total,sti,2008,0.03098640645737773
+Fiji|china|total|sti,Fiji,china,total,sti,2009,0.04197194487771187
+Fiji|china|total|sti,Fiji,china,total,sti,2010,0.044147544320838915
+Fiji|china|total|sti,Fiji,china,total,sti,2011,0.05787533576912784
+Fiji|china|total|sti,Fiji,china,total,sti,2012,0.06186188071596842
+Fiji|china|total|sti,Fiji,china,total,sti,2013,0.07894774017306816
+Fiji|china|total|sti,Fiji,china,total,sti,2014,0.11330785780513333
+Fiji|china|total|sti,Fiji,china,total,sti,2015,0.11785005066686927
+Fiji|china|total|sti,Fiji,china,total,sti,2016,0.12346229683558975
+Fiji|china|total|sti,Fiji,china,total,sti,2017,0.12521976204227364
+Fiji|china|total|sti,Fiji,china,total,sti,2018,0.13522635266002372
+Fiji|china|total|sti,Fiji,china,total,sti,2019,0.10284210452602775
+Fiji|china|total|sti,Fiji,china,total,sti,2020,0.1276846610570337
+Fiji|china|total|sti,Fiji,china,total,sti,2021,0.12552123175325222
+Fiji|china|total|sti,Fiji,china,total,sti,2022,0.12328458895824584
+Fiji|china|total|sti,Fiji,china,total,sti,2023,0.11911960072685723
+Fiji|china|total|sti,Fiji,china,total,sti,2024,0.12462981829229092
+Fiji|us|export|cwti,Fiji,us,export,cwti,2008,0.07034475964566812
+Fiji|us|export|cwti,Fiji,us,export,cwti,2009,0.05606760757514189
+Fiji|us|export|cwti,Fiji,us,export,cwti,2010,0.06118829284686847
+Fiji|us|export|cwti,Fiji,us,export,cwti,2011,0.05085314819455939
+Fiji|us|export|cwti,Fiji,us,export,cwti,2012,0.06641015606895738
+Fiji|us|export|cwti,Fiji,us,export,cwti,2013,0.06654720396443947
+Fiji|us|export|cwti,Fiji,us,export,cwti,2014,0.06331432576757867
+Fiji|us|export|cwti,Fiji,us,export,cwti,2015,0.0821772497345854
+Fiji|us|export|cwti,Fiji,us,export,cwti,2016,0.09507572017741191
+Fiji|us|export|cwti,Fiji,us,export,cwti,2017,0.08548911604406112
+Fiji|us|export|cwti,Fiji,us,export,cwti,2018,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2019,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2020,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2021,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2022,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2023,0.0
+Fiji|us|export|cwti,Fiji,us,export,cwti,2024,0.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2008,112487937.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2009,69986593.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2010,96148971.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2011,104038756.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2012,150438465.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2013,147434911.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2014,170792334.0
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2015,162477568.75
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2016,168969162.31399998
+Fiji|us|export|raw_usd,Fiji,us,export,raw_usd,2017,184090408.74899998
+Fiji|us|export|sti,Fiji,us,export,sti,2008,0.12201604156930325
+Fiji|us|export|sti,Fiji,us,export,sti,2009,0.11132396619431592
+Fiji|us|export|sti,Fiji,us,export,sti,2010,0.11427784870026637
+Fiji|us|export|sti,Fiji,us,export,sti,2011,0.09728060495810145
+Fiji|us|export|sti,Fiji,us,export,sti,2012,0.1232493574885794
+Fiji|us|export|sti,Fiji,us,export,sti,2013,0.13306522178431676
+Fiji|us|export|sti,Fiji,us,export,sti,2014,0.12436959054607359
+Fiji|us|export|sti,Fiji,us,export,sti,2015,0.16558382685401998
+Fiji|us|export|sti,Fiji,us,export,sti,2016,0.18325628262975432
+Fiji|us|export|sti,Fiji,us,export,sti,2017,0.1776678588310538
+Fiji|us|import|cwti,Fiji,us,import,cwti,2008,0.011182396254172989
+Fiji|us|import|cwti,Fiji,us,import,cwti,2009,0.0037363679895108747
+Fiji|us|import|cwti,Fiji,us,import,cwti,2010,0.0027832365353647813
+Fiji|us|import|cwti,Fiji,us,import,cwti,2011,0.007236642410307079
+Fiji|us|import|cwti,Fiji,us,import,cwti,2012,0.0017870354726511372
+Fiji|us|import|cwti,Fiji,us,import,cwti,2013,0.0033646298256868063
+Fiji|us|import|cwti,Fiji,us,import,cwti,2014,0.0023720405120407424
+Fiji|us|import|cwti,Fiji,us,import,cwti,2015,0.0012750928714760526
+Fiji|us|import|cwti,Fiji,us,import,cwti,2016,0.0011953014937002438
+Fiji|us|import|cwti,Fiji,us,import,cwti,2017,0.0013324954804600827
+Fiji|us|import|cwti,Fiji,us,import,cwti,2018,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2019,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2020,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2021,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2022,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2023,0.0
+Fiji|us|import|cwti,Fiji,us,import,cwti,2024,0.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2008,152639893.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2009,63446039.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2010,65167960.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2011,110613089.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2012,68325512.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2013,128172201.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2014,119337209.0
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2015,66051700.456999995
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2016,63728410.141
+Fiji|us|import|raw_usd,Fiji,us,import,raw_usd,2017,68831770.618
+Fiji|us|import|sti,Fiji,us,import,sti,2008,0.06742403303275314
+Fiji|us|import|sti,Fiji,us,import,sti,2009,0.04415113891309126
+Fiji|us|import|sti,Fiji,us,import,sti,2010,0.03603508218016267
+Fiji|us|import|sti,Fiji,us,import,sti,2011,0.05069641530332504
+Fiji|us|import|sti,Fiji,us,import,sti,2012,0.030331875936645027
+Fiji|us|import|sti,Fiji,us,import,sti,2013,0.04535896307160907
+Fiji|us|import|sti,Fiji,us,import,sti,2014,0.0367139042690916
+Fiji|us|import|sti,Fiji,us,import,sti,2015,0.029127247082367465
+Fiji|us|import|sti,Fiji,us,import,sti,2016,0.027688014387819298
+Fiji|us|import|sti,Fiji,us,import,sti,2017,0.028608319341203597
+Fiji|us|total|cwti,Fiji,us,total,cwti,2008,0.08152715589984111
+Fiji|us|total|cwti,Fiji,us,total,cwti,2009,0.059803975564652764
+Fiji|us|total|cwti,Fiji,us,total,cwti,2010,0.06397152938223326
+Fiji|us|total|cwti,Fiji,us,total,cwti,2011,0.05808979060486647
+Fiji|us|total|cwti,Fiji,us,total,cwti,2012,0.06819719154160851
+Fiji|us|total|cwti,Fiji,us,total,cwti,2013,0.06991183379012629
+Fiji|us|total|cwti,Fiji,us,total,cwti,2014,0.06568636627961942
+Fiji|us|total|cwti,Fiji,us,total,cwti,2015,0.08345234260606145
+Fiji|us|total|cwti,Fiji,us,total,cwti,2016,0.09627102167111215
+Fiji|us|total|cwti,Fiji,us,total,cwti,2017,0.0868216115245212
+Fiji|us|total|cwti,Fiji,us,total,cwti,2018,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2019,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2020,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2021,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2022,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2023,0.0
+Fiji|us|total|cwti,Fiji,us,total,cwti,2024,0.0
+Fiji|us|total|sti,Fiji,us,total,sti,2008,0.08322198758313827
+Fiji|us|total|sti,Fiji,us,total,sti,2009,0.06459456873757263
+Fiji|us|total|sti,Fiji,us,total,sti,2010,0.0608784450259151
+Fiji|us|total|sti,Fiji,us,total,sti,2011,0.06601944652840058
+Fiji|us|total|sti,Fiji,us,total,sti,2012,0.06298628729467462
+Fiji|us|total|sti,Fiji,us,total,sti,2013,0.07006271327041011
+Fiji|us|total|sti,Fiji,us,total,sti,2014,0.06274796923819315
+Fiji|us|total|sti,Fiji,us,total,sti,2015,0.07033974466294235
+Fiji|us|total|sti,Fiji,us,total,sti,2016,0.07218342739372259
+Fiji|us|total|sti,Fiji,us,total,sti,2017,0.07347786770455812
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2014,0.006550876325658223
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2015,0.0030402086215873675
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2016,0.006550876229441514
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2017,0.03603488771361663
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2018,0.012652985874588595
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2020,0.09438064407443195
+Kiribati|aus|export|cwti,Kiribati,aus,export,cwti,2021,4.52228428954964e-11
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2014,371270.133
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2015,391981.22000000003
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2016,411290.6
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2017,1074108.3590000002
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2018,645848.284
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2020,2137753.549
+Kiribati|aus|export|raw_usd,Kiribati,aus,export,raw_usd,2021,1.501
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2014,0.03654763133524258
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2015,0.039164012338437915
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2016,0.03654763131147388
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2017,0.07044924733014263
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2018,0.03944712415673964
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2020,0.11527944953223751
+Kiribati|aus|export|sti,Kiribati,aus,export,sti,2021,1.6934451253397056e-07
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2014,0.10190044746607045
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2015,0.07097091947215059
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2016,0.10090263289437622
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2017,0.047736423674490734
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2018,0.05628309308887658
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2020,0.06041189452770222
+Kiribati|aus|import|cwti,Kiribati,aus,import,cwti,2021,0.046523256756194314
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2014,27449572.349
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2015,22179841.335
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2016,27568837.94
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2017,20713508.079
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2018,34332268.589
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2020,34061249.279
+Kiribati|aus|import|raw_usd,Kiribati,aus,import,raw_usd,2021,26373703.338
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2014,0.23566889109893013
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2015,0.20030736441385089
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2016,0.23169000220895516
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2017,0.19199534456910872
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2018,0.16723045605505915
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2020,0.15619439349254644
+Kiribati|aus|import|sti,Kiribati,aus,import,sti,2021,0.1501803333185968
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2014,0.10845132379172867
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2015,0.07401112809373796
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2016,0.10745350912381774
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2017,0.08377131138810737
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2018,0.06893607896346517
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2020,0.15479253860213416
+Kiribati|aus|total|cwti,Kiribati,aus,total,cwti,2021,0.046523256801417154
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2014,0.2196954256570755
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2015,0.18694918064745775
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2016,0.214828966082574
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2017,0.17694516325303286
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2018,0.15779247226412985
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2020,0.1529877711585345
+Kiribati|aus|total|sti,Kiribati,aus,total,sti,2021,0.14296461524494913
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2014,0.0
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2015,0.013986188639319667
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2016,0.0
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2017,6.415137240980651e-05
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2018,0.0
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2020,0.0006268240976044551
+Kiribati|china|export|cwti,Kiribati,china,export,cwti,2021,0.0
+Kiribati|china|export|raw_usd,Kiribati,china,export,raw_usd,2015,817283.631
+Kiribati|china|export|raw_usd,Kiribati,china,export,raw_usd,2017,29584.333
+Kiribati|china|export|raw_usd,Kiribati,china,export,raw_usd,2020,325795.078
+Kiribati|china|export|sti,Kiribati,china,export,sti,2015,0.08165724421309607
+Kiribati|china|export|sti,Kiribati,china,export,sti,2017,0.0019403945376188065
+Kiribati|china|export|sti,Kiribati,china,export,sti,2020,0.01756866560681003
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2014,0.007800172398813905
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2015,0.021513905498191332
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2016,0.0074083208205404155
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2017,0.012635706114114471
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2018,0.018736228106152508
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2020,0.03691054223685333
+Kiribati|china|import|cwti,Kiribati,china,import,cwti,2021,0.04607701021013477
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2014,8157118.1729999995
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2015,12821334.307
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2016,8171117.659999999
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2017,10064370.7
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2018,20826895.783
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2020,30812870.772
+Kiribati|china|import|raw_usd,Kiribati,china,import,raw_usd,2021,27552852.43
+Kiribati|china|import|sti,Kiribati,china,import,sti,2014,0.07003311271856204
+Kiribati|china|import|sti,Kiribati,china,import,sti,2015,0.11579017381208229
+Kiribati|china|import|sti,Kiribati,china,import,sti,2016,0.06867051389018511
+Kiribati|china|import|sti,Kiribati,china,import,sti,2017,0.09328754516366931
+Kiribati|china|import|sti,Kiribati,china,import,sti,2018,0.10144658139829975
+Kiribati|china|import|sti,Kiribati,china,import,sti,2020,0.141298330621244
+Kiribati|china|import|sti,Kiribati,china,import,sti,2021,0.15689478678003888
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2014,0.007800172398813905
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2015,0.035500094137511
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2016,0.0074083208205404155
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2017,0.012699857486524278
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2018,0.018736228106152508
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2020,0.037537366334457783
+Kiribati|china|total|cwti,Kiribati,china,total,cwti,2021,0.04607701021013477
+Kiribati|china|total|sti,Kiribati,china,total,sti,2014,0.06441507119389976
+Kiribati|china|total|sti,Kiribati,china,total,sti,2015,0.11296068106418888
+Kiribati|china|total|sti,Kiribati,china,total,sti,2016,0.06273712274507161
+Kiribati|china|total|sti,Kiribati,china,total,sti,2017,0.08197668277599396
+Kiribati|china|total|sti,Kiribati,china,total,sti,2018,0.0939538108103156
+Kiribati|china|total|sti,Kiribati,china,total,sti,2020,0.13160127940201263
+Kiribati|china|total|sti,Kiribati,china,total,sti,2021,0.14935645069974812
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2014,0.0017256278370504077
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2015,0.05839920368681459
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2016,0.0017256278435051177
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2017,0.06459522574169538
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2018,0.0
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2020,0.0
+Kiribati|us|export|cwti,Kiribati,us,export,cwti,2021,0.0
+Kiribati|us|export|raw_usd,Kiribati,us,export,raw_usd,2014,260578.192
+Kiribati|us|export|raw_usd,Kiribati,us,export,raw_usd,2015,1712686.698
+Kiribati|us|export|raw_usd,Kiribati,us,export,raw_usd,2016,288666.8
+Kiribati|us|export|raw_usd,Kiribati,us,export,raw_usd,2017,1927911.659
+Kiribati|us|export|sti,Kiribati,us,export,sti,2014,0.02565117645813987
+Kiribati|us|export|sti,Kiribati,us,export,sti,2015,0.17111963418132758
+Kiribati|us|export|sti,Kiribati,us,export,sti,2016,0.025651176511845803
+Kiribati|us|export|sti,Kiribati,us,export,sti,2017,0.12644899758717598
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2014,0.002562667897165212
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2015,0.0005689128983793031
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2016,0.002362924483568457
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2017,0.001194499791578132
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2018,0.0
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2020,0.0
+Kiribati|us|import|cwti,Kiribati,us,import,cwti,2021,0.0
+Kiribati|us|import|raw_usd,Kiribati,us,import,raw_usd,2014,4420392.5940000005
+Kiribati|us|import|raw_usd,Kiribati,us,import,raw_usd,2015,2291220.666
+Kiribati|us|import|raw_usd,Kiribati,us,import,raw_usd,2016,4311242.9399999995
+Kiribati|us|import|raw_usd,Kiribati,us,import,raw_usd,2017,2544251.6270000003
+Kiribati|us|import|sti,Kiribati,us,import,sti,2014,0.0379513752565932
+Kiribati|us|import|sti,Kiribati,us,import,sti,2015,0.020692139585903317
+Kiribati|us|import|sti,Kiribati,us,import,sti,2016,0.03623191838792253
+Kiribati|us|import|sti,Kiribati,us,import,sti,2017,0.023582894115923382
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2014,0.00428829573421562
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2015,0.058968116585193894
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2016,0.0040885523270735745
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2017,0.06578972553327352
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2018,0.0
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2020,0.0
+Kiribati|us|total|cwti,Kiribati,us,total,cwti,2021,0.0
+Kiribati|us|total|sti,Kiribati,us,total,sti,2014,0.03696465590443457
+Kiribati|us|total|sti,Kiribati,us,total,sti,2015,0.03316201867457585
+Kiribati|us|total|sti,Kiribati,us,total,sti,2016,0.03531770242244075
+Kiribati|us|total|sti,Kiribati,us,total,sti,2017,0.036320065803771326
+Palau|aus|export|cwti,Palau,aus,export,cwti,2014,0.001171726114272085
+Palau|aus|export|cwti,Palau,aus,export,cwti,2015,3.209915990403125e-05
+Palau|aus|export|cwti,Palau,aus,export,cwti,2016,0.0
+Palau|aus|export|cwti,Palau,aus,export,cwti,2017,0.034890462158715656
+Palau|aus|export|cwti,Palau,aus,export,cwti,2018,4.727503296895297e-08
+Palau|aus|export|raw_usd,Palau,aus,export,raw_usd,2014,168000.0
+Palau|aus|export|raw_usd,Palau,aus,export,raw_usd,2015,31350.0
+Palau|aus|export|raw_usd,Palau,aus,export,raw_usd,2017,534390.0
+Palau|aus|export|raw_usd,Palau,aus,export,raw_usd,2018,1760.0
+Palau|aus|export|sti,Palau,aus,export,sti,2014,0.014736359941907164
+Palau|aus|export|sti,Palau,aus,export,sti,2015,0.004910199730009496
+Palau|aus|export|sti,Palau,aus,export,sti,2017,0.08324143140145432
+Palau|aus|export|sti,Palau,aus,export,sti,2018,0.00020415482798241883
+Palau|aus|import|cwti,Palau,aus,import,cwti,2014,0.00014519652663261352
+Palau|aus|import|cwti,Palau,aus,import,cwti,2015,0.0008013728237092529
+Palau|aus|import|cwti,Palau,aus,import,cwti,2016,0.0002179074122726636
+Palau|aus|import|cwti,Palau,aus,import,cwti,2017,0.0
+Palau|aus|import|cwti,Palau,aus,import,cwti,2018,0.0006653935535048059
+Palau|aus|import|raw_usd,Palau,aus,import,raw_usd,2014,1393342.0
+Palau|aus|import|raw_usd,Palau,aus,import,raw_usd,2015,3246202.0
+Palau|aus|import|raw_usd,Palau,aus,import,raw_usd,2016,1717605.0
+Palau|aus|import|raw_usd,Palau,aus,import,raw_usd,2017,0.0
+Palau|aus|import|raw_usd,Palau,aus,import,raw_usd,2018,1882907.01
+Palau|aus|import|sti,Palau,aus,import,sti,2014,0.008445079014779127
+Palau|aus|import|sti,Palau,aus,import,sti,2015,0.021595871376474368
+Palau|aus|import|sti,Palau,aus,import,sti,2016,0.011188993543645108
+Palau|aus|import|sti,Palau,aus,import,sti,2018,0.012131450908015854
+Palau|aus|total|cwti,Palau,aus,total,cwti,2014,0.0013169226409046986
+Palau|aus|total|cwti,Palau,aus,total,cwti,2015,0.0008334719836132842
+Palau|aus|total|cwti,Palau,aus,total,cwti,2016,0.0002179074122726636
+Palau|aus|total|cwti,Palau,aus,total,cwti,2017,0.034890462158715656
+Palau|aus|total|cwti,Palau,aus,total,cwti,2018,0.0006654408285377748
+Palau|aus|total|sti,Palau,aus,total,sti,2014,0.008851697051110347
+Palau|aus|total|sti,Palau,aus,total,sti,2015,0.02091602370457841
+Palau|aus|total|sti,Palau,aus,total,sti,2016,0.010731803123620416
+Palau|aus|total|sti,Palau,aus,total,sti,2017,0.08324143140145432
+Palau|aus|total|sti,Palau,aus,total,sti,2018,0.011503822549217502
+Palau|china|export|cwti,Palau,china,export,cwti,2014,6.913339682030596e-05
+Palau|china|export|cwti,Palau,china,export,cwti,2015,4.450318124759677e-06
+Palau|china|export|cwti,Palau,china,export,cwti,2016,1.0336960437914235e-05
+Palau|china|export|cwti,Palau,china,export,cwti,2017,0.0
+Palau|china|export|cwti,Palau,china,export,cwti,2018,0.0009124195288116946
+Palau|china|export|raw_usd,Palau,china,export,raw_usd,2014,23940.0
+Palau|china|export|raw_usd,Palau,china,export,raw_usd,2015,3060.0
+Palau|china|export|raw_usd,Palau,china,export,raw_usd,2016,7660.0
+Palau|china|export|raw_usd,Palau,china,export,raw_usd,2018,10000.0
+Palau|china|export|sti,Palau,china,export,sti,2014,0.002099931291721771
+Palau|china|export|sti,Palau,china,export,sti,2015,0.0004792730836947068
+Palau|china|export|sti,Palau,china,export,sti,2016,0.0011713105971650308
+Palau|china|export|sti,Palau,china,export,sti,2018,0.0011599706135364707
+Palau|china|import|cwti,Palau,china,import,cwti,2014,0.005457727921009727
+Palau|china|import|cwti,Palau,china,import,cwti,2015,0.005184799841556862
+Palau|china|import|cwti,Palau,china,import,cwti,2016,0.004818113684552429
+Palau|china|import|cwti,Palau,china,import,cwti,2017,0.0
+Palau|china|import|cwti,Palau,china,import,cwti,2018,0.008067567145039457
+Palau|china|import|raw_usd,Palau,china,import,raw_usd,2014,7803297.0
+Palau|china|import|raw_usd,Palau,china,import,raw_usd,2015,8269070.0
+Palau|china|import|raw_usd,Palau,china,import,raw_usd,2016,7994219.0
+Palau|china|import|raw_usd,Palau,china,import,raw_usd,2017,0.0
+Palau|china|import|raw_usd,Palau,china,import,raw_usd,2018,8904665.93
+Palau|china|import|sti,Palau,china,import,sti,2014,0.047295968786406295
+Palau|china|import|sti,Palau,china,import,sti,2015,0.05501129385141865
+Palau|china|import|sti,Palau,china,import,sti,2016,0.052076737537143314
+Palau|china|import|sti,Palau,china,import,sti,2018,0.0573722000121909
+Palau|china|total|cwti,Palau,china,total,cwti,2014,0.005526861317830032
+Palau|china|total|cwti,Palau,china,total,cwti,2015,0.0051892501596816215
+Palau|china|total|cwti,Palau,china,total,cwti,2016,0.004828450644990343
+Palau|china|total|cwti,Palau,china,total,cwti,2017,0.0
+Palau|china|total|cwti,Palau,china,total,cwti,2018,0.008979986673851153
+Palau|china|total|sti,Palau,china,total,sti,2014,0.04437485872489294
+Palau|china|total|sti,Palau,china,total,sti,2015,0.05278941941038744
+Palau|china|total|sti,Palau,china,total,sti,2016,0.04999670474121384
+Palau|china|total|sti,Palau,china,total,sti,2017,0.0
+Palau|china|total|sti,Palau,china,total,sti,2018,0.054414246336425776
+Palau|us|export|cwti,Palau,us,export,cwti,2014,0.29890469439275397
+Palau|us|export|cwti,Palau,us,export,cwti,2015,0.26463014994007467
+Palau|us|export|cwti,Palau,us,export,cwti,2016,0.010818524046066265
+Palau|us|export|cwti,Palau,us,export,cwti,2017,0.025638304989048177
+Palau|us|export|cwti,Palau,us,export,cwti,2018,0.0
+Palau|us|export|raw_usd,Palau,us,export,raw_usd,2014,4367885.0
+Palau|us|export|raw_usd,Palau,us,export,raw_usd,2015,2167732.0
+Palau|us|export|raw_usd,Palau,us,export,raw_usd,2016,575562.0
+Palau|us|export|raw_usd,Palau,us,export,raw_usd,2017,540147.64
+Palau|us|export|sti,Palau,us,export,sti,2014,0.3831352711003403
+Palau|us|export|sti,Palau,us,export,sti,2015,0.33952143799467127
+Palau|us|export|sti,Palau,us,export,sti,2016,0.08801068797983022
+Palau|us|export|sti,Palau,us,export,sti,2017,0.08413829360900736
+Palau|us|import|cwti,Palau,us,import,cwti,2014,0.1734012488142648
+Palau|us|import|cwti,Palau,us,import,cwti,2015,0.19246513592911937
+Palau|us|import|cwti,Palau,us,import,cwti,2016,0.2331948481895099
+Palau|us|import|cwti,Palau,us,import,cwti,2017,0.0
+Palau|us|import|cwti,Palau,us,import,cwti,2018,0.0
+Palau|us|import|raw_usd,Palau,us,import,raw_usd,2014,54835424.0
+Palau|us|import|raw_usd,Palau,us,import,raw_usd,2015,56701292.0
+Palau|us|import|raw_usd,Palau,us,import,raw_usd,2016,64445292.0
+Palau|us|import|raw_usd,Palau,us,import,raw_usd,2017,0.0
+Palau|us|import|sti,Palau,us,import,sti,2014,0.33235880960232
+Palau|us|import|sti,Palau,us,import,sti,2015,0.37721429809725804
+Palau|us|import|sti,Palau,us,import,sti,2016,0.41981593911657433
+Palau|us|total|cwti,Palau,us,total,cwti,2014,0.4723059432070188
+Palau|us|total|cwti,Palau,us,total,cwti,2015,0.45709528586919407
+Palau|us|total|cwti,Palau,us,total,cwti,2016,0.24401337223557618
+Palau|us|total|cwti,Palau,us,total,cwti,2017,0.025638304989048177
+Palau|us|total|cwti,Palau,us,total,cwti,2018,0.0
+Palau|us|total|sti,Palau,us,total,sti,2014,0.335640593599144
+Palau|us|total|sti,Palau,us,total,sti,2015,0.3756785251460222
+Palau|us|total|sti,Palau,us,total,sti,2016,0.4062581350529761
+Palau|us|total|sti,Palau,us,total,sti,2017,0.08413829360900736
+Papua New Guinea|aus|export|cwti,Papua New Guinea,aus,export,cwti,2011,0.3807604261768511
+Papua New Guinea|aus|export|cwti,Papua New Guinea,aus,export,cwti,2012,0.31539379527087497
+Papua New Guinea|aus|export|cwti,Papua New Guinea,aus,export,cwti,2019,0.2528330470994562
+Papua New Guinea|aus|export|cwti,Papua New Guinea,aus,export,cwti,2020,0.19532478575641168
+Papua New Guinea|aus|export|cwti,Papua New Guinea,aus,export,cwti,2021,0.14610721542948157
+Papua New Guinea|aus|export|raw_usd,Papua New Guinea,aus,export,raw_usd,2011,2353206466.0
+Papua New Guinea|aus|export|raw_usd,Papua New Guinea,aus,export,raw_usd,2012,1621045418.0
+Papua New Guinea|aus|export|raw_usd,Papua New Guinea,aus,export,raw_usd,2019,2861521306.1429996
+Papua New Guinea|aus|export|raw_usd,Papua New Guinea,aus,export,raw_usd,2020,2256248249.5429997
+Papua New Guinea|aus|export|raw_usd,Papua New Guinea,aus,export,raw_usd,2021,1674852227.9669998
+Papua New Guinea|aus|export|sti,Papua New Guinea,aus,export,sti,2011,0.42790866342897843
+Papua New Guinea|aus|export|sti,Papua New Guinea,aus,export,sti,2012,0.3588220428960225
+Papua New Guinea|aus|export|sti,Papua New Guinea,aus,export,sti,2019,0.28063512007835933
+Papua New Guinea|aus|export|sti,Papua New Guinea,aus,export,sti,2020,0.21763470085794964
+Papua New Guinea|aus|export|sti,Papua New Guinea,aus,export,sti,2021,0.1735493277144119
+Papua New Guinea|aus|import|cwti,Papua New Guinea,aus,import,cwti,2011,0.1656259842075377
+Papua New Guinea|aus|import|cwti,Papua New Guinea,aus,import,cwti,2012,0.126510693687273
+Papua New Guinea|aus|import|cwti,Papua New Guinea,aus,import,cwti,2019,0.1721573377798931
+Papua New Guinea|aus|import|cwti,Papua New Guinea,aus,import,cwti,2020,0.16475341990365863
+Papua New Guinea|aus|import|cwti,Papua New Guinea,aus,import,cwti,2021,0.15997955859858443
+Papua New Guinea|aus|import|raw_usd,Papua New Guinea,aus,import,raw_usd,2011,2409180182.0
+Papua New Guinea|aus|import|raw_usd,Papua New Guinea,aus,import,raw_usd,2012,2865412712.0
+Papua New Guinea|aus|import|raw_usd,Papua New Guinea,aus,import,raw_usd,2019,1869541890.478
+Papua New Guinea|aus|import|raw_usd,Papua New Guinea,aus,import,raw_usd,2020,1491354719.328
+Papua New Guinea|aus|import|raw_usd,Papua New Guinea,aus,import,raw_usd,2021,1618812778.966
+Papua New Guinea|aus|import|sti,Papua New Guinea,aus,import,sti,2011,0.39459155350144676
+Papua New Guinea|aus|import|sti,Papua New Guinea,aus,import,sti,2012,0.34354634377156906
+Papua New Guinea|aus|import|sti,Papua New Guinea,aus,import,sti,2019,0.3722012687778729
+Papua New Guinea|aus|import|sti,Papua New Guinea,aus,import,sti,2020,0.36098199593698155
+Papua New Guinea|aus|import|sti,Papua New Guinea,aus,import,sti,2021,0.3564985260385533
+Papua New Guinea|aus|total|cwti,Papua New Guinea,aus,total,cwti,2011,0.5463864103843887
+Papua New Guinea|aus|total|cwti,Papua New Guinea,aus,total,cwti,2012,0.44190448895814793
+Papua New Guinea|aus|total|cwti,Papua New Guinea,aus,total,cwti,2019,0.4249903848793493
+Papua New Guinea|aus|total|cwti,Papua New Guinea,aus,total,cwti,2020,0.3600782056600703
+Papua New Guinea|aus|total|cwti,Papua New Guinea,aus,total,cwti,2021,0.306086774028066
+Papua New Guinea|aus|total|sti,Papua New Guinea,aus,total,sti,2011,0.41037993991925875
+Papua New Guinea|aus|total|sti,Papua New Guinea,aus,total,sti,2012,0.34891333785731077
+Papua New Guinea|aus|total|sti,Papua New Guinea,aus,total,sti,2019,0.3108548977282011
+Papua New Guinea|aus|total|sti,Papua New Guinea,aus,total,sti,2020,0.2584818099247249
+Papua New Guinea|aus|total|sti,Papua New Guinea,aus,total,sti,2021,0.2320879618923749
+Papua New Guinea|china|export|cwti,Papua New Guinea,china,export,cwti,2011,0.03150724641242031
+Papua New Guinea|china|export|cwti,Papua New Guinea,china,export,cwti,2012,0.014816795698234946
+Papua New Guinea|china|export|cwti,Papua New Guinea,china,export,cwti,2019,0.08546242990245351
+Papua New Guinea|china|export|cwti,Papua New Guinea,china,export,cwti,2020,0.06374092732826718
+Papua New Guinea|china|export|cwti,Papua New Guinea,china,export,cwti,2021,0.06852598430596854
+Papua New Guinea|china|export|raw_usd,Papua New Guinea,china,export,raw_usd,2011,353045922.0
+Papua New Guinea|china|export|raw_usd,Papua New Guinea,china,export,raw_usd,2012,302113043.0
+Papua New Guinea|china|export|raw_usd,Papua New Guinea,china,export,raw_usd,2019,2144488082.518
+Papua New Guinea|china|export|raw_usd,Papua New Guinea,china,export,raw_usd,2020,1857295222.4169998
+Papua New Guinea|china|export|raw_usd,Papua New Guinea,china,export,raw_usd,2021,1754659758.853
+Papua New Guinea|china|export|sti,Papua New Guinea,china,export,sti,2011,0.0641981104483636
+Papua New Guinea|china|export|sti,Papua New Guinea,china,export,sti,2012,0.06687340038167511
+Papua New Guinea|china|export|sti,Papua New Guinea,china,export,sti,2019,0.21031423713396408
+Papua New Guinea|china|export|sti,Papua New Guinea,china,export,sti,2020,0.1791522232615562
+Papua New Guinea|china|export|sti,Papua New Guinea,china,export,sti,2021,0.1818190383793491
+Papua New Guinea|china|import|cwti,Papua New Guinea,china,import,cwti,2011,0.007570480669925262
+Papua New Guinea|china|import|cwti,Papua New Guinea,china,import,cwti,2012,0.007064164178080626
+Papua New Guinea|china|import|cwti,Papua New Guinea,china,import,cwti,2019,0.03697082443891935
+Papua New Guinea|china|import|cwti,Papua New Guinea,china,import,cwti,2020,0.051891431988087315
+Papua New Guinea|china|import|cwti,Papua New Guinea,china,import,cwti,2021,0.04986089364197781
+Papua New Guinea|china|import|raw_usd,Papua New Guinea,china,import,raw_usd,2011,443420169.0
+Papua New Guinea|china|import|raw_usd,Papua New Guinea,china,import,raw_usd,2012,574783698.0
+Papua New Guinea|china|import|raw_usd,Papua New Guinea,china,import,raw_usd,2019,768141314.617
+Papua New Guinea|china|import|raw_usd,Papua New Guinea,china,import,raw_usd,2020,740330300.659
+Papua New Guinea|china|import|raw_usd,Papua New Guinea,china,import,raw_usd,2021,790740561.84
+Papua New Guinea|china|import|sti,Papua New Guinea,china,import,sti,2011,0.07262630443619682
+Papua New Guinea|china|import|sti,Papua New Guinea,china,import,sti,2012,0.06891322743158185
+Papua New Guinea|china|import|sti,Papua New Guinea,china,import,sti,2019,0.1529268605091548
+Papua New Guinea|china|import|sti,Papua New Guinea,china,import,sti,2020,0.17919674382023054
+Papua New Guinea|china|import|sti,Papua New Guinea,china,import,sti,2021,0.17413863322410691
+Papua New Guinea|china|total|cwti,Papua New Guinea,china,total,cwti,2011,0.03907772708234557
+Papua New Guinea|china|total|cwti,Papua New Guinea,china,total,cwti,2012,0.021880959876315574
+Papua New Guinea|china|total|cwti,Papua New Guinea,china,total,cwti,2019,0.12243325434137287
+Papua New Guinea|china|total|cwti,Papua New Guinea,china,total,cwti,2020,0.1156323593163545
+Papua New Guinea|china|total|cwti,Papua New Guinea,china,total,cwti,2021,0.11838687794794635
+Papua New Guinea|china|total|sti,Papua New Guinea,china,total,sti,2011,0.06863233305711781
+Papua New Guinea|china|total|sti,Papua New Guinea,china,total,sti,2012,0.06819655059580546
+Papua New Guinea|china|total|sti,Papua New Guinea,china,total,sti,2019,0.19137455488085786
+Papua New Guinea|china|total|sti,Papua New Guinea,china,total,sti,2020,0.17916490948709593
+Papua New Guinea|china|total|sti,Papua New Guinea,china,total,sti,2021,0.1793615232230122
+Papua New Guinea|us|export|cwti,Papua New Guinea,us,export,cwti,2011,0.0025185412337718933
+Papua New Guinea|us|export|cwti,Papua New Guinea,us,export,cwti,2012,0.0019671411620515423
+Papua New Guinea|us|export|cwti,Papua New Guinea,us,export,cwti,2019,0.0
+Papua New Guinea|us|export|cwti,Papua New Guinea,us,export,cwti,2020,0.0
+Papua New Guinea|us|export|cwti,Papua New Guinea,us,export,cwti,2021,0.0
+Papua New Guinea|us|export|raw_usd,Papua New Guinea,us,export,raw_usd,2011,109118349.0
+Papua New Guinea|us|export|raw_usd,Papua New Guinea,us,export,raw_usd,2012,81251278.0
+Papua New Guinea|us|export|sti,Papua New Guinea,us,export,sti,2011,0.019842154758114117
+Papua New Guinea|us|export|sti,Papua New Guinea,us,export,sti,2012,0.01798515281320307
+Papua New Guinea|us|import|cwti,Papua New Guinea,us,import,cwti,2011,0.005422215791598684
+Papua New Guinea|us|import|cwti,Papua New Guinea,us,import,cwti,2012,0.005650714097483856
+Papua New Guinea|us|import|cwti,Papua New Guinea,us,import,cwti,2019,0.0
+Papua New Guinea|us|import|cwti,Papua New Guinea,us,import,cwti,2020,0.0
+Papua New Guinea|us|import|cwti,Papua New Guinea,us,import,cwti,2021,0.0
+Papua New Guinea|us|import|raw_usd,Papua New Guinea,us,import,raw_usd,2011,345703958.0
+Papua New Guinea|us|import|raw_usd,Papua New Guinea,us,import,raw_usd,2012,486245537.0
+Papua New Guinea|us|import|sti,Papua New Guinea,us,import,sti,2011,0.056621693494745384
+Papua New Guinea|us|import|sti,Papua New Guinea,us,import,sti,2012,0.05829801609800118
+Papua New Guinea|us|total|cwti,Papua New Guinea,us,total,cwti,2011,0.007940757025370577
+Papua New Guinea|us|total|cwti,Papua New Guinea,us,total,cwti,2012,0.007617855259535399
+Papua New Guinea|us|total|cwti,Papua New Guinea,us,total,cwti,2019,0.0
+Papua New Guinea|us|total|cwti,Papua New Guinea,us,total,cwti,2020,0.0
+Papua New Guinea|us|total|cwti,Papua New Guinea,us,total,cwti,2021,0.0
+Papua New Guinea|us|total|sti,Papua New Guinea,us,total,sti,2011,0.03919252358457365
+Papua New Guinea|us|total|sti,Papua New Guinea,us,total,sti,2012,0.04413441565875993
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2009,0.6750963787441303
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2010,0.6368802279741251
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2011,0.4611899084659991
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2012,0.4739611036406707
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2013,0.4375453403809376
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2014,0.4442505929408135
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2015,0.33107714357071194
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2016,0.28193740513393595
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2017,0.10565154626986903
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2018,0.03971899249078636
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2019,0.025371222001459602
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2021,0.019725537627366608
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2022,0.008488290104336948
+Samoa|aus|export|cwti,Samoa,aus,export,cwti,2023,0.03319232118151065
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2009,31666493.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2010,45885535.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2011,33234982.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2012,38580003.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2013,28154951.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2014,29462461.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2015,24816555.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2016,20124167.0
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2017,9516657.219
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2018,4969451.404
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2019,4039212.13
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2021,2479478.411
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2022,2570964.585
+Samoa|aus|export|raw_usd,Samoa,aus,export,raw_usd,2023,5558765.753
+Samoa|aus|export|sti,Samoa,aus,export,sti,2009,0.6887591733165461
+Samoa|aus|export|sti,Samoa,aus,export,sti,2010,0.6531759168071556
+Samoa|aus|export|sti,Samoa,aus,export,sti,2011,0.5015552446536801
+Samoa|aus|export|sti,Samoa,aus,export,sti,2012,0.506953801177544
+Samoa|aus|export|sti,Samoa,aus,export,sti,2013,0.4533178853449439
+Samoa|aus|export|sti,Samoa,aus,export,sti,2014,0.5785845300794541
+Samoa|aus|export|sti,Samoa,aus,export,sti,2015,0.42113672503161464
+Samoa|aus|export|sti,Samoa,aus,export,sti,2016,0.3591005081576202
+Samoa|aus|export|sti,Samoa,aus,export,sti,2017,0.21433036894277016
+Samoa|aus|export|sti,Samoa,aus,export,sti,2018,0.10779379474037132
+Samoa|aus|export|sti,Samoa,aus,export,sti,2019,0.07998810727433457
+Samoa|aus|export|sti,Samoa,aus,export,sti,2021,0.08596150482922521
+Samoa|aus|export|sti,Samoa,aus,export,sti,2022,0.05889837073747859
+Samoa|aus|export|sti,Samoa,aus,export,sti,2023,0.1295053441294496
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2009,0.11498446434814727
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2010,0.10563988609510327
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2011,0.014078454001917106
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2012,0.011532645188228679
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2013,0.00668241369270846
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2014,0.0094127138393791
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2015,0.01157349711040545
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2016,0.01277735323065903
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2017,0.013772002702652657
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2018,0.019419717090275176
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2019,0.016673649323881445
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2021,0.03245643414506513
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2022,0.018346890509078513
+Samoa|aus|import|cwti,Samoa,aus,import,cwti,2023,0.017397011184786836
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2009,54322262.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2010,72191917.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2011,34364484.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2012,27870455.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2013,26418001.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2014,30683792.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2015,36401431.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2016,36129460.0
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2017,37395168.313
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2018,34857875.402
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2019,35584116.4
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2021,40469813.839
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2022,39661992.926
+Samoa|aus|import|raw_usd,Samoa,aus,import,raw_usd,2023,40559660.25
+Samoa|aus|import|sti,Samoa,aus,import,sti,2009,0.23563170065741587
+Samoa|aus|import|sti,Samoa,aus,import,sti,2010,0.23299152940944706
+Samoa|aus|import|sti,Samoa,aus,import,sti,2011,0.09934638779985258
+Samoa|aus|import|sti,Samoa,aus,import,sti,2012,0.08066347499019717
+Samoa|aus|import|sti,Samoa,aus,import,sti,2013,0.07206450030588403
+Samoa|aus|import|sti,Samoa,aus,import,sti,2014,0.07907707653457821
+Samoa|aus|import|sti,Samoa,aus,import,sti,2015,0.09822763909325453
+Samoa|aus|import|sti,Samoa,aus,import,sti,2016,0.10327407286230515
+Samoa|aus|import|sti,Samoa,aus,import,sti,2017,0.10498662117115903
+Samoa|aus|import|sti,Samoa,aus,import,sti,2018,0.09605797646480663
+Samoa|aus|import|sti,Samoa,aus,import,sti,2019,0.09089519062296875
+Samoa|aus|import|sti,Samoa,aus,import,sti,2021,0.10945676957167377
+Samoa|aus|import|sti,Samoa,aus,import,sti,2022,0.08879372347921408
+Samoa|aus|import|sti,Samoa,aus,import,sti,2023,0.08545748107845484
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2009,0.7900808430922776
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2010,0.7425201140692284
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2011,0.4752683624679162
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2012,0.48549374882889934
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2013,0.4442277540736461
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2014,0.45366330678019257
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2015,0.3426506406811174
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2016,0.294714758364595
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2017,0.11942354897252168
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2018,0.05913870958106154
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2019,0.04204487132534105
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2021,0.052181971772431744
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2022,0.02683518061341546
+Samoa|aus|total|cwti,Samoa,aus,total,cwti,2023,0.050589332366297486
+Samoa|aus|total|sti,Samoa,aus,total,sti,2009,0.31097320217709706
+Samoa|aus|total|sti,Samoa,aus,total,sti,2010,0.31065026211970875
+Samoa|aus|total|sti,Samoa,aus,total,sti,2011,0.16400887020352664
+Samoa|aus|total|sti,Samoa,aus,total,sti,2012,0.1576086601521855
+Samoa|aus|total|sti,Samoa,aus,total,sti,2013,0.12729961802406584
+Samoa|aus|total|sti,Samoa,aus,total,sti,2014,0.13702442945572876
+Samoa|aus|total|sti,Samoa,aus,total,sti,2015,0.1425298548869824
+Samoa|aus|total|sti,Samoa,aus,total,sti,2016,0.1385963371815552
+Samoa|aus|total|sti,Samoa,aus,total,sti,2017,0.11710634623764593
+Samoa|aus|total|sti,Samoa,aus,total,sti,2018,0.09738085660246763
+Samoa|aus|total|sti,Samoa,aus,total,sti,2019,0.0896490286162557
+Samoa|aus|total|sti,Samoa,aus,total,sti,2021,0.10775647553680226
+Samoa|aus|total|sti,Samoa,aus,total,sti,2022,0.08613231747674785
+Samoa|aus|total|sti,Samoa,aus,total,sti,2023,0.08911065795839838
+Samoa|china|export|cwti,Samoa,china,export,cwti,2009,2.00029298478663e-06
+Samoa|china|export|cwti,Samoa,china,export,cwti,2010,2.104403633660912e-05
+Samoa|china|export|cwti,Samoa,china,export,cwti,2011,1.016608836891509e-05
+Samoa|china|export|cwti,Samoa,china,export,cwti,2012,3.9396881242153253e-10
+Samoa|china|export|cwti,Samoa,china,export,cwti,2013,4.340248800899129e-05
+Samoa|china|export|cwti,Samoa,china,export,cwti,2014,1.4074920895890871e-07
+Samoa|china|export|cwti,Samoa,china,export,cwti,2015,0.0005575553730159606
+Samoa|china|export|cwti,Samoa,china,export,cwti,2016,0.00047924295620023493
+Samoa|china|export|cwti,Samoa,china,export,cwti,2017,0.00017412022059189113
+Samoa|china|export|cwti,Samoa,china,export,cwti,2018,0.000791610203805527
+Samoa|china|export|cwti,Samoa,china,export,cwti,2019,0.0007240270552430337
+Samoa|china|export|cwti,Samoa,china,export,cwti,2021,0.00011509472533314627
+Samoa|china|export|cwti,Samoa,china,export,cwti,2022,0.0012036646303100489
+Samoa|china|export|cwti,Samoa,china,export,cwti,2023,0.0015401846233242477
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2009,19179.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2010,23482.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2011,86372.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2012,170.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2013,137277.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2014,7675.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2015,825073.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2016,798996.0
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2017,506999.404
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2018,559119.088
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2019,669449.3699999999
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2021,143389.383
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2022,831403.9290000001
+Samoa|china|export|raw_usd,Samoa,china,export,raw_usd,2023,1157383.446
+Samoa|china|export|sti,Samoa,china,export,sti,2009,0.00041715109358772496
+Samoa|china|export|sti,Samoa,china,export,sti,2010,0.00033426387811465267
+Samoa|china|export|sti,Samoa,china,export,sti,2011,0.001303455786172162
+Samoa|china|export|sti,Samoa,china,export,sti,2012,2.2338553524783933e-06
+Samoa|china|export|sti,Samoa,china,export,sti,2013,0.002210272692234409
+Samoa|china|export|sti,Samoa,china,export,sti,2014,0.0001507218378111662
+Samoa|china|export|sti,Samoa,china,export,sti,2015,0.014001481717829466
+Samoa|china|export|sti,Samoa,china,export,sti,2016,0.014257478066839035
+Samoa|china|export|sti,Samoa,china,export,sti,2017,0.011418438934223061
+Samoa|china|export|sti,Samoa,china,export,sti,2018,0.012128012391626078
+Samoa|china|export|sti,Samoa,china,export,sti,2019,0.013257037832844815
+Samoa|china|export|sti,Samoa,china,export,sti,2021,0.004971193572217042
+Samoa|china|export|sti,Samoa,china,export,sti,2022,0.019046678872411748
+Samoa|china|export|sti,Samoa,china,export,sti,2023,0.026964140624753948
+Samoa|china|import|cwti,Samoa,china,import,cwti,2009,0.009909892575545504
+Samoa|china|import|cwti,Samoa,china,import,cwti,2010,0.006430874261965592
+Samoa|china|import|cwti,Samoa,china,import,cwti,2011,0.007446043523008366
+Samoa|china|import|cwti,Samoa,china,import,cwti,2012,0.017616568964828244
+Samoa|china|import|cwti,Samoa,china,import,cwti,2013,0.011927530360557666
+Samoa|china|import|cwti,Samoa,china,import,cwti,2014,0.027931002816944734
+Samoa|china|import|cwti,Samoa,china,import,cwti,2015,0.03352084864873881
+Samoa|china|import|cwti,Samoa,china,import,cwti,2016,0.030000602258004716
+Samoa|china|import|cwti,Samoa,china,import,cwti,2017,0.01488930262485132
+Samoa|china|import|cwti,Samoa,china,import,cwti,2018,0.033844039401518755
+Samoa|china|import|cwti,Samoa,china,import,cwti,2019,0.030501330271294293
+Samoa|china|import|cwti,Samoa,china,import,cwti,2021,0.04255333775021818
+Samoa|china|import|cwti,Samoa,china,import,cwti,2022,0.042833663928904274
+Samoa|china|import|cwti,Samoa,china,import,cwti,2023,0.03931885201013025
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2009,17294377.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2010,18939858.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2011,22255213.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2012,34151068.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2013,29863115.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2014,49001529.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2015,54977068.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2016,49231831.0
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2017,32261765.507999998
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2018,43148324.846
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2019,48418997.35
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2021,50633872.241
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2022,57547090.516
+Samoa|china|import|raw_usd,Samoa,china,import,raw_usd,2023,60300514.698
+Samoa|china|import|sti,Samoa,china,import,sti,2009,0.07501719026944235
+Samoa|china|import|sti,Samoa,china,import,sti,2010,0.06112632363284869
+Samoa|china|import|sti,Samoa,china,import,sti,2011,0.06433895591932416
+Samoa|china|import|sti,Samoa,china,import,sti,2012,0.09884100634548389
+Samoa|china|import|sti,Samoa,china,import,sti,2013,0.08146227491066224
+Samoa|china|import|sti,Samoa,china,import,sti,2014,0.12628483660182396
+Samoa|china|import|sti,Samoa,china,import,sti,2015,0.14835316759688136
+Samoa|china|import|sti,Samoa,china,import,sti,2016,0.14072647921775452
+Samoa|china|import|sti,Samoa,china,import,sti,2017,0.09057463588213588
+Samoa|china|import|sti,Samoa,china,import,sti,2018,0.1189039987306596
+Samoa|china|import|sti,Samoa,china,import,sti,2019,0.1236802944445536
+Samoa|china|import|sti,Samoa,china,import,sti,2021,0.13694701212249638
+Samoa|china|import|sti,Samoa,china,import,sti,2022,0.12883418268579536
+Samoa|china|import|sti,Samoa,china,import,sti,2023,0.1270506227631782
+Samoa|china|total|cwti,Samoa,china,total,cwti,2009,0.00991189286853029
+Samoa|china|total|cwti,Samoa,china,total,cwti,2010,0.006451918298302201
+Samoa|china|total|cwti,Samoa,china,total,cwti,2011,0.0074562096113772805
+Samoa|china|total|cwti,Samoa,china,total,cwti,2012,0.017616569358797057
+Samoa|china|total|cwti,Samoa,china,total,cwti,2013,0.011970932848566656
+Samoa|china|total|cwti,Samoa,china,total,cwti,2014,0.027931143566153692
+Samoa|china|total|cwti,Samoa,china,total,cwti,2015,0.03407840402175477
+Samoa|china|total|cwti,Samoa,china,total,cwti,2016,0.03047984521420495
+Samoa|china|total|cwti,Samoa,china,total,cwti,2017,0.015063422845443212
+Samoa|china|total|cwti,Samoa,china,total,cwti,2018,0.03463564960532428
+Samoa|china|total|cwti,Samoa,china,total,cwti,2019,0.031225357326537327
+Samoa|china|total|cwti,Samoa,china,total,cwti,2021,0.042668432475551334
+Samoa|china|total|cwti,Samoa,china,total,cwti,2022,0.04403732855921432
+Samoa|china|total|cwti,Samoa,china,total,cwti,2023,0.0408590366334545
+Samoa|china|total|sti,Samoa,china,total,sti,2009,0.06261344230873551
+Samoa|china|total|sti,Samoa,china,total,sti,2010,0.04989069836690885
+Samoa|china|total|sti,Samoa,china,total,sti,2011,0.05420483816256859
+Samoa|china|total|sti,Samoa,china,total,sti,2012,0.08100065862177207
+Samoa|china|total|sti,Samoa,china,total,sti,2013,0.06998042624068129
+Samoa|china|total|sti,Samoa,china,total,sti,2014,0.11165214591471592
+Samoa|china|total|sti,Samoa,china,total,sti,2015,0.1299204952464939
+Samoa|china|total|sti,Samoa,china,total,sti,2016,0.12326475177083347
+Samoa|china|total|sti,Samoa,china,total,sti,2017,0.08180091663555206
+Samoa|china|total|sti,Samoa,china,total,sti,2018,0.1068680393974129
+Samoa|china|total|sti,Samoa,china,total,sti,2019,0.11106415659645803
+Samoa|china|total|sti,Samoa,china,total,sti,2021,0.12739624946933473
+Samoa|china|total|sti,Samoa,china,total,sti,2022,0.11906045216088965
+Samoa|china|total|sti,Samoa,china,total,sti,2023,0.11874979731519505
+Samoa|us|export|cwti,Samoa,us,export,cwti,2009,0.006197167669448434
+Samoa|us|export|cwti,Samoa,us,export,cwti,2010,0.0053391147888629574
+Samoa|us|export|cwti,Samoa,us,export,cwti,2011,0.004009327877165852
+Samoa|us|export|cwti,Samoa,us,export,cwti,2012,0.0033707208695398843
+Samoa|us|export|cwti,Samoa,us,export,cwti,2013,0.0026158731377500105
+Samoa|us|export|cwti,Samoa,us,export,cwti,2014,0.005224440259062954
+Samoa|us|export|cwti,Samoa,us,export,cwti,2015,0.007148077014010984
+Samoa|us|export|cwti,Samoa,us,export,cwti,2016,0.009283555324150048
+Samoa|us|export|cwti,Samoa,us,export,cwti,2017,0.004626108603149744
+Samoa|us|export|cwti,Samoa,us,export,cwti,2018,0.0
+Samoa|us|export|cwti,Samoa,us,export,cwti,2019,0.0
+Samoa|us|export|cwti,Samoa,us,export,cwti,2021,0.0
+Samoa|us|export|cwti,Samoa,us,export,cwti,2022,0.0
+Samoa|us|export|cwti,Samoa,us,export,cwti,2023,0.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2009,1651740.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2010,1840903.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2011,1735276.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2012,1723759.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2013,1439042.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2014,1926307.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2015,3146603.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2016,3740930.0
+Samoa|us|export|raw_usd,Samoa,us,export,raw_usd,2017,2513397.43
+Samoa|us|export|sti,Samoa,us,export,sti,2009,0.035926020507982104
+Samoa|us|export|sti,Samoa,us,export,sti,2010,0.026205066689928388
+Samoa|us|export|sti,Samoa,us,export,sti,2011,0.026187370245052615
+Samoa|us|export|sti,Samoa,us,export,sti,2012,0.022650754520781195
+Samoa|us|export|sti,Samoa,us,export,sti,2013,0.023169760670603147
+Samoa|us|export|sti,Samoa,us,export,sti,2014,0.0378288640037152
+Samoa|us|export|sti,Samoa,us,export,sti,2015,0.053397825862399266
+Samoa|us|export|sti,Samoa,us,export,sti,2016,0.06675406062681184
+Samoa|us|export|sti,Samoa,us,export,sti,2017,0.056605737295675765
+Samoa|us|import|cwti,Samoa,us,import,cwti,2009,0.033715963704280705
+Samoa|us|import|cwti,Samoa,us,import,cwti,2010,0.026004854860032973
+Samoa|us|import|cwti,Samoa,us,import,cwti,2011,0.029102825271260603
+Samoa|us|import|cwti,Samoa,us,import,cwti,2012,0.03130516453270478
+Samoa|us|import|cwti,Samoa,us,import,cwti,2013,0.03109814242955154
+Samoa|us|import|cwti,Samoa,us,import,cwti,2014,0.023662759154728322
+Samoa|us|import|cwti,Samoa,us,import,cwti,2015,0.01871114848778838
+Samoa|us|import|cwti,Samoa,us,import,cwti,2016,0.02107371299504257
+Samoa|us|import|cwti,Samoa,us,import,cwti,2017,0.023158000925456754
+Samoa|us|import|cwti,Samoa,us,import,cwti,2018,0.0
+Samoa|us|import|cwti,Samoa,us,import,cwti,2019,0.0
+Samoa|us|import|cwti,Samoa,us,import,cwti,2021,0.0
+Samoa|us|import|cwti,Samoa,us,import,cwti,2022,0.0
+Samoa|us|import|cwti,Samoa,us,import,cwti,2023,0.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2009,30532873.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2010,35551680.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2011,39114515.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2012,43317364.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2013,45351372.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2014,40651541.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2015,37301985.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2016,37173161.0
+Samoa|us|import|raw_usd,Samoa,us,import,raw_usd,2017,39693663.305
+Samoa|us|import|sti,Samoa,us,import,sti,2009,0.13244133300168714
+Samoa|us|import|sti,Samoa,us,import,sti,2010,0.11473916527629056
+Samoa|us|import|sti,Samoa,us,import,sti,2011,0.11307854282907757
+Samoa|us|import|sti,Samoa,us,import,sti,2012,0.1253703646982178
+Samoa|us|import|sti,Samoa,us,import,sti,2013,0.12371200839027376
+Samoa|us|import|sti,Samoa,us,import,sti,2014,0.10476557196403703
+Samoa|us|import|sti,Samoa,us,import,sti,2015,0.10065774392336374
+Samoa|us|import|sti,Samoa,us,import,sti,2016,0.10625743472601583
+Samoa|us|import|sti,Samoa,us,import,sti,2017,0.11143962656931955
+Samoa|us|total|cwti,Samoa,us,total,cwti,2009,0.039913131373729135
+Samoa|us|total|cwti,Samoa,us,total,cwti,2010,0.03134396964889593
+Samoa|us|total|cwti,Samoa,us,total,cwti,2011,0.03311215314842646
+Samoa|us|total|cwti,Samoa,us,total,cwti,2012,0.034675885402244665
+Samoa|us|total|cwti,Samoa,us,total,cwti,2013,0.03371401556730155
+Samoa|us|total|cwti,Samoa,us,total,cwti,2014,0.028887199413791274
+Samoa|us|total|cwti,Samoa,us,total,cwti,2015,0.025859225501799362
+Samoa|us|total|cwti,Samoa,us,total,cwti,2016,0.03035726831919262
+Samoa|us|total|cwti,Samoa,us,total,cwti,2017,0.0277841095286065
+Samoa|us|total|cwti,Samoa,us,total,cwti,2018,0.0
+Samoa|us|total|cwti,Samoa,us,total,cwti,2019,0.0
+Samoa|us|total|cwti,Samoa,us,total,cwti,2021,0.0
+Samoa|us|total|cwti,Samoa,us,total,cwti,2022,0.0
+Samoa|us|total|cwti,Samoa,us,total,cwti,2023,0.0
+Samoa|us|total|sti,Samoa,us,total,sti,2009,0.11639373270889464
+Samoa|us|total|sti,Samoa,us,total,sti,2010,0.0983762396082443
+Samoa|us|total|sti,Samoa,us,total,sti,2011,0.0991091863057053
+Samoa|us|total|sti,Samoa,us,total,sti,2012,0.10682952776307103
+Samoa|us|total|sti,Samoa,us,total,sti,2013,0.10914567768640959
+Samoa|us|total|sti,Samoa,us,total,sti,2014,0.09700031238276377
+Samoa|us|total|sti,Samoa,us,total,sti,2015,0.09417381646667268
+Samoa|us|total|sti,Samoa,us,total,sti,2016,0.10080315624293582
+Samoa|us|total|sti,Samoa,us,total,sti,2017,0.1053618061555648
+Solomon Islands|aus|export|cwti,Solomon Islands,aus,export,cwti,2015,0.0007964494152463263
+Solomon Islands|aus|export|cwti,Solomon Islands,aus,export,cwti,2016,0.001112835207044111
+Solomon Islands|aus|export|cwti,Solomon Islands,aus,export,cwti,2017,0.0006711163280783886
+Solomon Islands|aus|export|cwti,Solomon Islands,aus,export,cwti,2018,0.0012692233287278274
+Solomon Islands|aus|export|raw_usd,Solomon Islands,aus,export,raw_usd,2015,5658647.0
+Solomon Islands|aus|export|raw_usd,Solomon Islands,aus,export,raw_usd,2016,5063539.0
+Solomon Islands|aus|export|raw_usd,Solomon Islands,aus,export,raw_usd,2017,4119616.7600000002
+Solomon Islands|aus|export|raw_usd,Solomon Islands,aus,export,raw_usd,2018,5017158.688999999
+Solomon Islands|aus|export|sti,Solomon Islands,aus,export,sti,2015,0.014132464155129082
+Solomon Islands|aus|export|sti,Solomon Islands,aus,export,sti,2016,0.011579015335254652
+Solomon Islands|aus|export|sti,Solomon Islands,aus,export,sti,2017,0.008243937783394325
+Solomon Islands|aus|export|sti,Solomon Islands,aus,export,sti,2018,0.008684283439230424
+Solomon Islands|aus|import|cwti,Solomon Islands,aus,import,cwti,2015,0.13203801406317872
+Solomon Islands|aus|import|cwti,Solomon Islands,aus,import,cwti,2016,0.05199907328428369
+Solomon Islands|aus|import|cwti,Solomon Islands,aus,import,cwti,2017,0.05391415627490042
+Solomon Islands|aus|import|cwti,Solomon Islands,aus,import,cwti,2018,0.07026116029405621
+Solomon Islands|aus|import|raw_usd,Solomon Islands,aus,import,raw_usd,2015,134501409.0
+Solomon Islands|aus|import|raw_usd,Solomon Islands,aus,import,raw_usd,2016,92484188.0
+Solomon Islands|aus|import|raw_usd,Solomon Islands,aus,import,raw_usd,2017,113907061.567
+Solomon Islands|aus|import|raw_usd,Solomon Islands,aus,import,raw_usd,2018,109593247.88
+Solomon Islands|aus|import|sti,Solomon Islands,aus,import,sti,2015,0.28873482298475994
+Solomon Islands|aus|import|sti,Solomon Islands,aus,import,sti,2016,0.20377536075870661
+Solomon Islands|aus|import|sti,Solomon Islands,aus,import,sti,2017,0.19921831617074057
+Solomon Islands|aus|import|sti,Solomon Islands,aus,import,sti,2018,0.18211247401685488
+Solomon Islands|aus|total|cwti,Solomon Islands,aus,total,cwti,2015,0.13283446347842504
+Solomon Islands|aus|total|cwti,Solomon Islands,aus,total,cwti,2016,0.0531119084913278
+Solomon Islands|aus|total|cwti,Solomon Islands,aus,total,cwti,2017,0.0545852726029788
+Solomon Islands|aus|total|cwti,Solomon Islands,aus,total,cwti,2018,0.07153038362278404
+Solomon Islands|aus|total|sti,Solomon Islands,aus,total,sti,2015,0.1618045128412719
+Solomon Islands|aus|total|sti,Solomon Islands,aus,total,sti,2016,0.1094619230538295
+Solomon Islands|aus|total|sti,Solomon Islands,aus,total,sti,2017,0.11015246173981465
+Solomon Islands|aus|total|sti,Solomon Islands,aus,total,sti,2018,0.09716720475538432
+Solomon Islands|china|export|cwti,Solomon Islands,china,export,cwti,2015,0.3906505927803071
+Solomon Islands|china|export|cwti,Solomon Islands,china,export,cwti,2016,0.5101077292685776
+Solomon Islands|china|export|cwti,Solomon Islands,china,export,cwti,2017,0.5440294528915652
+Solomon Islands|china|export|cwti,Solomon Islands,china,export,cwti,2018,0.5568724124024222
+Solomon Islands|china|export|raw_usd,Solomon Islands,china,export,raw_usd,2015,232210662.0
+Solomon Islands|china|export|raw_usd,Solomon Islands,china,export,raw_usd,2016,273317891.0
+Solomon Islands|china|export|raw_usd,Solomon Islands,china,export,raw_usd,2017,325830017.939
+Solomon Islands|china|export|raw_usd,Solomon Islands,china,export,raw_usd,2018,380352736.55300003
+Solomon Islands|china|export|sti,Solomon Islands,china,export,sti,2015,0.5799458522777255
+Solomon Islands|china|export|sti,Solomon Islands,china,export,sti,2016,0.6250079344285606
+Solomon Islands|china|export|sti,Solomon Islands,china,export,sti,2017,0.6520321069504953
+Solomon Islands|china|export|sti,Solomon Islands,china,export,sti,2018,0.6583588791710213
+Solomon Islands|china|import|cwti,Solomon Islands,china,import,cwti,2015,0.017788987577640917
+Solomon Islands|china|import|cwti,Solomon Islands,china,import,cwti,2016,0.03729965133343083
+Solomon Islands|china|import|cwti,Solomon Islands,china,import,cwti,2017,0.02571407783516286
+Solomon Islands|china|import|cwti,Solomon Islands,china,import,cwti,2018,0.04216379961792626
+Solomon Islands|china|import|raw_usd,Solomon Islands,china,import,raw_usd,2015,49136355.0
+Solomon Islands|china|import|raw_usd,Solomon Islands,china,import,raw_usd,2016,67393082.0
+Solomon Islands|china|import|raw_usd,Solomon Islands,china,import,raw_usd,2017,71849557.36
+Solomon Islands|china|import|raw_usd,Solomon Islands,china,import,raw_usd,2018,89413797.743
+Solomon Islands|china|import|sti,Solomon Islands,china,import,sti,2015,0.10548125011122614
+Solomon Islands|china|import|sti,Solomon Islands,china,import,sti,2016,0.14849078414562172
+Solomon Islands|china|import|sti,Solomon Islands,china,import,sti,2017,0.125661637109767
+Solomon Islands|china|import|sti,Solomon Islands,china,import,sti,2018,0.14858002872631357
+Solomon Islands|china|total|cwti,Solomon Islands,china,total,cwti,2015,0.40843958035794803
+Solomon Islands|china|total|cwti,Solomon Islands,china,total,cwti,2016,0.5474073806020084
+Solomon Islands|china|total|cwti,Solomon Islands,china,total,cwti,2017,0.5697435307267281
+Solomon Islands|china|total|cwti,Solomon Islands,china,total,cwti,2018,0.5990362120203485
+Solomon Islands|china|total|sti,Solomon Islands,china,total,sti,2015,0.3247945122469846
+Solomon Islands|china|total|sti,Solomon Islands,china,total,sti,2016,0.38232442166613867
+Solomon Islands|china|total|sti,Solomon Islands,china,total,sti,2017,0.3711481575501378
+Solomon Islands|china|total|sti,Solomon Islands,china,total,sti,2018,0.39827012565116476
+Solomon Islands|us|export|cwti,Solomon Islands,us,export,cwti,2015,5.0070449129467504e-05
+Solomon Islands|us|export|cwti,Solomon Islands,us,export,cwti,2016,0.0008184354607272035
+Solomon Islands|us|export|cwti,Solomon Islands,us,export,cwti,2017,0.000625372725658778
+Solomon Islands|us|export|cwti,Solomon Islands,us,export,cwti,2018,0.0
+Solomon Islands|us|export|raw_usd,Solomon Islands,us,export,raw_usd,2015,961810.0
+Solomon Islands|us|export|raw_usd,Solomon Islands,us,export,raw_usd,2016,1897548.0
+Solomon Islands|us|export|raw_usd,Solomon Islands,us,export,raw_usd,2017,3556718.975
+Solomon Islands|us|export|sti,Solomon Islands,us,export,sti,2015,0.0024021193315371505
+Solomon Islands|us|export|sti,Solomon Islands,us,export,sti,2016,0.0043392057198299045
+Solomon Islands|us|export|sti,Solomon Islands,us,export,sti,2017,0.007117499430436834
+Solomon Islands|us|import|cwti,Solomon Islands,us,import,cwti,2015,0.00023262627949715648
+Solomon Islands|us|import|cwti,Solomon Islands,us,import,cwti,2016,0.00029213338709720946
+Solomon Islands|us|import|cwti,Solomon Islands,us,import,cwti,2017,0.00031726609254997503
+Solomon Islands|us|import|cwti,Solomon Islands,us,import,cwti,2018,0.0
+Solomon Islands|us|import|raw_usd,Solomon Islands,us,import,raw_usd,2015,5560216.0
+Solomon Islands|us|import|raw_usd,Solomon Islands,us,import,raw_usd,2016,6439029.0
+Solomon Islands|us|import|raw_usd,Solomon Islands,us,import,raw_usd,2017,8564590.098
+Solomon Islands|us|import|sti,Solomon Islands,us,import,sti,2015,0.011936142486931344
+Solomon Islands|us|import|sti,Solomon Islands,us,import,sti,2016,0.01418745718360823
+Solomon Islands|us|import|sti,Solomon Islands,us,import,sti,2017,0.01497908202128943
+Solomon Islands|us|total|cwti,Solomon Islands,us,total,cwti,2015,0.000282696728626624
+Solomon Islands|us|total|cwti,Solomon Islands,us,total,cwti,2016,0.001110568847824413
+Solomon Islands|us|total|cwti,Solomon Islands,us,total,cwti,2017,0.000942638818208753
+Solomon Islands|us|total|cwti,Solomon Islands,us,total,cwti,2018,0.0
+Solomon Islands|us|total|sti,Solomon Islands,us,total,sti,2015,0.007529201041901048
+Solomon Islands|us|total|sti,Solomon Islands,us,total,sti,2016,0.009354782301655524
+Solomon Islands|us|total|sti,Solomon Islands,us,total,sti,2017,0.011312629083747241
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2008,0.005507042332929171
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2009,0.03146887573366812
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2010,0.00200207939366603
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2011,0.0446065887246359
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2012,0.04924687560765857
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2013,0.027353258896996954
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2014,0.01042487612032162
+Tonga|aus|export|cwti,Tonga,aus,export,cwti,2017,0.17208017959955177
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2008,577016.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2009,747834.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2010,324304.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2011,1334867.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2012,1873064.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2013,1848001.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2014,1657377.0
+Tonga|aus|export|raw_usd,Tonga,aus,export,raw_usd,2017,12311424.781
+Tonga|aus|export|sti,Tonga,aus,export,sti,2008,0.062098162311270404
+Tonga|aus|export|sti,Tonga,aus,export,sti,2009,0.09589512386873454
+Tonga|aus|export|sti,Tonga,aus,export,sti,2010,0.0392761267797873
+Tonga|aus|export|sti,Tonga,aus,export,sti,2011,0.09275036111973277
+Tonga|aus|export|sti,Tonga,aus,export,sti,2012,0.12019835066288762
+Tonga|aus|export|sti,Tonga,aus,export,sti,2013,0.10817316289669544
+Tonga|aus|export|sti,Tonga,aus,export,sti,2014,0.08778715149886962
+Tonga|aus|export|sti,Tonga,aus,export,sti,2017,0.3699855478407498
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2008,0.026040141748871155
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2009,0.025022452601275027
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2010,0.01815635617869815
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2011,0.006759327339397682
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2012,0.0032561725260597503
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2013,0.003557863018118912
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2014,0.0036671431763203267
+Tonga|aus|import|cwti,Tonga,aus,import,cwti,2017,0.007425779315967126
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2008,17907871.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2009,17441861.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2010,14602748.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2011,12624511.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2012,10295701.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2013,11201789.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2014,11761978.0
+Tonga|aus|import|raw_usd,Tonga,aus,import,raw_usd,2017,14479579.472
+Tonga|aus|import|sti,Tonga,aus,import,sti,2008,0.10792856690195501
+Tonga|aus|import|sti,Tonga,aus,import,sti,2009,0.12060402450719307
+Tonga|aus|import|sti,Tonga,aus,import,sti,2010,0.09196994783646364
+Tonga|aus|import|sti,Tonga,aus,import,sti,2011,0.06543615427798341
+Tonga|aus|import|sti,Tonga,aus,import,sti,2012,0.05169317330852524
+Tonga|aus|import|sti,Tonga,aus,import,sti,2013,0.056567047082763194
+Tonga|aus|import|sti,Tonga,aus,import,sti,2014,0.05390809288210363
+Tonga|aus|import|sti,Tonga,aus,import,sti,2017,0.0764212348444555
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2008,0.03154718408180033
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2009,0.05649132833494314
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2010,0.02015843557236418
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2011,0.05136591606403359
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2012,0.05250304813371832
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2013,0.030911121915115868
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2014,0.014092019296641948
+Tonga|aus|total|cwti,Tonga,aus,total,cwti,2017,0.1795059589155189
+Tonga|aus|total|sti,Tonga,aus,total,sti,2008,0.10549809493588756
+Tonga|aus|total|sti,Tonga,aus,total,sti,2009,0.11933980636998412
+Tonga|aus|total|sti,Tonga,aus,total,sti,2010,0.08936512980711346
+Tonga|aus|total|sti,Tonga,aus,total,sti,2011,0.06733228496410366
+Tonga|aus|total|sti,Tonga,aus,total,sti,2012,0.05666412052706556
+Tonga|aus|total|sti,Tonga,aus,total,sti,2013,0.06066552180384622
+Tonga|aus|total|sti,Tonga,aus,total,sti,2014,0.056606166445735934
+Tonga|aus|total|sti,Tonga,aus,total,sti,2017,0.12027600140631572
+Tonga|china|export|cwti,Tonga,china,export,cwti,2008,0.0001391075419448427
+Tonga|china|export|cwti,Tonga,china,export,cwti,2009,0.00017411909968481005
+Tonga|china|export|cwti,Tonga,china,export,cwti,2010,3.0563810522383915e-05
+Tonga|china|export|cwti,Tonga,china,export,cwti,2011,9.300013704046779e-07
+Tonga|china|export|cwti,Tonga,china,export,cwti,2012,6.336386891002126e-07
+Tonga|china|export|cwti,Tonga,china,export,cwti,2013,4.206945576332363e-06
+Tonga|china|export|cwti,Tonga,china,export,cwti,2014,7.878933633871763e-07
+Tonga|china|export|cwti,Tonga,china,export,cwti,2017,5.172824724495356e-05
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2008,54904.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2009,61751.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2010,42928.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2011,3174.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2012,1747.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2013,7638.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2014,6183.0
+Tonga|china|export|raw_usd,Tonga,china,export,raw_usd,2017,161451.874
+Tonga|china|export|sti,Tonga,china,export,sti,2008,0.005908739971747734
+Tonga|china|export|sti,Tonga,china,export,sti,2009,0.007918361286085184
+Tonga|china|export|sti,Tonga,china,export,sti,2010,0.005198966310630486
+Tonga|china|export|sti,Tonga,china,export,sti,2011,0.00022053856016669213
+Tonga|china|export|sti,Tonga,china,export,sti,2012,0.0001121085657553958
+Tonga|china|export|sti,Tonga,china,export,sti,2013,0.0004470920839355389
+Tonga|china|export|sti,Tonga,china,export,sti,2014,0.0003274981840085333
+Tonga|china|export|sti,Tonga,china,export,sti,2017,0.004851985949180589
+Tonga|china|import|cwti,Tonga,china,import,cwti,2008,0.0038163192971066
+Tonga|china|import|cwti,Tonga,china,import,cwti,2009,0.005752022667621949
+Tonga|china|import|cwti,Tonga,china,import,cwti,2010,0.0054678523829665955
+Tonga|china|import|cwti,Tonga,china,import,cwti,2011,0.009405603000753895
+Tonga|china|import|cwti,Tonga,china,import,cwti,2012,0.007788625589973663
+Tonga|china|import|cwti,Tonga,china,import,cwti,2013,0.0056747576131249275
+Tonga|china|import|cwti,Tonga,china,import,cwti,2014,0.010702008435682954
+Tonga|china|import|cwti,Tonga,china,import,cwti,2017,0.014772735793304553
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2008,7039663.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2009,7351623.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2010,8426330.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2011,12969746.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2012,12646026.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2013,10780374.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2014,16398565.0
+Tonga|china|import|raw_usd,Tonga,china,import,raw_usd,2017,16501684.772999998
+Tonga|china|import|sti,Tonga,china,import,sti,2008,0.04242719522955673
+Tonga|china|import|sti,Tonga,china,import,sti,2009,0.050833756814117725
+Tonga|china|import|sti,Tonga,china,import,sti,2010,0.05307008862666319
+Tonga|china|import|sti,Tonga,china,import,sti,2011,0.06722559790254515
+Tonga|china|import|sti,Tonga,china,import,sti,2012,0.06349380325653554
+Tonga|china|import|sti,Tonga,china,import,sti,2013,0.05443897609817469
+Tonga|china|import|sti,Tonga,china,import,sti,2014,0.07515873309346555
+Tonga|china|import|sti,Tonga,china,import,sti,2017,0.08709362932847807
+Tonga|china|total|cwti,Tonga,china,total,cwti,2008,0.003955426839051443
+Tonga|china|total|cwti,Tonga,china,total,cwti,2009,0.005926141767306759
+Tonga|china|total|cwti,Tonga,china,total,cwti,2010,0.005498416193488979
+Tonga|china|total|cwti,Tonga,china,total,cwti,2011,0.009406533002124299
+Tonga|china|total|cwti,Tonga,china,total,cwti,2012,0.007789259228662763
+Tonga|china|total|cwti,Tonga,china,total,cwti,2013,0.00567896455870126
+Tonga|china|total|cwti,Tonga,china,total,cwti,2014,0.010702796329046341
+Tonga|china|total|cwti,Tonga,china,total,cwti,2017,0.014824464040549505
+Tonga|china|total|sti,Tonga,china,total,sti,2008,0.04049055333121674
+Tonga|china|total|sti,Tonga,china,total,sti,2009,0.048638012770872444
+Tonga|china|total|sti,Tonga,china,total,sti,2010,0.050703671464394584
+Tonga|china|total|sti,Tonga,china,total,sti,2011,0.0625741595547108
+Tonga|china|total|sti,Tonga,china,total,sti,2012,0.05889463176180702
+Tonga|china|total|sti,Tonga,china,total,sti,2013,0.0501510275035962
+Tonga|china|total|sti,Tonga,china,total,sti,2014,0.06919929428712138
+Tonga|china|total|sti,Tonga,china,total,sti,2017,0.0748077760677366
+Tonga|us|export|cwti,Tonga,us,export,cwti,2008,0.05440368032711943
+Tonga|us|export|cwti,Tonga,us,export,cwti,2009,0.030221476469530145
+Tonga|us|export|cwti,Tonga,us,export,cwti,2010,0.031659026280385374
+Tonga|us|export|cwti,Tonga,us,export,cwti,2011,0.015129432275603557
+Tonga|us|export|cwti,Tonga,us,export,cwti,2012,0.02160147623490105
+Tonga|us|export|cwti,Tonga,us,export,cwti,2013,0.018201761502835118
+Tonga|us|export|cwti,Tonga,us,export,cwti,2014,0.022847739203578122
+Tonga|us|export|cwti,Tonga,us,export,cwti,2017,0.024125826875114706
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2008,2001021.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2009,1245181.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2010,1340777.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2011,1550911.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2012,2092371.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2013,1797021.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2014,2481266.0
+Tonga|us|export|raw_usd,Tonga,us,export,raw_usd,2017,2992329.9
+Tonga|us|export|sti,Tonga,us,export,sti,2008,0.21534884101352583
+Tonga|us|export|sti,Tonga,us,export,sti,2009,0.15967017577964462
+Tonga|us|export|sti,Tonga,us,export,sti,2010,0.16238013541437316
+Tonga|us|export|sti,Tonga,us,export,sti,2011,0.1077617135748849
+Tonga|us|export|sti,Tonga,us,export,sti,2012,0.13427172972992746
+Tonga|us|export|sti,Tonga,us,export,sti,2013,0.10518903689001388
+Tonga|us|export|sti,Tonga,us,export,sti,2014,0.13142650962997207
+Tonga|us|export|sti,Tonga,us,export,sti,2017,0.08992613260167519
+Tonga|us|import|cwti,Tonga,us,import,cwti,2008,0.014213299459314207
+Tonga|us|import|cwti,Tonga,us,import,cwti,2009,0.02711554402626786
+Tonga|us|import|cwti,Tonga,us,import,cwti,2010,0.02824467339863287
+Tonga|us|import|cwti,Tonga,us,import,cwti,2011,0.02623153645943206
+Tonga|us|import|cwti,Tonga,us,import,cwti,2012,0.02884706199858713
+Tonga|us|import|cwti,Tonga,us,import,cwti,2013,0.02395068953363601
+Tonga|us|import|cwti,Tonga,us,import,cwti,2014,0.022327669979396107
+Tonga|us|import|cwti,Tonga,us,import,cwti,2017,0.018431112181709636
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2008,15562291.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2009,18719744.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2010,20591523.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2011,23325243.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2012,25751320.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2013,22268794.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2014,23684053.0
+Tonga|us|import|raw_usd,Tonga,us,import,raw_usd,2017,18133530.481
+Tonga|us|import|sti,Tonga,us,import,sti,2008,0.0937920406809493
+Tonga|us|import|sti,Tonga,us,import,sti,2009,0.12944011330811434
+Tonga|us|import|sti,Tonga,us,import,sti,2010,0.12968800777657338
+Tonga|us|import|sti,Tonga,us,import,sti,2011,0.12090085703275576
+Tonga|us|import|sti,Tonga,us,import,sti,2012,0.1292935223821372
+Tonga|us|import|sti,Tonga,us,import,sti,2013,0.11245345887825191
+Tonga|us|import|sti,Tonga,us,import,sti,2014,0.10854995043764452
+Tonga|us|import|sti,Tonga,us,import,sti,2017,0.09570628719759224
+Tonga|us|total|cwti,Tonga,us,total,cwti,2008,0.06861697978643364
+Tonga|us|total|cwti,Tonga,us,total,cwti,2009,0.057337020495798
+Tonga|us|total|cwti,Tonga,us,total,cwti,2010,0.05990369967901824
+Tonga|us|total|cwti,Tonga,us,total,cwti,2011,0.04136096873503562
+Tonga|us|total|cwti,Tonga,us,total,cwti,2012,0.05044853823348818
+Tonga|us|total|cwti,Tonga,us,total,cwti,2013,0.04215245103647113
+Tonga|us|total|cwti,Tonga,us,total,cwti,2014,0.04517540918297423
+Tonga|us|total|cwti,Tonga,us,total,cwti,2017,0.042556939056824346
+Tonga|us|total|sti,Tonga,us,total,sti,2008,0.10023842486917087
+Tonga|us|total|sti,Tonga,us,total,sti,2009,0.13098681883842775
+Tonga|us|total|sti,Tonga,us,total,sti,2010,0.13130408043520947
+Tonga|us|total|sti,Tonga,us,total,sti,2011,0.11998874806162045
+Tonga|us|total|sti,Tonga,us,total,sti,2012,0.12965475648041283
+Tonga|us|total|sti,Tonga,us,total,sti,2013,0.11187653016713904
+Tonga|us|total|sti,Tonga,us,total,sti,2014,0.11037180269988958
+Tonga|us|total|sti,Tonga,us,total,sti,2017,0.09484280577538473

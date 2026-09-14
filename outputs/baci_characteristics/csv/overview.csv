@@ -1,0 +1,18 @@
+metric,value,notes
+n_records_full,229376229,All BACI year-file rows scanned
+n_records_pic_raw,2868321,Rows where exporter or importer is a PIC
+n_records_pic_view,3030040,PIC-as-reporter rows (import+export)
+n_years_files,23,2002–2024
+n_years_requested,23,2002–2024
+n_years_observed,23,2002–2024
+n_countries_meta,238,Rows in country_codes metadata
+n_products_meta,5223,Rows in product_codes metadata
+n_reporters_requested,14,
+n_reporters_observed,14,"Solomon Islands, Cook Islands, Fiji, Kiribati, Nauru, Vanuatu, Niue, Micronesia, Marshall Islands, Palau, Papua New Guinea, Tonga, Tuvalu, Samoa"
+n_reporters_absent,0,
+n_reporter_years_requested,322,PICs × requested years
+n_reporter_years_observed,322,Cells with at least one PIC flow
+reporter_year_coverage,1.0,Observed PIC–years / requested
+n_hs6,5205,Distinct HS-6 codes in the PIC view
+n_hs2,96,Distinct HS-2 chapters in the PIC view
+n_focus_partners,848904,"PIC-view rows with AUS, CHN, or USA"

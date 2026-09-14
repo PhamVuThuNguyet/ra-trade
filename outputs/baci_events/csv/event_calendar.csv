@@ -1,0 +1,42 @@
+event_id,year_start,year_end,country,partner,event_type,title,notes
+gfc_2008,2008,2009,*,*,gfc,Global financial crisis,Commodity-price collapse and demand shock across PIC partners.
+covid_2020,2020,2021,*,*,covid,COVID-19 pandemic,Border closures; tourism and logistics collapse. 2020 is the main trade-year shock.
+aus_step_up_2018,2018,2024,*,aus,step_up,Australia Pacific Step-up,Australian regional policy intensification from 2018.
+pacer_plus_cok,2021,2024,Cook Islands,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020; first full calendar year 2021. Fiji and PNG are not parties.
+pacer_plus_kir,2021,2024,Kiribati,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_niu,2021,2024,Niue,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_wsm,2021,2024,Samoa,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_slb,2021,2024,Solomon Islands,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_ton,2021,2024,Tonga,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_tuv,2021,2024,Tuvalu,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+pacer_plus_vut,2021,2024,Vanuatu,aus,pacer_plus,PACER Plus in force,Entered into force 13 December 2020.
+slb_switch_chn_2019,2019,2024,Solomon Islands,china,diplomatic_switch,Solomon Islands switches recognition to China,September 2019 switch from Taiwan to the PRC. Export share to China was already high (logs); imports are the clearer post-switch shift.
+kir_switch_twn_2003,2003,2003,Kiribati,china,diplomatic_switch,Kiribati switches recognition to Taiwan,2003 break with the PRC.
+kir_switch_chn_2019,2019,2024,Kiribati,china,diplomatic_switch,Kiribati switches recognition to China,September 2019 switch from Taiwan to the PRC.
+nru_switch_chn_2024,2024,2024,Nauru,china,diplomatic_switch,Nauru resumes diplomatic relations with China,January 2024 switch from Taiwan to the PRC.
+slb_ramsi,2003,2017,Solomon Islands,aus,ramsi,Regional Assistance Mission to Solomon Islands,Australian-led RAMSI; security and aid footprint.
+slb_riots_2006,2006,2006,Solomon Islands,china,unrest,Honiara riots,April 2006 unrest targeting Chinatown.
+slb_unrest_2021,2021,2021,Solomon Islands,*,unrest,Honiara unrest 2021,November 2021 riots after the diplomatic switch.
+slb_security_chn_2022,2022,2024,Solomon Islands,china,security_pact,Solomon Islands-China security agreement,Framework agreement signed April 2022.
+fji_coup_2006,2006,2006,Fiji,*,coup,Fiji 2006 coup,December 2006 military coup.
+fji_aus_sanctions,2006,2014,Fiji,aus,sanctions,Australia sanctions after Fiji coup,Travel bans and restricted engagement until 2014 elections.
+fji_look_north,2009,2014,Fiji,china,engagement,Fiji Look North policy,Period of heavier China engagement during Australia/NZ isolation.
+fji_elections_2014,2014,2014,Fiji,aus,engagement,Fiji elections and Australia normalisation,Return to elected government; Australia restores broader ties.
+fji_winston_2016,2016,2016,Fiji,*,disaster,Cyclone Winston,Category 5 cyclone; reconstruction imports.
+wsm_tsunami_2009,2009,2009,Samoa,*,disaster,Samoa earthquake and tsunami,29 September 2009.
+wsm_wto_2012,2012,2012,Samoa,*,wto_accession,Samoa WTO accession,Membership 2012.
+wsm_yazaki_2017,2017,2017,Samoa,aus,commodity,Yazaki Samoa plant closure,Automotive wiring plant had been a large Australia-oriented export.
+ton_riots_2006,2006,2006,Tonga,*,unrest,Nuku'alofa riots,November 2006; subsequent China-financed reconstruction.
+ton_wto_2007,2007,2007,Tonga,*,wto_accession,Tonga WTO accession,Membership 2007.
+ton_gita_2018,2018,2018,Tonga,*,disaster,Cyclone Gita,February 2018.
+ton_hunga_2022,2022,2022,Tonga,*,disaster,Hunga Tonga-Hunga Ha'apai eruption,January 2022 eruption and tsunami; reconstruction year.
+vut_pam_2015,2015,2015,Vanuatu,*,disaster,Cyclone Pam,March 2015.
+vut_wto_2012,2012,2012,Vanuatu,*,wto_accession,Vanuatu WTO accession,Membership 2012.
+vut_harold_2020,2020,2020,Vanuatu,*,disaster,Cyclone Harold,April 2020; overlaps COVID year.
+png_lng_2014,2014,2024,Papua New Guinea,*,commodity,PNG LNG exports begin,First LNG cargoes 2014; reweights export partners and CWE.
+png_apec_2018,2018,2018,Papua New Guinea,*,engagement,APEC Papua New Guinea,Host year; construction and official visits.
+plw_china_tourism_2018,2018,2019,Palau,china,engagement,Reported China tourism restrictions,Unofficial curbs on PRC tour groups after Palau-Taiwan ties held.
+nru_rpc_2012,2012,2024,Nauru,aus,processing_centre,Nauru Regional Processing Centre reopened,Reopened 2012; associated Australian-funded activity and imports.
+fsm_cofa_2023,2023,2024,Micronesia,us,compact_renewal,Compact of Free Association renewal,US-FSM compact funding agreements 2023-24.
+mhl_cofa_2023,2023,2024,Marshall Islands,us,compact_renewal,Compact of Free Association renewal,US-RMI compact funding agreements 2023-24.
+plw_cofa_2023,2023,2024,Palau,us,compact_renewal,Compact of Free Association renewal,US-Palau compact funding agreements 2023-24.

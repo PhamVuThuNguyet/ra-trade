@@ -1,0 +1,7 @@
+flow,field,n_records,n_present,missing_share
+import,CIF,57038,53957,0.054016620498615
+import,FOB,57038,15961,0.7201690101335951
+import,primary,57038,57038,0.0
+export,CIF,22145,5423,0.7551140212237526
+export,FOB,22145,22145,0.0
+export,primary,22145,22145,0.0

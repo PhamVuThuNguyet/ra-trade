@@ -1,0 +1,29 @@
+country,flow,n_hs6,n_hs2,n_records
+Cook Islands,export,1882,95,9041
+Cook Islands,import,4100,96,86799
+Fiji,export,4502,96,247431
+Fiji,import,5058,96,572887
+Kiribati,export,1806,92,7420
+Kiribati,import,4204,96,146675
+Marshall Islands,export,2471,93,12698
+Marshall Islands,import,3972,96,107375
+Micronesia,export,1513,90,6929
+Micronesia,import,4636,96,145510
+Nauru,export,2096,94,13947
+Nauru,import,3100,96,32679
+Niue,export,1752,89,7968
+Niue,import,2921,95,26561
+Palau,export,1576,92,5275
+Palau,import,4574,96,172955
+Papua New Guinea,export,3521,96,60177
+Papua New Guinea,import,5066,96,483032
+Samoa,export,3175,96,29274
+Samoa,import,4662,96,208422
+Solomon Islands,export,2257,95,14357
+Solomon Islands,import,4413,96,171216
+Tonga,export,2406,95,18313
+Tonga,import,4667,96,195420
+Tuvalu,export,1792,87,5644
+Tuvalu,import,3328,96,36357
+Vanuatu,export,2350,96,15918
+Vanuatu,import,4512,96,189760

@@ -20,6 +20,8 @@ from comtrade_download.constants import (
     OUTPUT_FILENAME,
     PARTNER2_CODE,
     PARTNER_CODES,
+    PERIOD_END_YEAR,
+    PERIOD_START_YEAR,
     PERIODS,
     REPORTER_CODES,
     TYPE_CODE,
@@ -71,7 +73,12 @@ def test_final_data_kwargs_match_screenshot_filter():
     assert kwargs["partnerCode"] == joined_codes(PARTNER_CODES)
     assert kwargs["partnerCode"].endswith(",0")
     assert "842" in kwargs["partnerCode"]
-    assert set(PERIODS) == {str(year) for year in range(2018, 2025)}
+    assert PERIOD_START_YEAR == 2000
+    assert PERIOD_END_YEAR == 2024
+    assert PERIODS[0] == str(PERIOD_START_YEAR)
+    assert PERIODS[-1] == str(PERIOD_END_YEAR)
+    assert set(PERIODS) == {str(year) for year in range(PERIOD_START_YEAR, PERIOD_END_YEAR + 1)}
+    assert OUTPUT_FILENAME == "TradeData_sitc4_ag3_2000_2024.csv"
     assert list(REPORTER_CODES) == [
         "Cook Isds",
         "Fiji",
