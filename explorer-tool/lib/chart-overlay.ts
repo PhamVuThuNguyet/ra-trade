@@ -13,6 +13,10 @@ const AID_BAR_ALPHA = 0.35;
 const AID_DATASET_ORDER = 0;
 export const AID_AXIS_ID = "yAid";
 export const AID_AXIS_TITLE = "Lowy aid (USD)";
+export const TONE_AXIS_ID = "yTone";
+export const TONE_AXIS_TITLE = "GDELT tone";
+export const TONE_MIN_N = 5;
+const TONE_DATASET_ORDER = 2;
 
 const PARTNER_ORDER: PartnerId[] = ["aus", "china", "us"];
 
@@ -132,7 +136,62 @@ export function overlayNotesForYear(overlay: OverlayBundle, year: number): strin
   if (overlay.aid.some((point) => point.year === year && (point.lowy_spent_usd ?? 0) > 0)) {
     notes.push("Lowy aid");
   }
+  notes.push(...toneNotesForYear(overlay, year));
   return notes;
+}
+
+const TONE_PARTNER_LABEL: Record<PartnerId, string> = {
+  aus: "Australia",
+  china: "China",
+  us: "United States",
+};
+
+export function overlayToneLineDatasets(
+  overlay: OverlayBundle,
+  years: number[],
+  partners: Partner[],
+) {
+  if (overlay.sentiment_status !== "present") {
+    return [];
+  }
+  const datasets = PARTNER_ORDER.map((partnerId) => ({
+    type: "line" as const,
+    label: `GDELT tone (${partnerLabel(partners, partnerId)})`,
+    yAxisID: TONE_AXIS_ID,
+    order: TONE_DATASET_ORDER,
+    data: years.map((year) => toneForPlot(overlay, partnerId, year)),
+    borderColor: partnerColor(partners, partnerId),
+    backgroundColor: partnerColor(partners, partnerId),
+    borderDash: [5, 4],
+    pointStyle: "rect" as const,
+    pointRadius: 3,
+    borderWidth: 1.6,
+    spanGaps: false,
+  }));
+  return datasets.filter((dataset) => dataset.data.some((value) => value != null));
+}
+
+function toneForPlot(
+  overlay: OverlayBundle,
+  partnerId: PartnerId,
+  year: number,
+): number | null {
+  const match = (overlay.sentiment ?? []).find(
+    (point) => point.partner === partnerId && point.year === year,
+  );
+  if (!match || match.mean_tone == null || match.n_with_tone < TONE_MIN_N) {
+    return null;
+  }
+  return match.mean_tone;
+}
+
+function toneNotesForYear(overlay: OverlayBundle, year: number): string[] {
+  return (overlay.sentiment ?? [])
+    .filter((point) => point.year === year && point.mean_tone != null)
+    .map(
+      (point) =>
+        `${TONE_PARTNER_LABEL[point.partner]} tone ${point.mean_tone?.toFixed(2)} (n=${point.n_with_tone})`,
+    );
 }
 
 function aidSpentForYear(

@@ -11,6 +11,7 @@ export function overlayForReporter(
     ),
     aid: overlay.aid.filter((point) => point.country === reporter),
     disasters: overlay.disasters.filter((row) => row.country === reporter),
+    sentiment: (overlay.sentiment ?? []).filter((point) => point.country === reporter),
   };
 }
 
@@ -31,6 +32,9 @@ export function missingOverlayNotes(overlay: OverlayBundle): string[] {
   }
   if (overlay.disaster_status === "missing") {
     notes.push("EM-DAT overlay missing");
+  }
+  if (overlay.sentiment_status === "missing") {
+    notes.push("GDELT tone overlay missing");
   }
   return notes;
 }

@@ -39,6 +39,11 @@ export function OverlayLegend({ overlay, showPartners = true }: Props) {
               <span className="swatch bar" /> Lowy aid (spent)
             </li>
           ) : null}
+          {overlay.sentiment_status === "present" ? (
+            <li>
+              <span className="swatch tone" /> GDELT tone (n≥5)
+            </li>
+          ) : null}
         </>
       ) : null}
     </ul>

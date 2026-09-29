@@ -5,7 +5,6 @@ import { useEffect, useMemo, useState } from "react";
 import type {
   DataTypeId,
   ExplorerCatalog,
-  PartnerId,
   ProductGroupId,
   SourceId,
 } from "../lib/catalog";
@@ -71,18 +70,8 @@ export function ExplorerApp() {
     if (!catalog) {
       return [];
     }
-    if (dataTypeId === "services") {
-      const rows =
-        catalog.tables.find(
-          (item) =>
-            item.source_id === sourceId &&
-            item.data_type_id === "services" &&
-            item.product_group_id === "all_products",
-        )?.rows ?? [];
-      return [...new Set(rows.map((row) => String(row.country)))].sort();
-    }
     return uniqueCountries(catalog.index_series, sourceId);
-  }, [catalog, sourceId, dataTypeId]);
+  }, [catalog, sourceId]);
 
   useEffect(() => {
     if (reporters.length === 0) {
@@ -101,7 +90,10 @@ export function ExplorerApp() {
     return <p className="muted">Loading catalog…</p>;
   }
 
-  const source = catalog.sources.find((item) => item.id === sourceId);
+  const sourcesForType = catalog.sources.filter((item) =>
+    dataTypeId === "services" ? item.id === "batis" : item.id !== "batis",
+  );
+  const source = sourcesForType.find((item) => item.id === sourceId) ?? sourcesForType[0];
   const yearMinNum = yearMin === "" ? null : Number(yearMin);
   const yearMaxNum = yearMax === "" ? null : Number(yearMax);
   const tableRows = filterRows(table?.rows ?? [], {
@@ -123,14 +115,13 @@ export function ExplorerApp() {
   );
   const plotOverlay = overlayForReporter(catalog.overlay, reporter);
   const overlayNotes = missingOverlayNotes(catalog.overlay);
-  const goodsPlots = goodsIndexIds.map((indexId) => ({
+  const indexPlots = goodsIndexIds.map((indexId) => ({
     id: indexId,
-    title: catalog.index_display[indexId],
+    title: plotTitle(catalog.index_display[indexId] ?? indexId, dataTypeId),
     points: plotSeries
       .filter((point) => point.index_id === indexId)
       .map((point) => ({ year: point.year, partner: point.partner, value: point.value })),
   }));
-  const servicePlots = servicePlotSpecs(table?.rows ?? [], reporter, yearMinNum, yearMaxNum);
   const emptyDetail = emptyCombinationDetail(
     source?.display_name ?? sourceId,
     dataTypeId,
@@ -145,10 +136,17 @@ export function ExplorerApp() {
       <SourceTypeControls
         sourceId={sourceId}
         dataTypeId={dataTypeId}
-        sources={catalog.sources}
+        sources={sourcesForType}
         dataTypes={catalog.data_types}
         onSource={setSourceId}
-        onDataType={setDataTypeId}
+        onDataType={(next) => {
+          setDataTypeId(next);
+          if (next === "services") {
+            setSourceId("batis");
+          } else if (sourceId === "batis") {
+            setSourceId("baci");
+          }
+        }}
         viewMode={viewMode}
         onViewMode={setViewMode}
       />
@@ -164,7 +162,7 @@ export function ExplorerApp() {
         productGroups={labeledProductGroups(catalog.product_groups, dataTypeId)}
         onProductGroup={setProductGroupId}
       />
-      {overlayNotes.length > 0 && viewMode === "plot" && dataTypeId === "goods_trade" ? (
+      {overlayNotes.length > 0 && viewMode === "plot" ? (
         <p className="banner warn">{overlayNotes.join(" · ")}</p>
       ) : null}
 
@@ -176,20 +174,11 @@ export function ExplorerApp() {
         )
       ) : !reporter ? (
         <EmptyState title="PIC required" detail="Select a reporter (PIC) to draw the plots." />
-      ) : dataTypeId === "services" ? (
-        servicePlots.length === 0 ? (
-          <EmptyState title="No services plot" detail={emptyDetail} />
-        ) : (
-          <PlotGrid
-            plots={servicePlots}
-            partners={catalog.partners}
-            overlay={null}
-            valueLabel="USD (mock)"
-          />
-        )
+      ) : indexPlots.every((plot) => plot.points.length === 0) ? (
+        <EmptyState title="No index plot" detail={emptyDetail} />
       ) : (
         <PlotGrid
-          plots={goodsPlots}
+          plots={indexPlots}
           partners={catalog.partners}
           overlay={plotOverlay}
           valueLabel="Index"
@@ -212,37 +201,9 @@ function emptyCombinationDetail(
   return `No rows for ${sourceName}, ${dataTypeId}, ${productGroupId}${pic}${years}.`;
 }
 
-function servicePlotSpecs(
-  rows: Record<string, unknown>[],
-  reporter: string,
-  yearMin: number | null,
-  yearMax: number | null,
-): { id: string; title: string; points: { year: number; partner: PartnerId; value: number | null }[] }[] {
-  const filtered = rows.filter((row) => {
-    if (reporter && String(row.country) !== reporter) {
-      return false;
-    }
-    const year = Number(row.year);
-    if (yearMin != null && Number.isFinite(yearMin) && year < yearMin) {
-      return false;
-    }
-    if (yearMax != null && Number.isFinite(yearMax) && year > yearMax) {
-      return false;
-    }
-    return true;
-  });
-  const categories = [...new Set(filtered.map((row) => String(row.service_category ?? "")))].filter(
-    Boolean,
-  );
-  return categories.map((category) => ({
-    id: category.toLowerCase(),
-    title: category,
-    points: filtered
-      .filter((row) => String(row.service_category) === category)
-      .map((row) => ({
-        year: Number(row.year),
-        partner: row.partner as PartnerId,
-        value: row.value_usd == null ? null : Number(row.value_usd),
-      })),
-  }));
+function plotTitle(display: string, dataTypeId: DataTypeId): string {
+  if (dataTypeId === "services") {
+    return display.replace("commodities", "services");
+  }
+  return display;
 }

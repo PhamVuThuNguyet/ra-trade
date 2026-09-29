@@ -218,6 +218,15 @@ td {
   height: 3px;
 }
 
+.swatch.tone {
+  background: repeating-linear-gradient(
+    90deg,
+    #222 0 4px,
+    transparent 4px 7px
+  );
+  height: 3px;
+}
+
 .swatch.bar {
   width: 0.7rem;
   height: 0.85rem;

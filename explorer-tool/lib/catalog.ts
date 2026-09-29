@@ -1,5 +1,5 @@
 export type PartnerId = "aus" | "china" | "us";
-export type SourceId = "baci" | "comtrade";
+export type SourceId = "baci" | "comtrade" | "batis";
 export type DataTypeId = "goods_trade" | "services";
 export type ProductGroupId = "all_products" | "essential_commodities";
 export type IndexId =
@@ -63,13 +63,24 @@ export type DisasterYear = {
   emdat_n_events?: number;
 };
 
+export type SentimentPoint = {
+  country: string;
+  year: number;
+  partner: PartnerId;
+  n_items: number;
+  n_with_tone: number;
+  mean_tone: number | null;
+};
+
 export type OverlayBundle = {
   calendar_status: OverlayStatus;
   aid_status: OverlayStatus;
   disaster_status: OverlayStatus;
+  sentiment_status: OverlayStatus;
   calendar: CalendarMark[];
   aid: AidPoint[];
   disasters: DisasterYear[];
+  sentiment: SentimentPoint[];
 };
 
 export type ExplorerCatalog = {

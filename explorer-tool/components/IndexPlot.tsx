@@ -19,9 +19,12 @@ import type { OverlayBundle, Partner, PartnerId } from "../lib/catalog";
 import {
   AID_AXIS_ID,
   AID_AXIS_TITLE,
+  TONE_AXIS_ID,
+  TONE_AXIS_TITLE,
   overlayAidBarDatasets,
   overlayAnnotations,
   overlayNotesForYear,
+  overlayToneLineDatasets,
 } from "../lib/chart-overlay";
 import { LINE_STYLE, partnerColor, partnerLabel } from "../lib/colors";
 
@@ -85,14 +88,19 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
     borderWidth: 2,
   }));
   const aidDatasets = overlay ? overlayAidBarDatasets(overlay, years, partners) : [];
+  const toneDatasets = overlay ? overlayToneLineDatasets(overlay, years, partners) : [];
   const showAidAxis = aidDatasets.length > 0;
+  const showToneAxis = toneDatasets.length > 0;
 
   return (
     <article className="plot-card" data-series={seriesId}>
       <h3>{title}</h3>
       <Chart
         type="bar"
-        data={{ labels: years.map(String), datasets: [...aidDatasets, ...lineDatasets] }}
+        data={{
+          labels: years.map(String),
+          datasets: [...aidDatasets, ...toneDatasets, ...lineDatasets],
+        }}
         options={{
           responsive: true,
           maintainAspectRatio: false,
@@ -125,6 +133,13 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
               display: showAidAxis,
               beginAtZero: true,
               title: { display: showAidAxis, text: AID_AXIS_TITLE },
+              grid: { drawOnChartArea: false },
+            },
+            [TONE_AXIS_ID]: {
+              type: "linear",
+              position: "right",
+              display: showToneAxis,
+              title: { display: showToneAxis, text: TONE_AXIS_TITLE },
               grid: { drawOnChartArea: false },
             },
             x: { grid: { display: false } },
