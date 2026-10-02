@@ -70,6 +70,9 @@ export type SentimentPoint = {
   n_items: number;
   n_with_tone: number;
   mean_tone: number | null;
+  n_positive: number;
+  n_neutral: number;
+  n_negative: number;
 };
 
 export type OverlayBundle = {

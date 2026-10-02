@@ -11,7 +11,15 @@ from project_paths import PROJECT_ROOT, SRC_DIR
 SPAN_TYPES = frozenset({"covid", "gfc", "ramsi"})
 EVENTS_CSV_DIR = PROJECT_ROOT / "outputs" / "baci_events" / "csv"
 CALENDAR_FALLBACK = SRC_DIR / "event_context" / "pic_event_calendar.csv"
+SENTIMENT_CSV = (
+    PROJECT_ROOT / "outputs" / "gdelt_sentiment" / "csv" / "gkg_pic_partner_year.csv"
+)
+NAMED_SENTIMENT_CSV = (
+    PROJECT_ROOT / "outputs" / "gdelt_sentiment" / "csv" / "named_pic_partner_year.csv"
+)
+PRINT_SOURCE = "print_newspaper"
 ALLOWED_PARTNERS = frozenset({"aus", "china", "us", "*"})
+BILATERAL_PARTNERS = frozenset({"aus", "china", "us"})
 
 
 def empty_overlay() -> dict:
@@ -19,9 +27,11 @@ def empty_overlay() -> dict:
         "calendar_status": "missing",
         "aid_status": "missing",
         "disaster_status": "missing",
+        "sentiment_status": "missing",
         "calendar": [],
         "aid": [],
         "disasters": [],
+        "sentiment": [],
     }
 
 
@@ -31,6 +41,7 @@ def load_overlay(
     calendar_path: Path | None = None,
     aid_path: Path | None = None,
     disasters_path: Path | None = None,
+    sentiment_path: Path | None = None,
     calendar_fallback: bool = True,
 ) -> dict:
     """Load overlay arrays from local CSVs only."""
@@ -56,6 +67,12 @@ def load_overlay(
     if disaster_rows:
         overlay["disasters"] = disaster_rows
         overlay["disaster_status"] = "present"
+
+    sentiment_file = sentiment_path if sentiment_path is not None else _default_sentiment_path()
+    sentiment_rows = _read_sentiment(sentiment_file)
+    if sentiment_rows:
+        overlay["sentiment"] = sentiment_rows
+        overlay["sentiment_status"] = "present"
 
     return overlay
 
@@ -105,7 +122,7 @@ def _read_aid(path: Path) -> list[dict]:
     rows: list[dict] = []
     for row in frame.itertuples(index=False):
         partner = str(row.partner)
-        if partner not in {"aus", "china", "us"}:
+        if partner not in BILATERAL_PARTNERS:
             continue
         spent = getattr(row, "lowy_spent_usd", None)
         rows.append(
@@ -133,6 +150,51 @@ def _read_disasters(path: Path) -> list[dict]:
                 "year": int(row.year),
                 "emdat_has_disaster": 1 if has_disaster else 0,
                 "emdat_n_events": 0 if pd.isna(n_events) else int(n_events),
+            }
+        )
+    return rows
+
+
+def _default_sentiment_path() -> Path:
+    if SENTIMENT_CSV.is_file():
+        return SENTIMENT_CSV
+    return NAMED_SENTIMENT_CSV
+
+
+def _int_field(row: object, name: str) -> int:
+    value = getattr(row, name, 0)
+    if value is None or pd.isna(value):
+        return 0
+    return int(value)
+
+
+def _read_sentiment(path: Path) -> list[dict]:
+    """Print-newspaper PIC × partner × year GDELT tone from the sentiment study."""
+    frame = _read_csv(path)
+    required = {"country", "year", "partner", "mean_gdelt_tone", "n_with_gdelt_tone"}
+    if frame.empty or not required.issubset(frame.columns):
+        return []
+    if "source_class" in frame.columns:
+        frame = frame[frame["source_class"] == PRINT_SOURCE]
+    rows: list[dict] = []
+    for row in frame.itertuples(index=False):
+        partner = str(row.partner)
+        if partner not in BILATERAL_PARTNERS:
+            continue
+        tone = getattr(row, "mean_gdelt_tone", None)
+        n_tone = getattr(row, "n_with_gdelt_tone", 0)
+        n_items = getattr(row, "n_items", 0)
+        rows.append(
+            {
+                "country": str(row.country),
+                "year": int(row.year),
+                "partner": partner,
+                "n_items": 0 if pd.isna(n_items) else int(n_items),
+                "n_with_tone": 0 if pd.isna(n_tone) else int(n_tone),
+                "mean_tone": None if pd.isna(tone) else float(tone),
+                "n_positive": _int_field(row, "n_gdelt_positive"),
+                "n_neutral": _int_field(row, "n_gdelt_neutral"),
+                "n_negative": _int_field(row, "n_gdelt_negative"),
             }
         )
     return rows

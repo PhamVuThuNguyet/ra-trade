@@ -1,4 +1,4 @@
-"""Build explorer-tool/public/data/catalog.json from study CSVs and labelled mock services."""
+"""Build explorer-tool/public/data/catalog.json from goods-trade and BaTIS service indices."""
 
 from __future__ import annotations
 
@@ -10,6 +10,8 @@ import pandas as pd
 from explorer_catalog.constants import (
     BACI_OUTPUT_CSV_DIR,
     BACI_VINTAGE,
+    BATIS_OUTPUT_CSV_DIR,
+    BATIS_VINTAGE,
     COMTRADE_VINTAGE,
     DEFAULT_CATALOG_PATH,
     ESSENTIAL_DIVISIONS,
@@ -23,11 +25,11 @@ from explorer_catalog.constants import (
     PARTNER_DISPLAY,
     PARTNER_PLOT_COLORS,
     SOURCE_BACI,
+    SOURCE_BATIS,
     SOURCE_COMTRADE,
     SOURCE_DISPLAY,
     UI_FLAGS,
 )
-from explorer_catalog.mock_services import mock_service_tables
 from explorer_catalog.overlay import load_overlay
 from trade_influence.constants import INDEX_DISPLAY
 
@@ -180,15 +182,48 @@ def prefer_study_output(points: list[dict]) -> list[dict]:
     return kept
 
 
+def _load_batis_points(batis_csv: Path) -> list[dict]:
+    if not batis_csv.exists():
+        return []
+    points: list[dict] = []
+    wide = _read_csv(batis_csv / "indices_batis.csv")
+    points.extend(
+        _points_from_wide(
+            wide,
+            SOURCE_BATIS,
+            "study_output",
+            {
+                INDEX_IMPORT: INDEX_IMPORT,
+                INDEX_EXPORT: INDEX_EXPORT,
+                INDEX_CWI: INDEX_CWI,
+                INDEX_CWE: INDEX_CWE,
+            },
+        )
+    )
+    for name, index_id in (
+        ("cwi_essential_batis.csv", INDEX_CWI_ESSENTIAL),
+        ("cwe_essential_batis.csv", INDEX_CWE_ESSENTIAL),
+    ):
+        extra = _read_csv(batis_csv / name)
+        column = INDEX_CWI if "cwi" in name else INDEX_CWE
+        points.extend(
+            _points_from_wide(extra, SOURCE_BATIS, "study_output", {column: index_id})
+        )
+    return points
+
+
 def build_catalog(
     *,
     baci_csv: Path = BACI_OUTPUT_CSV_DIR,
     comtrade_csv: Path = OUTPUT_CSV_DIR,
+    batis_csv: Path = BATIS_OUTPUT_CSV_DIR,
     overlay_csv_dir: Path | None = None,
     calendar_fallback: bool = True,
 ) -> dict:
-    points = prefer_study_output(_load_goods_points(baci_csv, comtrade_csv))
-    goods_provenance = "study_output" if points else "mock"
+    goods_points = prefer_study_output(_load_goods_points(baci_csv, comtrade_csv))
+    service_points = _load_batis_points(batis_csv)
+    points = goods_points + service_points
+    goods_provenance = "study_output" if goods_points else "mock"
     tables = [
         _table_from_points(
             points, SOURCE_BACI, "goods_trade", "all_products", goods_provenance, BACI_VINTAGE
@@ -217,13 +252,34 @@ def build_catalog(
             goods_provenance,
             COMTRADE_VINTAGE,
         ),
-        *mock_service_tables(),
     ]
+    if service_points:
+        tables.extend(
+            [
+                _table_from_points(
+                    service_points,
+                    SOURCE_BATIS,
+                    "services",
+                    "all_products",
+                    "study_output",
+                    BATIS_VINTAGE,
+                ),
+                _table_from_points(
+                    service_points,
+                    SOURCE_BATIS,
+                    "services",
+                    "essential_commodities",
+                    "study_output",
+                    BATIS_VINTAGE,
+                ),
+            ]
+        )
     return {
         "generated_from": {
-            "note": "Study CSVs plus explorer_catalog/mock; not an analysis artifact",
+            "note": "Study CSVs for goods trade and BaTIS services; not an analysis artifact",
             "baci_vintage": BACI_VINTAGE,
             "comtrade_vintage": COMTRADE_VINTAGE,
+            "batis_vintage": BATIS_VINTAGE if service_points else None,
         },
         "sources": [
             {"id": SOURCE_BACI, "display_name": SOURCE_DISPLAY[SOURCE_BACI], "vintage": BACI_VINTAGE},
@@ -232,6 +288,7 @@ def build_catalog(
                 "display_name": SOURCE_DISPLAY[SOURCE_COMTRADE],
                 "vintage": COMTRADE_VINTAGE,
             },
+            {"id": SOURCE_BATIS, "display_name": "OECD BaTIS", "vintage": BATIS_VINTAGE},
         ],
         "data_types": [
             {
@@ -242,7 +299,7 @@ def build_catalog(
             {
                 "id": "services",
                 "display_name": "Services",
-                "provenance_default": "mock",
+                "provenance_default": "study_output",
             },
         ],
         "product_groups": [

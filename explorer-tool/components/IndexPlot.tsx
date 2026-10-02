@@ -27,6 +27,7 @@ import {
   overlayToneLineDatasets,
 } from "../lib/chart-overlay";
 import { LINE_STYLE, partnerColor, partnerLabel } from "../lib/colors";
+import { overlayPolarityBarDatasets, POLARITY_AXIS_ID, POLARITY_AXIS_TITLE } from "../lib/polarity-bars";
 
 ChartJS.register(
   CategoryScale,
@@ -88,8 +89,10 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
     borderWidth: 2,
   }));
   const aidDatasets = overlay ? overlayAidBarDatasets(overlay, years, partners) : [];
+  const polarityDatasets = overlay ? overlayPolarityBarDatasets(overlay, years, partners) : [];
   const toneDatasets = overlay ? overlayToneLineDatasets(overlay, years, partners) : [];
   const showAidAxis = aidDatasets.length > 0;
+  const showPolarityAxis = polarityDatasets.length > 0;
   const showToneAxis = toneDatasets.length > 0;
 
   return (
@@ -99,7 +102,7 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
         type="bar"
         data={{
           labels: years.map(String),
-          datasets: [...aidDatasets, ...toneDatasets, ...lineDatasets],
+          datasets: [...aidDatasets, ...polarityDatasets, ...toneDatasets, ...lineDatasets],
         }}
         options={{
           responsive: true,
@@ -127,6 +130,15 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
               title: { display: true, text: valueLabel },
               grid: { color: "rgba(0,0,0,0.06)" },
             },
+            [POLARITY_AXIS_ID]: {
+              type: "linear",
+              position: "right",
+              display: showPolarityAxis,
+              stacked: true,
+              beginAtZero: true,
+              title: { display: showPolarityAxis, text: POLARITY_AXIS_TITLE },
+              grid: { drawOnChartArea: false },
+            },
             [AID_AXIS_ID]: {
               type: "linear",
               position: "right",
@@ -142,7 +154,7 @@ export function IndexPlot({ title, seriesId, points, partners, overlay, valueLab
               title: { display: showToneAxis, text: TONE_AXIS_TITLE },
               grid: { drawOnChartArea: false },
             },
-            x: { grid: { display: false } },
+            x: { stacked: showPolarityAxis, grid: { display: false } },
           },
           layout: overlay ? { padding: { top: OVERLAY_TOP_PADDING, right: 8 } } : undefined,
         }}

@@ -227,6 +227,13 @@ td {
   height: 3px;
 }
 
+.swatch.polarity {
+  width: 0.7rem;
+  height: 0.85rem;
+  background: linear-gradient(#163e66, #1f77b4, #c5dff5);
+  border: 1px solid #1f77b4;
+}
+
 .swatch.bar {
   width: 0.7rem;
   height: 0.85rem;

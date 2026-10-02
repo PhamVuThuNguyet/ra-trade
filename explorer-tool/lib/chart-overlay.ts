@@ -116,6 +116,7 @@ export function overlayAidBarDatasets(
     data: years.map((year) => aidSpentForYear(overlay, partnerId, year)),
     backgroundColor: colorWithAlpha(partnerColor(partners, partnerId), AID_BAR_ALPHA),
     borderWidth: 0,
+    stack: `aid-${partnerId}`,
   }));
   return datasets.filter((dataset) => dataset.data.some((value) => value != null));
 }

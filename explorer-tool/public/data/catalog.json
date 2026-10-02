@@ -213591,7 +213591,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -0.4179137441263607
+        "mean_tone": -0.4179137441263607,
+        "n_positive": 0,
+        "n_neutral": 3,
+        "n_negative": 0
       },
       {
         "country": "Cook Islands",
@@ -213599,7 +213602,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.0701442074134957
+        "mean_tone": -1.0701442074134957,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Cook Islands",
@@ -213607,7 +213613,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -0.3474489135369472
+        "mean_tone": -0.3474489135369472,
+        "n_positive": 0,
+        "n_neutral": 4,
+        "n_negative": 0
       },
       {
         "country": "Cook Islands",
@@ -213615,7 +213624,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.713509052958595
+        "mean_tone": -1.713509052958595,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Cook Islands",
@@ -213623,7 +213635,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.777604976671851
+        "mean_tone": -0.777604976671851,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Cook Islands",
@@ -213631,7 +213646,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": 0.2932444654162245
+        "mean_tone": 0.2932444654162245,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 0
       },
       {
         "country": "Cook Islands",
@@ -213639,7 +213657,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.11640211640212
+        "mean_tone": -2.11640211640212,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Cook Islands",
@@ -213647,7 +213668,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.4312393069712537
+        "mean_tone": -1.4312393069712537,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Fiji",
@@ -213655,7 +213679,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.57575757575758
+        "mean_tone": 2.57575757575758,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Fiji",
@@ -213663,7 +213690,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.5268655109292546
+        "mean_tone": -1.5268655109292546,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Fiji",
@@ -213671,7 +213701,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.412711514651259
+        "mean_tone": -0.412711514651259,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Fiji",
@@ -213679,7 +213712,10 @@
         "partner": "aus",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": 0.1577878362503808
+        "mean_tone": 0.1577878362503808,
+        "n_positive": 2,
+        "n_neutral": 2,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213687,7 +213723,10 @@
         "partner": "aus",
         "n_items": 12,
         "n_with_tone": 12,
-        "mean_tone": -1.2918125619326977
+        "mean_tone": -1.2918125619326977,
+        "n_positive": 2,
+        "n_neutral": 3,
+        "n_negative": 7
       },
       {
         "country": "Fiji",
@@ -213695,7 +213734,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -2.7577760562831304
+        "mean_tone": -2.7577760562831304,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Fiji",
@@ -213703,7 +213745,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -2.1076378242096485
+        "mean_tone": -2.1076378242096485,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Fiji",
@@ -213711,7 +213756,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -0.7721594585178899
+        "mean_tone": -0.7721594585178899,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213719,7 +213767,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.8666262063563988
+        "mean_tone": -1.8666262063563988,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Fiji",
@@ -213727,7 +213778,10 @@
         "partner": "aus",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -2.6034419768304944
+        "mean_tone": -2.6034419768304944,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Fiji",
@@ -213735,7 +213789,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.57575757575758
+        "mean_tone": 2.57575757575758,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Fiji",
@@ -213743,7 +213800,10 @@
         "partner": "china",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -2.8797274582713968
+        "mean_tone": -2.8797274582713968,
+        "n_positive": 2,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Fiji",
@@ -213751,7 +213811,10 @@
         "partner": "china",
         "n_items": 14,
         "n_with_tone": 14,
-        "mean_tone": -1.26150771127064
+        "mean_tone": -1.26150771127064,
+        "n_positive": 3,
+        "n_neutral": 3,
+        "n_negative": 8
       },
       {
         "country": "Fiji",
@@ -213759,7 +213822,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.7067558971625008
+        "mean_tone": -1.7067558971625008,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Fiji",
@@ -213767,7 +213833,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.16901408450704
+        "mean_tone": -3.16901408450704,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213775,7 +213844,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -2.1076378242096485
+        "mean_tone": -2.1076378242096485,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Fiji",
@@ -213783,7 +213855,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": 0.0352385545701949
+        "mean_tone": 0.0352385545701949,
+        "n_positive": 2,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213791,7 +213866,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.030708540303828
+        "mean_tone": -2.030708540303828,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213799,7 +213877,10 @@
         "partner": "china",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -2.8031275114216885
+        "mean_tone": -2.8031275114216885,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Fiji",
@@ -213807,7 +213888,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.57575757575758
+        "mean_tone": 2.57575757575758,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Fiji",
@@ -213815,7 +213899,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.3791952634984694
+        "mean_tone": -1.3791952634984694,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213823,7 +213910,10 @@
         "partner": "us",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -3.918350974090169
+        "mean_tone": -3.918350974090169,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 5
       },
       {
         "country": "Fiji",
@@ -213831,7 +213921,10 @@
         "partner": "us",
         "n_items": 14,
         "n_with_tone": 14,
-        "mean_tone": -1.2716304152936149
+        "mean_tone": -1.2716304152936149,
+        "n_positive": 4,
+        "n_neutral": 3,
+        "n_negative": 7
       },
       {
         "country": "Fiji",
@@ -213839,7 +213932,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.8257802614241005
+        "mean_tone": -2.8257802614241005,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Fiji",
@@ -213847,7 +213943,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.263007346853922
+        "mean_tone": -1.263007346853922,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213855,7 +213954,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": 0.84263656765828
+        "mean_tone": 0.84263656765828,
+        "n_positive": 1,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Fiji",
@@ -213863,7 +213965,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.030708540303828
+        "mean_tone": -2.030708540303828,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Fiji",
@@ -213871,7 +213976,10 @@
         "partner": "us",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -2.5045357859071933
+        "mean_tone": -2.5045357859071933,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 7
       },
       {
         "country": "Kiribati",
@@ -213879,7 +213987,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": 0.28360040962856
+        "mean_tone": 0.28360040962856,
+        "n_positive": 2,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213887,7 +213998,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -0.9400575459910246
+        "mean_tone": -0.9400575459910246,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213895,7 +214009,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.5616734725276655
+        "mean_tone": -1.5616734725276655,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213903,7 +214020,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": 1.246169807223683
+        "mean_tone": 1.246169807223683,
+        "n_positive": 3,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Kiribati",
@@ -213911,7 +214031,10 @@
         "partner": "china",
         "n_items": 9,
         "n_with_tone": 9,
-        "mean_tone": -0.7608911110402798
+        "mean_tone": -0.7608911110402798,
+        "n_positive": 0,
+        "n_neutral": 8,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213919,7 +214042,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.7653466615404316
+        "mean_tone": -1.7653466615404316,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213927,7 +214053,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Kiribati",
@@ -213935,7 +214064,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.47651006711409
+        "mean_tone": -1.47651006711409,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 4
       },
       {
         "country": "Kiribati",
@@ -213943,7 +214075,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.5616734725276655
+        "mean_tone": -1.5616734725276655,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213951,7 +214086,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.5052197135227
+        "mean_tone": -1.5052197135227,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213959,7 +214097,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -0.9370066531348672
+        "mean_tone": -0.9370066531348672,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213967,7 +214108,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.7653466615404316
+        "mean_tone": -1.7653466615404316,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Kiribati",
@@ -213975,7 +214119,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Kiribati",
@@ -213983,7 +214130,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.47651006711409
+        "mean_tone": -1.47651006711409,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 4
       },
       {
         "country": "Kiribati",
@@ -213991,7 +214141,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.77631926005381
+        "mean_tone": -1.77631926005381,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Marshall Islands",
@@ -213999,7 +214152,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 0.480153649167733
+        "mean_tone": 0.480153649167733,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Marshall Islands",
@@ -214007,7 +214163,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.097021254534267
+        "mean_tone": -2.097021254534267,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Marshall Islands",
@@ -214015,7 +214174,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.8542127032693096
+        "mean_tone": -1.8542127032693096,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Marshall Islands",
@@ -214023,7 +214185,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 0.480153649167733
+        "mean_tone": 0.480153649167733,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Marshall Islands",
@@ -214031,7 +214196,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.3773735781413854
+        "mean_tone": -1.3773735781413854,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Marshall Islands",
@@ -214039,7 +214207,10 @@
         "partner": "china",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -2.273746786349298
+        "mean_tone": -2.273746786349298,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 5
       },
       {
         "country": "Marshall Islands",
@@ -214047,7 +214218,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.92423331328924
+        "mean_tone": -1.92423331328924,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Marshall Islands",
@@ -214055,7 +214229,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.26382306477093
+        "mean_tone": -1.26382306477093,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Marshall Islands",
@@ -214063,7 +214240,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Marshall Islands",
@@ -214071,7 +214251,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 0.480153649167733
+        "mean_tone": 0.480153649167733,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Marshall Islands",
@@ -214079,7 +214262,10 @@
         "partner": "us",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -1.4029428052176482
+        "mean_tone": -1.4029428052176482,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Marshall Islands",
@@ -214087,7 +214273,10 @@
         "partner": "us",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -3.0676690097898645
+        "mean_tone": -3.0676690097898645,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Marshall Islands",
@@ -214095,7 +214284,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.92423331328924
+        "mean_tone": -1.92423331328924,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Marshall Islands",
@@ -214103,7 +214295,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.26382306477093
+        "mean_tone": -1.26382306477093,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Marshall Islands",
@@ -214111,7 +214306,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.8108544458577
+        "mean_tone": -1.8108544458577,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Micronesia",
@@ -214119,7 +214317,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.270181741745375
+        "mean_tone": -2.270181741745375,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Micronesia",
@@ -214127,7 +214328,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.54155495978552
+        "mean_tone": -1.54155495978552,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214135,7 +214339,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.8542127032693096
+        "mean_tone": -1.8542127032693096,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Micronesia",
@@ -214143,7 +214350,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.03514376996805
+        "mean_tone": -3.03514376996805,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214151,7 +214361,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -0.3016085790884705
+        "mean_tone": -0.3016085790884705,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214159,7 +214372,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.38983050847458
+        "mean_tone": -3.38983050847458,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214167,7 +214383,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214175,7 +214394,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.270181741745375
+        "mean_tone": -2.270181741745375,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Micronesia",
@@ -214183,7 +214405,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -0.3016085790884705
+        "mean_tone": -0.3016085790884705,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214191,7 +214416,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.38983050847458
+        "mean_tone": -3.38983050847458,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Micronesia",
@@ -214199,7 +214427,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.6598649723243102
+        "mean_tone": -1.6598649723243102,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 4
       },
       {
         "country": "Nauru",
@@ -214207,7 +214438,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.380104654216135
+        "mean_tone": -1.380104654216135,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Nauru",
@@ -214215,7 +214449,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.0267003505120378
+        "mean_tone": -1.0267003505120378,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Nauru",
@@ -214223,7 +214460,10 @@
         "partner": "aus",
         "n_items": 18,
         "n_with_tone": 18,
-        "mean_tone": -1.798967837968653
+        "mean_tone": -1.798967837968653,
+        "n_positive": 4,
+        "n_neutral": 1,
+        "n_negative": 13
       },
       {
         "country": "Nauru",
@@ -214231,7 +214471,10 @@
         "partner": "aus",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -2.20595861903416
+        "mean_tone": -2.20595861903416,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 5
       },
       {
         "country": "Nauru",
@@ -214239,7 +214482,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.559701492537314
+        "mean_tone": -0.559701492537314,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Nauru",
@@ -214247,7 +214493,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -6.21057738961669
+        "mean_tone": -6.21057738961669,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Nauru",
@@ -214255,7 +214504,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.1324354657688
+        "mean_tone": -2.1324354657688,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Nauru",
@@ -214263,7 +214515,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.7152347539034398
+        "mean_tone": -1.7152347539034398,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Nauru",
@@ -214271,7 +214526,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.380104654216135
+        "mean_tone": -1.380104654216135,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Nauru",
@@ -214279,7 +214537,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.80367091241129
+        "mean_tone": -1.80367091241129,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Nauru",
@@ -214287,7 +214548,10 @@
         "partner": "china",
         "n_items": 14,
         "n_with_tone": 14,
-        "mean_tone": -1.4514399441620929
+        "mean_tone": -1.4514399441620929,
+        "n_positive": 4,
+        "n_neutral": 1,
+        "n_negative": 9
       },
       {
         "country": "Nauru",
@@ -214295,7 +214559,10 @@
         "partner": "china",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -2.20595861903416
+        "mean_tone": -2.20595861903416,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 5
       },
       {
         "country": "Nauru",
@@ -214303,7 +214570,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.559701492537314
+        "mean_tone": -0.559701492537314,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Nauru",
@@ -214311,7 +214581,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -6.21057738961669
+        "mean_tone": -6.21057738961669,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Nauru",
@@ -214319,7 +214592,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Nauru",
@@ -214327,7 +214603,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.1324354657688
+        "mean_tone": -2.1324354657688,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Nauru",
@@ -214335,7 +214614,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.06778606965174
+        "mean_tone": -2.06778606965174,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Nauru",
@@ -214343,7 +214625,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.380104654216135
+        "mean_tone": -1.380104654216135,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Nauru",
@@ -214351,7 +214636,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.0267003505120378
+        "mean_tone": -1.0267003505120378,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Nauru",
@@ -214359,7 +214647,10 @@
         "partner": "us",
         "n_items": 10,
         "n_with_tone": 10,
-        "mean_tone": -2.887704131037496
+        "mean_tone": -2.887704131037496,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 9
       },
       {
         "country": "Nauru",
@@ -214367,7 +214658,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.23612954624082
+        "mean_tone": -2.23612954624082,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Nauru",
@@ -214375,7 +214669,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.559701492537314
+        "mean_tone": -0.559701492537314,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Nauru",
@@ -214383,7 +214680,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Nauru",
@@ -214391,7 +214691,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.590375997641375
+        "mean_tone": -1.590375997641375,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 4
       },
       {
         "country": "Niue",
@@ -214399,7 +214702,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.36268343815514
+        "mean_tone": -1.36268343815514,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Niue",
@@ -214407,7 +214713,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.54341068459481
+        "mean_tone": -1.54341068459481,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Palau",
@@ -214415,7 +214724,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.03514376996805
+        "mean_tone": -3.03514376996805,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Palau",
@@ -214423,7 +214735,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 0.0807102502017756
+        "mean_tone": 0.0807102502017756,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Palau",
@@ -214431,7 +214746,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.65933682910202
+        "mean_tone": -1.65933682910202,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Palau",
@@ -214439,7 +214757,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.5645989791281
+        "mean_tone": -2.5645989791281,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Palau",
@@ -214447,7 +214768,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": 0.5095240259051773
+        "mean_tone": 0.5095240259051773,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 0
       },
       {
         "country": "Palau",
@@ -214455,7 +214779,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.9559902200489
+        "mean_tone": -1.9559902200489,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Palau",
@@ -214463,7 +214790,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.5645989791281
+        "mean_tone": -2.5645989791281,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Palau",
@@ -214471,7 +214801,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": 0.5095240259051773
+        "mean_tone": 0.5095240259051773,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 0
       },
       {
         "country": "Palau",
@@ -214479,7 +214812,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.54341068459481
+        "mean_tone": -1.54341068459481,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Papua New Guinea",
@@ -214487,7 +214823,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.796812749003984
+        "mean_tone": -0.796812749003984,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Papua New Guinea",
@@ -214495,7 +214834,10 @@
         "partner": "aus",
         "n_items": 106,
         "n_with_tone": 106,
-        "mean_tone": -1.6176465168245575
+        "mean_tone": -1.6176465168245575,
+        "n_positive": 6,
+        "n_neutral": 33,
+        "n_negative": 67
       },
       {
         "country": "Papua New Guinea",
@@ -214503,7 +214845,10 @@
         "partner": "aus",
         "n_items": 15,
         "n_with_tone": 15,
-        "mean_tone": -0.7616985598213648
+        "mean_tone": -0.7616985598213648,
+        "n_positive": 4,
+        "n_neutral": 2,
+        "n_negative": 9
       },
       {
         "country": "Papua New Guinea",
@@ -214511,7 +214856,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -0.7175309492354514
+        "mean_tone": -0.7175309492354514,
+        "n_positive": 0,
+        "n_neutral": 3,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214519,7 +214867,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.19768083931529
+        "mean_tone": -2.19768083931529,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214527,7 +214878,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -6.21057738961669
+        "mean_tone": -6.21057738961669,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214535,7 +214889,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.437956204379562
+        "mean_tone": -0.437956204379562,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Papua New Guinea",
@@ -214543,7 +214900,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.53846153846154
+        "mean_tone": -1.53846153846154,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214551,7 +214911,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.2921789624901543
+        "mean_tone": -1.2921789624901543,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Papua New Guinea",
@@ -214559,7 +214922,10 @@
         "partner": "china",
         "n_items": 164,
         "n_with_tone": 164,
-        "mean_tone": -1.903003502007928
+        "mean_tone": -1.903003502007928,
+        "n_positive": 10,
+        "n_neutral": 39,
+        "n_negative": 115
       },
       {
         "country": "Papua New Guinea",
@@ -214567,7 +214933,10 @@
         "partner": "china",
         "n_items": 16,
         "n_with_tone": 16,
-        "mean_tone": -0.446617364169192
+        "mean_tone": -0.446617364169192,
+        "n_positive": 6,
+        "n_neutral": 1,
+        "n_negative": 9
       },
       {
         "country": "Papua New Guinea",
@@ -214575,7 +214944,10 @@
         "partner": "china",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -0.7175309492354514
+        "mean_tone": -0.7175309492354514,
+        "n_positive": 0,
+        "n_neutral": 3,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214583,7 +214955,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.19768083931529
+        "mean_tone": -2.19768083931529,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214591,7 +214966,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -6.21057738961669
+        "mean_tone": -6.21057738961669,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214599,7 +214977,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.437956204379562
+        "mean_tone": -0.437956204379562,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Papua New Guinea",
@@ -214607,7 +214988,10 @@
         "partner": "china",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -1.8456296072029692
+        "mean_tone": -1.8456296072029692,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 5
       },
       {
         "country": "Papua New Guinea",
@@ -214615,7 +214999,10 @@
         "partner": "us",
         "n_items": 150,
         "n_with_tone": 150,
-        "mean_tone": -2.038218047736712
+        "mean_tone": -2.038218047736712,
+        "n_positive": 7,
+        "n_neutral": 34,
+        "n_negative": 109
       },
       {
         "country": "Papua New Guinea",
@@ -214623,7 +215010,10 @@
         "partner": "us",
         "n_items": 15,
         "n_with_tone": 15,
-        "mean_tone": -0.5237571600279551
+        "mean_tone": -0.5237571600279551,
+        "n_positive": 6,
+        "n_neutral": 0,
+        "n_negative": 9
       },
       {
         "country": "Papua New Guinea",
@@ -214631,7 +215021,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -0.7175309492354514
+        "mean_tone": -0.7175309492354514,
+        "n_positive": 0,
+        "n_neutral": 3,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214639,7 +215032,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.19768083931529
+        "mean_tone": -2.19768083931529,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Papua New Guinea",
@@ -214647,7 +215043,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.437956204379562
+        "mean_tone": -0.437956204379562,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Papua New Guinea",
@@ -214655,7 +215054,10 @@
         "partner": "us",
         "n_items": 8,
         "n_with_tone": 8,
-        "mean_tone": -1.7657879752681156
+        "mean_tone": -1.7657879752681156,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 6
       },
       {
         "country": "Samoa",
@@ -214663,7 +215065,10 @@
         "partner": "aus",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -0.1036439563907657
+        "mean_tone": -0.1036439563907657,
+        "n_positive": 2,
+        "n_neutral": 3,
+        "n_negative": 2
       },
       {
         "country": "Samoa",
@@ -214671,7 +215076,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Samoa",
@@ -214679,7 +215087,10 @@
         "partner": "china",
         "n_items": 8,
         "n_with_tone": 8,
-        "mean_tone": -0.3751763760486108
+        "mean_tone": -0.3751763760486108,
+        "n_positive": 2,
+        "n_neutral": 3,
+        "n_negative": 3
       },
       {
         "country": "Samoa",
@@ -214687,7 +215098,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.99669196341701
+        "mean_tone": -2.99669196341701,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Samoa",
@@ -214695,7 +215109,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.482059282371295
+        "mean_tone": -1.482059282371295,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Samoa",
@@ -214703,7 +215120,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -3.0333346608785696
+        "mean_tone": -3.0333346608785696,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Samoa",
@@ -214711,7 +215131,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -0.8574901732232172
+        "mean_tone": -0.8574901732232172,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 2
       },
       {
         "country": "Samoa",
@@ -214719,7 +215142,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -4.19812999898712
+        "mean_tone": -4.19812999898712,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Samoa",
@@ -214727,7 +215153,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.482059282371295
+        "mean_tone": -1.482059282371295,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Samoa",
@@ -214735,7 +215164,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.3019634394042
+        "mean_tone": -2.3019634394042,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Samoa",
@@ -214743,7 +215175,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.20689655172414
+        "mean_tone": -1.20689655172414,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214751,7 +215186,10 @@
         "partner": "aus",
         "n_items": 9,
         "n_with_tone": 9,
-        "mean_tone": -0.7700252342289411
+        "mean_tone": -0.7700252342289411,
+        "n_positive": 3,
+        "n_neutral": 0,
+        "n_negative": 6
       },
       {
         "country": "Solomon Islands",
@@ -214759,7 +215197,10 @@
         "partner": "aus",
         "n_items": 16,
         "n_with_tone": 16,
-        "mean_tone": -1.3036580675378606
+        "mean_tone": -1.3036580675378606,
+        "n_positive": 0,
+        "n_neutral": 7,
+        "n_negative": 9
       },
       {
         "country": "Solomon Islands",
@@ -214767,7 +215208,10 @@
         "partner": "aus",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -4.437477549193805
+        "mean_tone": -4.437477549193805,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Solomon Islands",
@@ -214775,7 +215219,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.310471351961615
+        "mean_tone": -0.310471351961615,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Solomon Islands",
@@ -214783,7 +215230,10 @@
         "partner": "aus",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -2.3331533094547106
+        "mean_tone": -2.3331533094547106,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 5
       },
       {
         "country": "Solomon Islands",
@@ -214791,7 +215241,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.935374149659864
+        "mean_tone": -0.935374149659864,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Solomon Islands",
@@ -214799,7 +215252,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -4.21179302045728
+        "mean_tone": -4.21179302045728,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214807,7 +215263,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214815,7 +215274,10 @@
         "partner": "china",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -1.1707272138615483
+        "mean_tone": -1.1707272138615483,
+        "n_positive": 2,
+        "n_neutral": 0,
+        "n_negative": 5
       },
       {
         "country": "Solomon Islands",
@@ -214823,7 +215285,10 @@
         "partner": "china",
         "n_items": 24,
         "n_with_tone": 24,
-        "mean_tone": -1.1921937121179342
+        "mean_tone": -1.1921937121179342,
+        "n_positive": 0,
+        "n_neutral": 14,
+        "n_negative": 10
       },
       {
         "country": "Solomon Islands",
@@ -214831,7 +215296,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.1649372959411517
+        "mean_tone": -2.1649372959411517,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Solomon Islands",
@@ -214839,7 +215307,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.310471351961615
+        "mean_tone": -0.310471351961615,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Solomon Islands",
@@ -214847,7 +215318,10 @@
         "partner": "china",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -2.3331533094547106
+        "mean_tone": -2.3331533094547106,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 5
       },
       {
         "country": "Solomon Islands",
@@ -214855,7 +215329,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.111584051313697
+        "mean_tone": -1.111584051313697,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214863,7 +215340,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -4.21179302045728
+        "mean_tone": -4.21179302045728,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214871,7 +215351,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -2.70590193089096
+        "mean_tone": -2.70590193089096,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 3
       },
       {
         "country": "Solomon Islands",
@@ -214879,7 +215362,10 @@
         "partner": "us",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -2.189864016570244
+        "mean_tone": -2.189864016570244,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 5
       },
       {
         "country": "Solomon Islands",
@@ -214887,7 +215373,10 @@
         "partner": "us",
         "n_items": 15,
         "n_with_tone": 15,
-        "mean_tone": -1.5103357226907057
+        "mean_tone": -1.5103357226907057,
+        "n_positive": 0,
+        "n_neutral": 5,
+        "n_negative": 10
       },
       {
         "country": "Solomon Islands",
@@ -214895,7 +215384,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -3.1014121053671184
+        "mean_tone": -3.1014121053671184,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Solomon Islands",
@@ -214903,7 +215395,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -0.310471351961615
+        "mean_tone": -0.310471351961615,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Solomon Islands",
@@ -214911,7 +215406,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.232019344219486
+        "mean_tone": -1.232019344219486,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Solomon Islands",
@@ -214919,7 +215417,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -1.111584051313697
+        "mean_tone": -1.111584051313697,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214927,7 +215428,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -4.21179302045728
+        "mean_tone": -4.21179302045728,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Solomon Islands",
@@ -214935,7 +215439,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -2.331150586099255
+        "mean_tone": -2.331150586099255,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 4
       },
       {
         "country": "Tonga",
@@ -214943,7 +215450,10 @@
         "partner": "aus",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -0.5471687462908743
+        "mean_tone": -0.5471687462908743,
+        "n_positive": 2,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Tonga",
@@ -214951,7 +215461,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.46627565982405
+        "mean_tone": -1.46627565982405,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tonga",
@@ -214959,7 +215472,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tonga",
@@ -214967,7 +215483,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": 0.3368579027854332
+        "mean_tone": 0.3368579027854332,
+        "n_positive": 1,
+        "n_neutral": 2,
+        "n_negative": 0
       },
       {
         "country": "Tonga",
@@ -214975,7 +215494,10 @@
         "partner": "china",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -0.9221078601197
+        "mean_tone": -0.9221078601197,
+        "n_positive": 2,
+        "n_neutral": 1,
+        "n_negative": 4
       },
       {
         "country": "Tonga",
@@ -214983,7 +215505,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.18827121713919
+        "mean_tone": -2.18827121713919,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Tonga",
@@ -214991,7 +215516,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tonga",
@@ -214999,7 +215527,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Tonga",
@@ -215007,7 +215538,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -0.74341241741394
+        "mean_tone": -0.74341241741394,
+        "n_positive": 0,
+        "n_neutral": 2,
+        "n_negative": 0
       },
       {
         "country": "Tonga",
@@ -215015,7 +215549,10 @@
         "partner": "us",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.1519620410474274
+        "mean_tone": -1.1519620410474274,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Tonga",
@@ -215023,7 +215560,10 @@
         "partner": "us",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": -2.18827121713919
+        "mean_tone": -2.18827121713919,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 2
       },
       {
         "country": "Tonga",
@@ -215031,7 +215571,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tonga",
@@ -215039,7 +215582,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Tonga",
@@ -215047,7 +215593,10 @@
         "partner": "us",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": 0.193760711101337
+        "mean_tone": 0.193760711101337,
+        "n_positive": 1,
+        "n_neutral": 1,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215055,7 +215604,10 @@
         "partner": "aus",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": 0.28360040962856
+        "mean_tone": 0.28360040962856,
+        "n_positive": 2,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215063,7 +215615,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215071,7 +215626,10 @@
         "partner": "china",
         "n_items": 2,
         "n_with_tone": 2,
-        "mean_tone": 1.17801047120419
+        "mean_tone": 1.17801047120419,
+        "n_positive": 2,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Tuvalu",
@@ -215079,7 +215637,10 @@
         "partner": "china",
         "n_items": 6,
         "n_with_tone": 6,
-        "mean_tone": -1.5215039329056834
+        "mean_tone": -1.5215039329056834,
+        "n_positive": 0,
+        "n_neutral": 5,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215087,7 +215648,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.92423331328924
+        "mean_tone": -1.92423331328924,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215095,7 +215659,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Tuvalu",
@@ -215103,7 +215670,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215111,7 +215681,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.5052197135227
+        "mean_tone": -1.5052197135227,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215119,7 +215692,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -5.62200956937799
+        "mean_tone": -5.62200956937799,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215127,7 +215703,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.92423331328924
+        "mean_tone": -1.92423331328924,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Tuvalu",
@@ -215135,7 +215714,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 2.37918215613383
+        "mean_tone": 2.37918215613383,
+        "n_positive": 1,
+        "n_neutral": 0,
+        "n_negative": 0
       },
       {
         "country": "Tuvalu",
@@ -215143,7 +215725,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.34574196838348
+        "mean_tone": -2.34574196838348,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215151,7 +215736,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -3.88198757763975
+        "mean_tone": -3.88198757763975,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215159,7 +215747,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.16450216450216
+        "mean_tone": -2.16450216450216,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215167,7 +215758,10 @@
         "partner": "aus",
         "n_items": 22,
         "n_with_tone": 22,
-        "mean_tone": -0.6848699300882244
+        "mean_tone": -0.6848699300882244,
+        "n_positive": 2,
+        "n_neutral": 9,
+        "n_negative": 11
       },
       {
         "country": "Vanuatu",
@@ -215175,7 +215769,10 @@
         "partner": "aus",
         "n_items": 8,
         "n_with_tone": 8,
-        "mean_tone": -0.5900053587007458
+        "mean_tone": -0.5900053587007458,
+        "n_positive": 1,
+        "n_neutral": 3,
+        "n_negative": 4
       },
       {
         "country": "Vanuatu",
@@ -215183,7 +215780,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215191,7 +215791,10 @@
         "partner": "aus",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -1.53846153846154
+        "mean_tone": -1.53846153846154,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215199,7 +215802,10 @@
         "partner": "aus",
         "n_items": 4,
         "n_with_tone": 4,
-        "mean_tone": -1.6384541132155528
+        "mean_tone": -1.6384541132155528,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 3
       },
       {
         "country": "Vanuatu",
@@ -215207,7 +215813,10 @@
         "partner": "china",
         "n_items": 23,
         "n_with_tone": 23,
-        "mean_tone": -0.942758047774492
+        "mean_tone": -0.942758047774492,
+        "n_positive": 3,
+        "n_neutral": 8,
+        "n_negative": 12
       },
       {
         "country": "Vanuatu",
@@ -215215,7 +215824,10 @@
         "partner": "china",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -0.3092369101715778
+        "mean_tone": -0.3092369101715778,
+        "n_positive": 1,
+        "n_neutral": 3,
+        "n_negative": 3
       },
       {
         "country": "Vanuatu",
@@ -215223,7 +215835,10 @@
         "partner": "china",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215231,7 +215846,10 @@
         "partner": "china",
         "n_items": 3,
         "n_with_tone": 3,
-        "mean_tone": -1.7303776715690236
+        "mean_tone": -1.7303776715690236,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 2
       },
       {
         "country": "Vanuatu",
@@ -215239,7 +215857,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": 0.110619469026549
+        "mean_tone": 0.110619469026549,
+        "n_positive": 0,
+        "n_neutral": 1,
+        "n_negative": 0
       },
       {
         "country": "Vanuatu",
@@ -215247,7 +215868,10 @@
         "partner": "us",
         "n_items": 18,
         "n_with_tone": 18,
-        "mean_tone": -1.0307827362599085
+        "mean_tone": -1.0307827362599085,
+        "n_positive": 0,
+        "n_neutral": 8,
+        "n_negative": 10
       },
       {
         "country": "Vanuatu",
@@ -215255,7 +215879,10 @@
         "partner": "us",
         "n_items": 7,
         "n_with_tone": 7,
-        "mean_tone": -1.0073436989911089
+        "mean_tone": -1.0073436989911089,
+        "n_positive": 1,
+        "n_neutral": 2,
+        "n_negative": 4
       },
       {
         "country": "Vanuatu",
@@ -215263,7 +215890,10 @@
         "partner": "us",
         "n_items": 1,
         "n_with_tone": 1,
-        "mean_tone": -2.96411856474259
+        "mean_tone": -2.96411856474259,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 1
       },
       {
         "country": "Vanuatu",
@@ -215271,7 +215901,10 @@
         "partner": "us",
         "n_items": 5,
         "n_with_tone": 5,
-        "mean_tone": -1.7414491917897958
+        "mean_tone": -1.7414491917897958,
+        "n_positive": 0,
+        "n_neutral": 0,
+        "n_negative": 5
       }
     ]
   }

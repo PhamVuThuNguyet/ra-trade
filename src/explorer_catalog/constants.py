@@ -1,6 +1,8 @@
 """Explorer catalog constants. Display names match trade_influence reports."""
 
 from project_paths import PROJECT_ROOT
+from batis_services.constants import OUTPUT_CSV_DIR as BATIS_OUTPUT_CSV_DIR
+from batis_services.constants import SOURCE_BATIS, VINTAGE as BATIS_VINTAGE
 from trade_influence.constants import (
     BACI_OUTPUT_CSV_DIR,
     ESSENTIAL_SITC2,

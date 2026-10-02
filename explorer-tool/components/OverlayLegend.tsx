@@ -40,9 +40,14 @@ export function OverlayLegend({ overlay, showPartners = true }: Props) {
             </li>
           ) : null}
           {overlay.sentiment_status === "present" ? (
-            <li>
-              <span className="swatch tone" /> GDELT tone (n≥5)
-            </li>
+            <>
+              <li>
+                <span className="swatch tone" /> GDELT tone (n≥5)
+              </li>
+              <li>
+                <span className="swatch polarity" /> GKG items (darker negative, lighter positive)
+              </li>
+            </>
           ) : null}
         </>
       ) : null}
