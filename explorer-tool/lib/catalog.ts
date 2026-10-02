@@ -5,10 +5,12 @@ export type ProductGroupId = "all_products" | "essential_commodities";
 export type IndexId =
   | "import_index"
   | "export_index"
+  | "scti"
   | "cwi"
   | "cwe"
-  | "cwi_essential"
-  | "cwe_essential";
+  | "cwti"
+  | "cweii"
+  | "eiti";
 export type ProvenanceKind = "study_output" | "mock";
 export type OverlayStatus = "present" | "missing";
 
@@ -91,6 +93,7 @@ export type ExplorerCatalog = {
     note: string;
     baci_vintage: string | null;
     comtrade_vintage: string | null;
+    batis_vintage?: string | null;
   };
   sources: { id: SourceId; display_name: string; vintage: string | null }[];
   data_types: {
@@ -100,7 +103,8 @@ export type ExplorerCatalog = {
   }[];
   product_groups: { id: ProductGroupId; display_name: string }[];
   partners: Partner[];
-  index_display: Record<IndexId, string>;
+  index_display: Record<string, string>;
+  service_index_display?: Record<string, string>;
   ui: {
     partner_filter: false;
     index_toggles: false;

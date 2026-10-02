@@ -104,7 +104,11 @@ export function ExplorerApp() {
 
   const catalogIndexIds =
     catalog.ui.goods_trade_index_ids.length > 0 ? catalog.ui.goods_trade_index_ids : GOODS_PLOT_IDS;
-  const goodsIndexIds = goodsPlotIdsForProductGroup(productGroupId, catalogIndexIds);
+  const goodsIndexIds = goodsPlotIdsForProductGroup(
+    productGroupId,
+    catalogIndexIds,
+    dataTypeId,
+  );
   const plotSeries = filterPlotSeries(
     catalog.index_series,
     sourceId,
@@ -117,7 +121,7 @@ export function ExplorerApp() {
   const overlayNotes = missingOverlayNotes(catalog.overlay);
   const indexPlots = goodsIndexIds.map((indexId) => ({
     id: indexId,
-    title: plotTitle(catalog.index_display[indexId] ?? indexId, dataTypeId),
+    title: plotTitle(indexId, catalog, dataTypeId),
     points: plotSeries
       .filter((point) => point.index_id === indexId)
       .map((point) => ({ year: point.year, partner: point.partner, value: point.value })),
@@ -143,6 +147,7 @@ export function ExplorerApp() {
           setDataTypeId(next);
           if (next === "services") {
             setSourceId("batis");
+            setProductGroupId("all_products");
           } else if (sourceId === "batis") {
             setSourceId("baci");
           }
@@ -170,7 +175,15 @@ export function ExplorerApp() {
         tableRows.length === 0 ? (
           <EmptyState title="No rows" detail={emptyDetail} />
         ) : (
-          <DataTable columns={table?.columns ?? []} rows={tableRows} />
+          <DataTable
+          columns={table?.columns ?? []}
+          rows={tableRows}
+          indexLabels={
+            dataTypeId === "services"
+              ? catalog.service_index_display
+              : catalog.index_display
+          }
+        />
         )
       ) : !reporter ? (
         <EmptyState title="PIC required" detail="Select a reporter (PIC) to draw the plots." />
@@ -201,9 +214,13 @@ function emptyCombinationDetail(
   return `No rows for ${sourceName}, ${dataTypeId}, ${productGroupId}${pic}${years}.`;
 }
 
-function plotTitle(display: string, dataTypeId: DataTypeId): string {
+function plotTitle(
+  indexId: string,
+  catalog: ExplorerCatalog,
+  dataTypeId: DataTypeId,
+): string {
   if (dataTypeId === "services") {
-    return display.replace("commodities", "services");
+    return catalog.service_index_display?.[indexId] ?? catalog.index_display[indexId] ?? indexId;
   }
-  return display;
+  return catalog.index_display[indexId] ?? indexId;
 }

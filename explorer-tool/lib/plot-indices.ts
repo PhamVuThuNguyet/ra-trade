@@ -1,34 +1,49 @@
-import type { IndexId, IndexPoint, ProductGroupId, SourceId } from "./catalog";
+import type { DataTypeId, IndexId, IndexPoint, ProductGroupId, SourceId } from "./catalog";
 
 export const GOODS_PLOT_IDS: IndexId[] = [
   "import_index",
   "export_index",
+  "scti",
   "cwi",
   "cwe",
-  "cwi_essential",
-  "cwe_essential",
+  "cwti",
+  "cweii",
+  "eiti",
 ];
 
 const ALL_PRODUCTS_PLOT_IDS: IndexId[] = [
   "import_index",
   "export_index",
+  "scti",
   "cwi",
   "cwe",
+  "cwti",
+  "eiti",
 ];
 
-const ESSENTIAL_PLOT_IDS: IndexId[] = [
+const ESSENTIAL_PLOT_IDS: IndexId[] = ["cweii"];
+
+const SERVICE_PLOT_IDS: IndexId[] = [
   "import_index",
   "export_index",
-  "cwi_essential",
-  "cwe_essential",
+  "scti",
+  "cwi",
+  "cwe",
+  "cwti",
+  "eiti",
 ];
 
 export function goodsPlotIdsForProductGroup(
   productGroupId: ProductGroupId,
   catalogIds: IndexId[] = GOODS_PLOT_IDS,
+  dataTypeId: DataTypeId = "goods_trade",
 ): IndexId[] {
   const wanted =
-    productGroupId === "essential_commodities" ? ESSENTIAL_PLOT_IDS : ALL_PRODUCTS_PLOT_IDS;
+    dataTypeId === "services"
+      ? SERVICE_PLOT_IDS
+      : productGroupId === "essential_commodities"
+        ? ESSENTIAL_PLOT_IDS
+        : ALL_PRODUCTS_PLOT_IDS;
   const wantedSet = new Set(wanted);
   const fromCatalog = catalogIds.filter((id) => wantedSet.has(id));
   return fromCatalog.length > 0 ? fromCatalog : [...wanted];
