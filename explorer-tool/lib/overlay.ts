@@ -28,13 +28,13 @@ export function missingOverlayNotes(overlay: OverlayBundle): string[] {
     notes.push("Calendar overlay missing");
   }
   if (overlay.aid_status === "missing") {
-    notes.push("Lowy aid overlay missing");
+    notes.push("Lowy Institute aid overlay missing");
   }
   if (overlay.disaster_status === "missing") {
     notes.push("EM-DAT overlay missing");
   }
   if (overlay.sentiment_status === "missing") {
-    notes.push("GDELT tone overlay missing");
+    notes.push("News tone overlay missing");
   }
   return notes;
 }

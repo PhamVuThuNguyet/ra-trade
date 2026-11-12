@@ -16,6 +16,7 @@ import {
   GOODS_PLOT_IDS,
   uniqueCountries,
 } from "../lib/plot-indices";
+import { expandedPlotTitle } from "../lib/index-labels";
 import { labeledProductGroups } from "../lib/product-groups";
 import { DataTable } from "./DataTable";
 import { EmptyState } from "./EmptyState";
@@ -219,8 +220,9 @@ function plotTitle(
   catalog: ExplorerCatalog,
   dataTypeId: DataTypeId,
 ): string {
-  if (dataTypeId === "services") {
-    return catalog.service_index_display?.[indexId] ?? catalog.index_display[indexId] ?? indexId;
-  }
-  return catalog.index_display[indexId] ?? indexId;
+  const shortName =
+    dataTypeId === "services"
+      ? catalog.service_index_display?.[indexId] ?? catalog.index_display[indexId] ?? indexId
+      : catalog.index_display[indexId] ?? indexId;
+  return expandedPlotTitle(indexId, dataTypeId, shortName);
 }

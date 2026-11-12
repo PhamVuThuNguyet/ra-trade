@@ -2,7 +2,7 @@ import type { OverlayBundle, Partner, PartnerId } from "./catalog";
 import { colorWithAlpha, partnerColor, partnerLabel } from "./colors";
 
 export const POLARITY_AXIS_ID = "yPolarity";
-export const POLARITY_AXIS_TITLE = "GKG items";
+export const POLARITY_AXIS_TITLE = "Global Knowledge Graph items";
 
 const PARTNER_ORDER: PartnerId[] = ["aus", "china", "us"];
 const POLARITY_DATASET_ORDER = 0;

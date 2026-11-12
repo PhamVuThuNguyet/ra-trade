@@ -12,9 +12,9 @@ const CALENDAR_LABEL_ROTATION_DEG = 270;
 const AID_BAR_ALPHA = 0.35;
 const AID_DATASET_ORDER = 0;
 export const AID_AXIS_ID = "yAid";
-export const AID_AXIS_TITLE = "Lowy aid (USD)";
+export const AID_AXIS_TITLE = "Lowy Institute aid (US dollars)";
 export const TONE_AXIS_ID = "yTone";
-export const TONE_AXIS_TITLE = "GDELT tone";
+export const TONE_AXIS_TITLE = "News tone";
 export const TONE_MIN_N = 5;
 const TONE_DATASET_ORDER = 2;
 
@@ -110,7 +110,7 @@ export function overlayAidBarDatasets(
   }
   const datasets = PARTNER_ORDER.map((partnerId) => ({
     type: "bar" as const,
-    label: `Lowy aid (${partnerLabel(partners, partnerId)})`,
+    label: `Lowy Institute aid (${partnerLabel(partners, partnerId)})`,
     yAxisID: AID_AXIS_ID,
     order: AID_DATASET_ORDER,
     data: years.map((year) => aidSpentForYear(overlay, partnerId, year)),
@@ -135,7 +135,7 @@ export function overlayNotesForYear(overlay: OverlayBundle, year: number): strin
     notes.push("Disaster year");
   }
   if (overlay.aid.some((point) => point.year === year && (point.lowy_spent_usd ?? 0) > 0)) {
-    notes.push("Lowy aid");
+    notes.push("Lowy Institute aid");
   }
   notes.push(...toneNotesForYear(overlay, year));
   return notes;
@@ -157,7 +157,7 @@ export function overlayToneLineDatasets(
   }
   const datasets = PARTNER_ORDER.map((partnerId) => ({
     type: "line" as const,
-    label: `GDELT tone (${partnerLabel(partners, partnerId)})`,
+    label: `News tone (${partnerLabel(partners, partnerId)})`,
     yAxisID: TONE_AXIS_ID,
     order: TONE_DATASET_ORDER,
     data: years.map((year) => toneForPlot(overlay, partnerId, year)),
@@ -191,7 +191,7 @@ function toneNotesForYear(overlay: OverlayBundle, year: number): string[] {
     .filter((point) => point.year === year && point.mean_tone != null)
     .map(
       (point) =>
-        `${TONE_PARTNER_LABEL[point.partner]} tone ${point.mean_tone?.toFixed(2)} (n=${point.n_with_tone})`,
+        `${TONE_PARTNER_LABEL[point.partner]} news tone ${point.mean_tone?.toFixed(2)} (${point.n_with_tone} articles)`,
     );
 }
 

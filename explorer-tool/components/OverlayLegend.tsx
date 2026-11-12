@@ -29,23 +29,23 @@ export function OverlayLegend({ overlay, showPartners = true }: Props) {
             <span className="swatch band disaster" /> Disaster year
           </li>
           <li>
-            <span className="swatch band span" /> COVID / GFC / RAMSI
+            <span className="swatch band span" /> COVID-19 / global financial crisis / Regional Assistance Mission to Solomon Islands
           </li>
           <li>
             <span className="swatch dash" /> Calendar event
           </li>
           {overlay.aid_status === "present" ? (
             <li>
-              <span className="swatch bar" /> Lowy aid (spent)
+              <span className="swatch bar" /> Lowy Institute aid (spent)
             </li>
           ) : null}
           {overlay.sentiment_status === "present" ? (
             <>
               <li>
-                <span className="swatch tone" /> GDELT tone (n≥5)
+                <span className="swatch tone" /> News tone, Global Database of Events, Language, and Tone (at least 5 articles)
               </li>
               <li>
-                <span className="swatch polarity" /> GKG items (darker negative, lighter positive)
+                <span className="swatch polarity" /> Global Knowledge Graph items (darker is more negative, lighter is more positive)
               </li>
             </>
           ) : null}
